@@ -1,0 +1,26 @@
+﻿<ContentPage
+    x:Class="GameApp.Views.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="#FDE68A" 
+
+    Title="Bem-vindo!">
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="20">
+        <Label Text="🎉 Bem-vindo ao Playza!"
+               FontSize="28"
+               HorizontalOptions="Center"
+               TextColor="DarkBlue" />
+        <Button Text="Iniciar Sessão" 
+                BackgroundColor="#4ADE80"
+                TextColor="White"
+                FontSize="20"
+                Clicked="OnLoginClicked"/>
+        <Button Text="Criar Conta"
+                BackgroundColor="#60A5FA"
+                TextColor="White"
+                FontSize="20"
+                Clicked="OnRegisterClicked"/>
+    </StackLayout>
+</ContentPage>
+

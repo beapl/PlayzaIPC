@@ -1,0 +1,31 @@
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Playza.Views.GamePage"
+    BackgroundColor="#A7F3D0"
+    Title="Jogo Educativo">
+
+    <StackLayout Padding="20" Spacing="20" VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
+        <Label x:Name="QuestionLabel"
+               FontSize="28"
+               HorizontalOptions="Center"
+               TextColor="DarkGreen"
+               Text="Pergunta vai aqui"/>
+
+        <StackLayout x:Name="AnswersStack" Spacing="15">
+            <!-- Botões de resposta serão gerados aqui -->
+        </StackLayout>
+
+        <Label x:Name="ScoreLabel"
+               FontSize="20"
+               HorizontalOptions="Center"
+               TextColor="DarkBlue"
+               Text="Pontuação: 0"/>
+
+        <Button Text="Voltar ao Menu"
+                BackgroundColor="#60A5FA"
+                TextColor="White"
+                Clicked="OnBackClicked"/>
+    </StackLayout>
+
+</ContentPage>
