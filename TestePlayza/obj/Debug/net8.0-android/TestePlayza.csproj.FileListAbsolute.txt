@@ -1080,3 +1080,6 @@ C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-android\st
 C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-android\TestePlayza.sourcelink.json
+C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
+C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-android\android\src\crc64369e4ad38f813b1e\MainActivity.java

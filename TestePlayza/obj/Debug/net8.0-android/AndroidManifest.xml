@@ -10,7 +10,7 @@
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.INTERNET" />
   <application android:allowBackup="true" android:icon="@mipmap/appicon" android:roundIcon="@mipmap/appicon_round" android:supportsRtl="true" android:name="crc64c00a8b1687745057.MainApplication" android:label="TestePlayza" android:debuggable="true" android:extractNativeLibs="true">
-    <activity android:configChanges="density|orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:launchMode="singleTop" android:theme="@style/Maui.SplashTheme" android:name="crc64c00a8b1687745057.MainActivity" android:exported="true">
+    <activity android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:label="TestePlayza" android:screenOrientation="landscape" android:theme="@style/Maui.SplashTheme" android:name="crc64369e4ad38f813b1e.MainActivity" android:exported="true">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

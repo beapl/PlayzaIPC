@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\testeplayza.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:testeplayza.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
@@ -42,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,15 +62,24 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Platforms\\Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "Platforms\\Android\\MainActivity.cs",
+              "ToolTip": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Platforms\\Android\\MainActivity.cs",
+              "RelativeToolTip": "Platforms\\Android\\MainActivity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T21:00:22.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "GamePage.xaml",
               "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\Teste de Jogo\\GamePage.xaml",
               "RelativeDocumentMoniker": "Views\\Teste de Jogo\\GamePage.xaml",
@@ -78,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TestePlayza.csproj",
               "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\TestePlayza.csproj",
               "RelativeDocumentMoniker": "TestePlayza.csproj",
@@ -91,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "GamePage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\Teste de Jogo\\GamePage.xaml.cs",
               "RelativeDocumentMoniker": "Views\\Teste de Jogo\\GamePage.xaml.cs",
@@ -103,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "LoginPage.xaml",
               "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\LoginPage.xaml",
               "RelativeDocumentMoniker": "Views\\LoginPage.xaml",
@@ -115,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\AppShell.xaml",
               "RelativeDocumentMoniker": "AppShell.xaml",
@@ -123,12 +136,11 @@
               "RelativeToolTip": "AppShell.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-28T13:21:45.385Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T13:21:45.385Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -140,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MenuPage.xaml",
               "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\MenuPage.xaml",
               "RelativeDocumentMoniker": "Views\\MenuPage.xaml",
@@ -148,12 +160,11 @@
               "RelativeToolTip": "Views\\MenuPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-01T16:20:01.38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T16:20:01.38Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MenuPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\MenuPage.xaml.cs",
               "RelativeDocumentMoniker": "Views\\MenuPage.xaml.cs",
@@ -161,8 +172,7 @@
               "RelativeToolTip": "Views\\MenuPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T16:21:38.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T16:21:38.642Z"
             }
           ]
         }

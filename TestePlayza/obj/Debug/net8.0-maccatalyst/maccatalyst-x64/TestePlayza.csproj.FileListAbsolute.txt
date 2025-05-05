@@ -302,3 +302,4 @@ C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-maccatalys
 C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\TestePlayza.pdb
 C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\TestePlayza.genruntimeconfig.cache
 C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\ref\TestePlayza.dll
+C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\TestePlayza.sourcelink.json

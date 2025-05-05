@@ -1,6 +1,6 @@
-TestePlayza.MainActivity, TestePlayza;crc64c00a8b1687745057.MainActivity
-TestePlayza.MainActivity;crc64c00a8b1687745057.MainActivity
-testeplayza.MainActivity;crc64c00a8b1687745057.MainActivity
+MainActivity, TestePlayza;crc64369e4ad38f813b1e.MainActivity
+MainActivity;crc64369e4ad38f813b1e.MainActivity
+MainActivity;crc64369e4ad38f813b1e.MainActivity
 TestePlayza.MainApplication, TestePlayza;crc64c00a8b1687745057.MainApplication
 TestePlayza.MainApplication;crc64c00a8b1687745057.MainApplication
 testeplayza.MainApplication;crc64c00a8b1687745057.MainApplication

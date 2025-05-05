@@ -262,7 +262,6 @@ C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\bin\Debug\net8.0-ios\iossim
 C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.Maui.Controls.HotReload.Forms.dll
 C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
 C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.VisualStudio.DesignTools.TapContract.dll
-C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-ios\iossimulator-x64\build-signature\signature
 C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-ios\iossimulator-x64\mauiimage.inputs
 C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-ios\iossimulator-x64\mauifont.inputs
 C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-ios\iossimulator-x64\mauisplash.inputs
@@ -315,3 +314,4 @@ C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-ios\iossim
 C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-ios\iossimulator-x64\TestePlayza.pdb
 C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-ios\iossimulator-x64\TestePlayza.genruntimeconfig.cache
 C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-ios\iossimulator-x64\ref\TestePlayza.dll
+C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-ios\iossimulator-x64\TestePlayza.sourcelink.json
