@@ -4,15 +4,12 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:views="clr-namespace:Playza.Views">
-
-    <TabBar>
-        <ShellContent Title="Início" ContentTemplate="{DataTemplate views:MainPage}" Route="MainPage" />
-        <ShellContent Title="Login" ContentTemplate="{DataTemplate views:LoginPage}" />
-        <ShellContent Title="Criar Conta" ContentTemplate="{DataTemplate views:RegisterPage}" Route="RegisterPage" />
-        <ShellContent Title="Menu" ContentTemplate="{DataTemplate views:MenuPage}" />
-        <ShellContent Title="Definições" ContentTemplate="{DataTemplate views:SettingsPage}" Route="SettingsPage" />
-        <ShellContent Title="Jogo" ContentTemplate="{DataTemplate views:GamePage}" Route="GamePage" />
-
-    </TabBar>
     
+    <!-- Apenas MainPage visível no arranque -->
+    <ShellContent
+        Title="Início"
+        ContentTemplate="{DataTemplate views:MainPage}"
+        Route="MainPage" />
+
 </Shell>
+
