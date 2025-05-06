@@ -1,14 +1,15 @@
-namespace Playza.Views;
-
-public partial class RegisterPage : ContentPage
+namespace Playza.Views
 {
-    public RegisterPage()
+    public partial class RegisterPage : ContentPage
     {
-        InitializeComponent();
-    }
+        public RegisterPage()
+        {
+            InitializeComponent();
+        }
 
-    private async void OnRegisterClicked(object sender, EventArgs e)
-    {
-        await Shell.Current.GoToAsync("MenuPage");
+        private async void OnRegisterClicked(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync("MenuPage");
+        }
     }
 }

@@ -7,7 +7,6 @@
     
     <!-- Apenas MainPage visível no arranque -->
     <ShellContent
-        Title="Início"
         ContentTemplate="{DataTemplate views:MainPage}"
         Route="MainPage" />
 
