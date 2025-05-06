@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestePlayza")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+693fe6674b26ff233fe352442ddfc1efe41f276b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+284f9ce80e290541c63db1adb206b041608fa6a2")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestePlayza")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestePlayza")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

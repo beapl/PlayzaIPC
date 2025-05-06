@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,12 +31,8 @@
       "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\views\\teste de jogo\\gamepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,20 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegisterPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\RegisterPage.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\RegisterPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\RegisterPage.xaml.cs",
-              "RelativeToolTip": "Views\\RegisterPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T14:00:45.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
@@ -128,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -141,26 +128,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\AppShell.xaml",
               "RelativeDocumentMoniker": "AppShell.xaml",
               "ToolTip": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\AppShell.xaml",
               "RelativeToolTip": "AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-06T13:52:10.412Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "RegisterPage.xaml",
               "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\RegisterPage.xaml",
               "RelativeDocumentMoniker": "Views\\RegisterPage.xaml",
               "ToolTip": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\RegisterPage.xaml",
               "RelativeToolTip": "Views\\RegisterPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-06T13:27:11.027Z",
               "EditorCaption": ""
@@ -168,19 +155,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "RegisterPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\RegisterPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\RegisterPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\RegisterPage.xaml.cs",
+              "RelativeToolTip": "Views\\RegisterPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T14:00:45.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
               "ToolTip": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\MainPage.xaml",
               "RelativeToolTip": "MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-05T22:14:10.375Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "Views\\MainPage.xaml.cs",
@@ -193,7 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "AppShell.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "AppShell.xaml.cs",

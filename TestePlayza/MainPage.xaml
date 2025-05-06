@@ -21,6 +21,11 @@
                 TextColor="White"
                 FontSize="30"
                 Clicked="OnRegisterClicked"/>
+        <Button Text="Sair"
+                BackgroundColor="#4245aa"
+                TextColor="White"
+                FontSize="30"
+                Clicked="OnRegisterClicked"/>
     </StackLayout>
 </ContentPage>
 
