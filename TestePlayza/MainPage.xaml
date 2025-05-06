@@ -24,8 +24,8 @@
         <Button Text="Sair"
                 BackgroundColor="#4245aa"
                 TextColor="White"
-                FontSize="30"
-                <!-- Provavelmente adicionar Clicked="OnLeaveClicked"/> -->
+                FontSize="30" />
+        <!-- Provavelmente adicionar Clicked="OnLeaveClicked"/> -->
     </StackLayout>
 </ContentPage>
 
