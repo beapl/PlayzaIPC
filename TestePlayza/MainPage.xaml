@@ -7,7 +7,7 @@
     Title="Bem-vindo!">
 
     <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="20">
-        <Label Text="Bem-vindo ao Playza!"
+        <Label Text="Bem-vindo ao Playza!!!"
                FontSize="50"
                HorizontalOptions="Center"
                TextColor="#9462fc" />

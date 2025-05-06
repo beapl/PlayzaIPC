@@ -3,12 +3,12 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="Playza.Views.RegisterPage"
-    BackgroundColor="#FEF9C3"
+    BackgroundImageSource="wallpaper.jpg"
     Title="Criar Conta">
 
     <StackLayout Padding="30" Spacing="20" VerticalOptions="Center">
-        <Entry Placeholder="Nome de utilizador"/>
-        <Entry Placeholder="Email"/>
+        <Entry Placeholder="E-mail"/>
+        <Entry Placeholder="Nome do utilizador"/>
         <Entry Placeholder="Palavra-passe" IsPassword="True"/>
         <Button Text="Criar Conta" Clicked="OnRegisterClicked" BackgroundColor="#FACC15" TextColor="Black"/>
     </StackLayout>
