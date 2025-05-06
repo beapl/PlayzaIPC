@@ -1,9 +1,9 @@
 MainActivity, TestePlayza;crc64369e4ad38f813b1e.MainActivity
 MainActivity;crc64369e4ad38f813b1e.MainActivity
 MainActivity;crc64369e4ad38f813b1e.MainActivity
-TestePlayza.MainApplication, TestePlayza;crc64c00a8b1687745057.MainApplication
-TestePlayza.MainApplication;crc64c00a8b1687745057.MainApplication
-testeplayza.MainApplication;crc64c00a8b1687745057.MainApplication
+Playza.MainApplication, TestePlayza;crc642dbf8b286aaf89c5.MainApplication
+Playza.MainApplication;crc642dbf8b286aaf89c5.MainApplication
+playza.MainApplication;crc642dbf8b286aaf89c5.MainApplication
 GoogleGson.IExclusionStrategy, GoogleGson;com.google.gson.ExclusionStrategy
 GoogleGson.IExclusionStrategy;com.google.gson.ExclusionStrategy
 com.google.gson.ExclusionStrategy;com.google.gson.ExclusionStrategy

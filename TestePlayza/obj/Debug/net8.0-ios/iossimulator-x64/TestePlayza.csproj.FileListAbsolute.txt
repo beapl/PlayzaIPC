@@ -292,6 +292,8 @@ C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-ios\iossim
 C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-ios\iossimulator-x64\mauiimage.outputs
 C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\f\MauiInfo.plist
 C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-ios\iossimulator-x64\mauifont.stamp
+C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\f\Delfino.otf
+C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\f\Delfino.ttf
 C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\f\OpenSans-Regular.ttf
 C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\f\OpenSans-Semibold.ttf
 C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-ios\iossimulator-x64\actool\_PartialAppManifest.items

@@ -1,6 +1,10 @@
 ﻿using Microsoft.Extensions.Logging;
+using Microsoft.Maui;
+using Microsoft.Maui.Controls.Hosting;
+using Microsoft.Maui.Hosting;
+using Playza;
 
-namespace TestePlayza
+namespace Playza
 {
     public static class MauiProgram
     {
@@ -11,8 +15,8 @@ namespace TestePlayza
                 .UseMauiApp<App>()
                 .ConfigureFonts(fonts =>
                 {
-                    fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-                    fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    fonts.AddFont("Delfino.ttf", "Delfino");
+                    fonts.AddFont("Delfino.ttf", "Delfino");
                 });
 
 #if DEBUG

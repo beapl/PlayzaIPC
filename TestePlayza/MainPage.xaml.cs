@@ -1,6 +1,6 @@
 ﻿using Microsoft.Maui.Controls;
 
-namespace GameApp.Views
+namespace Playza.Views
 {
     public partial class MainPage : ContentPage
     {

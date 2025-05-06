@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace TestePlayza
+namespace Playza
 {
     public class Program
     {

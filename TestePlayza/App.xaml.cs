@@ -1,4 +1,6 @@
-﻿namespace TestePlayza
+﻿using Playza;
+
+namespace Playza
 {
     public partial class App : Application
     {

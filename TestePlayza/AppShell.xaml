@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Shell
-    x:Class="TestePlayza.AppShell"
+    x:Class="Playza.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:views="clr-namespace:Playza.Views">
-    
+
     <!--Só para poder programar as outras views-->
     <TabBar>
-        <ShellContent Title="Início" ContentTemplate="{DataTemplate views:MainPage}" Route="MainPage" />
+        <!-- <ShellContent Title="Início" ContentTemplate="{DataTemplate views:MainPage}" Route="MainPage" /> -->
         <ShellContent Title="Login" ContentTemplate="{DataTemplate views:LoginPage}" />
         <ShellContent Title="Criar Conta" ContentTemplate="{DataTemplate views:RegisterPage}" Route="RegisterPage" />
         <ShellContent Title="Menu" ContentTemplate="{DataTemplate views:MenuPage}" />
@@ -15,10 +15,6 @@
         <ShellContent Title="Jogo" ContentTemplate="{DataTemplate views:GamePage}" Route="GamePage" />
 
     </TabBar>
-    <!-- Apenas MainPage visível no arranque -->
-    <ShellContent
-        ContentTemplate="{DataTemplate views:MainPage}"
-        Route="MainPage" />
-
+    <ShellContent Route="MainPage" ContentTemplate="{DataTemplate views:MainPage}" />
 </Shell>
 

@@ -1,7 +1,7 @@
 ﻿using Playza.Views;
 
 
-namespace TestePlayza
+namespace Playza
 {
     public partial class AppShell : Shell
     {

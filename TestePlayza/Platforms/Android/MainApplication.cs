@@ -1,7 +1,8 @@
 ﻿using Android.App;
 using Android.Runtime;
+using Playza;
 
-namespace TestePlayza
+namespace Playza
 {
     [Application]
     public class MainApplication : MauiApplication
@@ -13,4 +14,5 @@ namespace TestePlayza
 
         protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
     }
+
 }

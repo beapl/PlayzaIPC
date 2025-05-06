@@ -4,6 +4,8 @@
 <dict>
   <key>UIAppFonts</key>
   <array>
+	<string>Delfino.otf</string>
+	<string>Delfino.ttf</string>
 	<string>OpenSans-Regular.ttf</string>
 	<string>OpenSans-Semibold.ttf</string>
   </array>
