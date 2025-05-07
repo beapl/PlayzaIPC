@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Playza.Views.FinalPage"
+    BackgroundImageSource="wallpaper.jpg"
+    Title="Final">
+
+    <Grid Padding="30" RowDefinitions="*,Auto,Auto,Auto" RowSpacing="20">
+
+        <Label Text="Perfeito!!"
+               Grid.Row="0"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               FontSize="40"
+               FontAttributes="Bold"
+               TextColor="#9462fc"/>
+
+        <Label Text="Agora já podes jogar à vontade! Bons estudos!"
+               Grid.Row="1"
+               HorizontalOptions="Center"
+               FontSize="20"
+               TextColor="#9462fc"/>
+
+        <Button Text="Vamos a isto!"
+                Grid.Row="3"
+                HorizontalOptions="Center"
+                Clicked="OnRegisterClicked"
+                BackgroundColor="#4245aa"
+                TextColor="White"
+                FontSize="25"
+                Padding="10,5"/>
+    </Grid>
+</ContentPage>

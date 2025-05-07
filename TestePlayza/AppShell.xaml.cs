@@ -9,7 +9,10 @@ namespace Playza
         {
             InitializeComponent();
             Routing.RegisterRoute("MenuPage", typeof(Playza.Views.MenuPage));
+            Routing.RegisterRoute("LoginPage", typeof(Playza.Views.LoginPage));
             Routing.RegisterRoute("RegisterPage", typeof(RegisterPage));
+            Routing.RegisterRoute("Register1Page", typeof(Register1Page));
+            Routing.RegisterRoute("Register2Page", typeof(Register2Page));
 
         }
     }

@@ -60,6 +60,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = TestePlayza.Views.MenuPage
 build_metadata.AdditionalFiles.TargetPath = Views\MenuPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\MenuPage.xaml
 
+[C:/Users/Beatriz/Desktop/IPC/TestePlayza/TestePlayza/Views/Register1Page.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestePlayza.Views.Register1Page.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Register1Page.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Register1Page.xaml
+
+[C:/Users/Beatriz/Desktop/IPC/TestePlayza/TestePlayza/Views/Register2Page.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestePlayza.Views.Register2Page.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Register2Page.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Register2Page.xaml
+
 [C:/Users/Beatriz/Desktop/IPC/TestePlayza/TestePlayza/Views/RegisterPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TestePlayza.Views.RegisterPage.xaml
