@@ -6,12 +6,69 @@
     BackgroundImageSource="wallpaper.jpg"
     Title="Menu">
 
-    <StackLayout Padding="10" Spacing="10" VerticalOptions="Center">
-        <ImageButton Source="iconjornada.jpg" Clicked="OnPlayClicked" MaximumHeightRequest="200"  />
-        <ImageButton Source="iconminijogo.jpg" MaximumHeightRequest="200"/>
-        <ImageButton Source="iconparental.jpg" MaximumHeightRequest="200"/>
-        <ImageButton Source="icondefinicoes.jpg" Clicked="OnSettingsClicked" MaximumHeightRequest="200"  />
-        <Button Text="Sair" Clicked="OnLogoutClicked" BackgroundColor="#F87171" TextColor="White"/>
+    <Grid RowDefinitions="Auto,*,*,Auto,Auto"
+          ColumnDefinitions="*,*,*"
+          Padding="50"
+          RowSpacing="10">
+
+        <!-- Canto superior esquerdo -->
+        <ImageButton Source="iconjornada.jpg"
+             Grid.Row="0" Grid.Column="0"
+             Clicked="OnPlayClicked" 
+             MaximumHeightRequest="240"
+             HorizontalOptions="Center"
+             VerticalOptions="Center"
+             Padding="0"
+             Margin="0"/>
+
+        <!-- Canto superior direito -->
+        <ImageButton Source="iconminijogo.jpg" 
+                Grid.Row="0" Grid.Column="2"
+                MaximumHeightRequest="240" 
+                Margin="5"/>
+
+        <!-- Canto inferior esquerdo -->
+        <ImageButton Source="iconparental.jpg"
+                Grid.Row="3" Grid.Column="0"
+                MaximumHeightRequest="240"
+                Margin="5"/>
+
+        <!-- Canto inferior direito -->
+        <ImageButton Source="icondefinicoes.jpg"
+                Grid.Row="3" Grid.Column="2"
+                MaximumHeightRequest="240"
+                Margin="5"/>
+        
+        <Button Text="Sair" 
+            Grid.Row="5"
+            Grid.Column="3"
+            HorizontalOptions="End"
+            Clicked="OnLogoutClicked" 
+            BackgroundColor="#4245aa" 
+            TextColor="White"
+            FontSize="30"/>
+    </Grid>
+</ContentPage>
+    <!--
+<StackLayout Padding="10" Spacing="10">
+        <ImageButton Source="iconjornada.jpg" 
+                     Clicked="OnPlayClicked" 
+                     MaximumHeightRequest="180" 
+                     HorizontalOptions="Start" 
+                     VerticalOptions="Start" />
+        <ImageButton Source="iconminijogo.jpg" 
+                     MaximumHeightRequest="180" 
+                     HorizontalOptions="Center" 
+                     VerticalOptions="Center" />
+        <ImageButton Source="iconparental.jpg" 
+                     MaximumHeightRequest="200"/>
+        <ImageButton Source="icondefinicoes.jpg" 
+                     Clicked="OnSettingsClicked" 
+                     MaximumHeightRequest="200"  />
+        <Button Text="Sair" 
+                Clicked="OnLogoutClicked" 
+                BackgroundColor="#F87171" 
+                TextColor="White"/>
     </StackLayout>
 
-</ContentPage>
+</ContentPage> -->
