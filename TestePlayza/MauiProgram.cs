@@ -3,6 +3,7 @@ using Microsoft.Maui;
 using Microsoft.Maui.Controls.Hosting;
 using Microsoft.Maui.Hosting;
 using Playza;
+using Microcharts.Maui;
 
 namespace Playza
 {
@@ -13,9 +14,9 @@ namespace Playza
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
+                .UseMicrocharts()
                 .ConfigureFonts(fonts =>
                 {
-                    fonts.AddFont("Delfino.ttf", "Delfino");
                     fonts.AddFont("Delfino.ttf", "Delfino");
                 });
 

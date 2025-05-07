@@ -8,7 +8,7 @@ namespace TestePlayza.Models // Atenção: muda para o nome do teu projeto!
 {
     public class Question
     {
-        public string Text { get; set; }
+        public string Text { get; set; } = string.Empty;
         public List<string> Options { get; set; }
         public string CorrectAnswer { get; set; }
     }

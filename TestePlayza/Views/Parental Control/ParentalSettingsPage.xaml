@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Playza.Views.ParentalSettingsPage"
+    BackgroundImageSource="wallpaper.jpg"
+    Title="Controlo Parental">
+
+    <Grid RowDefinitions="Auto, Auto, Auto, Auto, *, Auto"
+          ColumnDefinitions="*, *">
+
+        <!-- Título grande -->
+        <Label Text="Informações da conta:"
+               FontSize="24"
+               TextColor="#9462fc"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               Grid.Row="0"
+               Grid.ColumnSpan="2"
+               Margin="20,40,20,20"/>
+
+        <!-- Nome -->
+        <Label Text="Nome:"
+               HorizontalOptions="Start"
+               VerticalOptions="Center"
+               TextColor="#9462fc"
+               Grid.Row="1"
+               Grid.Column="0"
+               Margin="20"/>
+        <Entry x:Name="NameEntry"
+               Placeholder="Nome"
+               Grid.Row="1"
+               Grid.Column="1"
+               Margin="20"/>
+
+        <!-- Alcunha -->
+        <Label Text="Alcunha:"
+               HorizontalOptions="Start"
+               VerticalOptions="Center"
+               TextColor="#9462fc"
+               Grid.Row="2"
+               Grid.Column="0"
+               Margin="20"/>
+        <Entry x:Name="NicknameEntry"
+               Placeholder="Alcunha"
+               Grid.Row="2"
+               Grid.Column="1"
+               Margin="20" />
+
+        <!-- Palavra-passe -->
+        <Label Text="Palavra-passe:"
+               HorizontalOptions="Start"
+               VerticalOptions="Center"
+               TextColor="#9462fc"
+               Grid.Row="3"
+               Grid.Column="0"
+               Margin="20"/>
+        <Entry x:Name="PasswordEntry"
+               Placeholder="Palavra-passe"
+               IsPassword="True"
+               Grid.Row="3"
+               Grid.Column="1"
+               Margin="20"/>
+
+        <!-- Confirmar Palavra-passe -->
+        <Label Text="Confirmar palavra-passe:"
+               HorizontalOptions="Start"
+               VerticalOptions="Center"
+               TextColor="#9462fc"
+               Grid.Row="4"
+               Grid.Column="0"
+               Margin="20"/>
+        <Entry x:Name="ConfirmPasswordEntry"
+               Placeholder="Palavra-passe"
+               IsPassword="True"
+               Grid.Row="4"
+               Grid.Column="1"
+               Margin="20"/>
+
+        <!-- Botão Guardar -->
+        <Button Text="Guardar"
+                BackgroundColor="#4245aa"
+                TextColor="White"
+                HorizontalOptions="End"
+                VerticalOptions="End"
+                Grid.Row="5"
+                Grid.Column="1"
+                Margin="20"
+                />
+
+        <!-- Botão Sair -->
+        <Button Text="Sair"
+                BackgroundColor="#4245aa"
+                TextColor="White"
+                HorizontalOptions="Start"
+                VerticalOptions="End"
+                Grid.Row="5"
+                Grid.Column="0"
+                Margin="20"
+                />
+
+    </Grid>
+</ContentPage>

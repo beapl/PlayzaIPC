@@ -55,14 +55,32 @@
     <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Delfino.otf">
+      <PackagePath>Delfino.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Delfino.ttf">
+      <PackagePath>Delfino.ttf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icondefinicoes.scale-100.jpg">
+      <PackagePath>icondefinicoes.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconminijogo.scale-100.jpg">
+      <PackagePath>iconminijogo.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconparental.scale-100.jpg">
+      <PackagePath>iconparental.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\wallpaper.scale-100.jpg">
       <PackagePath>wallpaper.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconjornada.scale-100.jpg">
+      <PackagePath>iconjornada.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
@@ -226,6 +244,9 @@
     <AppxPackagedFile Include="C:\Users\Beatriz\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\.nuget\packages\microcharts.maui\1.0.0\lib\net6.0-windows10.0.19041\Microcharts.Maui.dll">
+      <PackagePath>Microcharts.Maui.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Beatriz\.nuget\packages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
     </AppxPackagedFile>
@@ -324,6 +345,21 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Beatriz\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\.nuget\packages\skiasharp\3.119.0\lib\net8.0-windows10.0.19041\SkiaSharp.dll">
+      <PackagePath>SkiaSharp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\.nuget\packages\skiasharp.nativeassets.winui\3.119.0\runtimes\win-x64\lib\net8.0-windows10.0.19041.0\SkiaSharp.Views.WinUI.Native.Projection.dll">
+      <PackagePath>SkiaSharp.Views.WinUI.Native.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\.nuget\packages\skiasharp.views.maui.controls\3.119.0\lib\net8.0-windows10.0.19041\SkiaSharp.Views.Maui.Controls.dll">
+      <PackagePath>SkiaSharp.Views.Maui.Controls.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\.nuget\packages\skiasharp.views.maui.core\3.119.0\lib\net8.0-windows10.0.19041\SkiaSharp.Views.Maui.Core.dll">
+      <PackagePath>SkiaSharp.Views.Maui.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\.nuget\packages\skiasharp.views.winui\3.119.0\lib\net8.0-windows10.0.19041\SkiaSharp.Views.Windows.dll">
+      <PackagePath>SkiaSharp.Views.Windows.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Beatriz\.nuget\packages\microsoft.maui.controls.core\8.0.100\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>
@@ -432,6 +468,21 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Beatriz\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\.nuget\packages\skiasharp.nativeassets.win32\3.119.0\runtimes\win-x64\native\libSkiaSharp.dll">
+      <PackagePath>libSkiaSharp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\.nuget\packages\skiasharp.nativeassets.winui\3.119.0\runtimes\win-x64\native\SkiaSharp.Views.WinUI.Native.dll">
+      <PackagePath>SkiaSharp.Views.WinUI.Native.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\.nuget\packages\skiasharp.nativeassets.winui\3.119.0\runtimes\win-x64\native\SkiaSharp.Views.WinUI.Native.winmd">
+      <PackagePath>SkiaSharp.Views.WinUI.Native.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\.nuget\packages\skiasharp.nativeassets.winui\3.119.0\runtimes\win-x64\native\libEGL.dll">
+      <PackagePath>libEGL.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\.nuget\packages\skiasharp.nativeassets.winui\3.119.0\runtimes\win-x64\native\libGLESv2.dll">
+      <PackagePath>libGLESv2.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\XamlDiagnostics\Mobile\Microsoft.Maui.Controls.HotReload.Forms.dll">
       <PackagePath>Microsoft.Maui.Controls.HotReload.Forms.dll</PackagePath>

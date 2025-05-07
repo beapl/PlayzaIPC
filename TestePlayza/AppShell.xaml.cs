@@ -13,6 +13,8 @@ namespace Playza
             Routing.RegisterRoute("RegisterPage", typeof(RegisterPage));
             Routing.RegisterRoute("Register1Page", typeof(Register1Page));
             Routing.RegisterRoute("Register2Page", typeof(Register2Page));
+            Routing.RegisterRoute("ParentalControlPage", typeof(ParentalControlPage));
+            Routing.RegisterRoute("ParentalSettingsPage", typeof(ParentalSettingsPage));
 
         }
     }

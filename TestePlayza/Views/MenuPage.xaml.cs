@@ -12,6 +12,10 @@ public partial class MenuPage : ContentPage
         await Shell.Current.GoToAsync("GamePage");
     }
 
+    private async void OnParentalClicked(object sender, EventArgs e)
+    {
+        await Shell.Current.GoToAsync("ParentalControlPage");
+    }
     private async void OnSettingsClicked(object sender, EventArgs e)
     {
         await Shell.Current.GoToAsync("SettingsPage");

@@ -13,6 +13,8 @@
         <ShellContent Title="Criar Conta 1" ContentTemplate="{DataTemplate views:Register1Page}" Route="Register1Page" />
         <ShellContent Title="Criar Conta 2" ContentTemplate="{DataTemplate views:Register2Page}" Route="Register2Page" />
         <ShellContent Title="Menu" ContentTemplate="{DataTemplate views:MenuPage}" />
+        <ShellContent Title="Controlo Parental" ContentTemplate="{DataTemplate views:ParentalControlPage}" Route="ParentalControlPage" />
+        <ShellContent Title="Definições Parentais" ContentTemplate="{DataTemplate views:ParentalSettingsPage}" Route="ParentalSettingsPage" />
         <ShellContent Title="Definições" ContentTemplate="{DataTemplate views:SettingsPage}" Route="SettingsPage" />
         <ShellContent Title="Jogo" ContentTemplate="{DataTemplate views:GamePage}" Route="GamePage" />
 

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:microcharts="clr-namespace:Microcharts.Maui;assembly=Microcharts.Maui"
+    x:Class="Playza.Views.ParentalControlPage"
+    BackgroundImageSource="wallpaper.jpg"
+    Title="Controlo Parental">
+
+    <Grid RowDefinitions="*, Auto" Padding="30">
+
+        <microcharts:ChartView
+            x:Name="chartView"
+            HeightRequest="200"
+            WidthRequest="300"
+            VerticalOptions="Start"
+            HorizontalOptions="Center" />
+
+
+
+        <!-- Parte principal com os 3 botões e textos -->
+        <Grid Grid.Row="0"
+              RowDefinitions="Auto, Auto, Auto"
+              ColumnDefinitions="Auto, *"
+              ColumnSpacing="20"
+              RowSpacing="25">
+
+            <!-- Botão 1 -->
+            <Button Grid.Row="0" Grid.Column="0" 
+                    Text="Definições Parentais" 
+                    Clicked="OnDefParClicked" 
+                    BackgroundColor="#4245aa"
+                    TextColor="White"/>
+            <Label Grid.Row="0" Grid.Column="1" 
+                   Text="Acesso aos perfis com sessão iniciada neste dispositivo.
+                   Limitação de tempo diário na aplicação para cada perfil."
+                   VerticalOptions="Center"
+                   FontSize="16"
+                   TextColor="Black"/>
+
+            <!-- Botão 2 -->
+            <Button Grid.Row="1" Grid.Column="0" 
+                    Text="Relatório de atividade de perfil" 
+
+                    BackgroundColor="#4245aa"
+                    TextColor="White"/>
+            <Label Grid.Row="1" Grid.Column="1" 
+                   Text="Acesso ao relatório de atividade do perfil selecionado,
+                   com informações sobre o progresso da criança."
+                   VerticalOptions="Center"
+                   FontSize="16"
+                   TextColor="Black"/>
+
+            <!-- Botão 3 -->
+            <Button Grid.Row="2" Grid.Column="0" 
+                    Text="Suporte e Ajuda" 
+
+                    BackgroundColor="#4245aa"
+                    TextColor="White"/>
+            <Label Grid.Row="2" Grid.Column="1" 
+                   Text="Acesso a um formulário de suporte, para divulgação de quaisquer dúvidas ou problemas."
+                   VerticalOptions="Center"
+                   FontSize="16"
+                   TextColor="Black"/>
+        </Grid>
+
+        <!-- Botão de sair na parte inferior -->
+        <Grid Grid.Row="1"
+              ColumnDefinitions="Auto, *">
+            <Button Text="Sair"
+
+                    BackgroundColor="#4245aa"
+                    TextColor="White"
+                    HorizontalOptions="Start"
+                    VerticalOptions="End"/>
+        </Grid>
+    </Grid>
+</ContentPage>
