@@ -1,0 +1,32 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Playza.Views.MiniJogo2"
+             BackgroundImageSource="wallpaper.jpg"
+             Title="Jogo Matemático">
+
+    <StackLayout Padding="20" Spacing="20">
+
+        <!-- Desenha os objetos -->
+        <Grid ColumnDefinitions="*,Auto,*" HeightRequest="200">
+            <StackLayout x:Name="LeftStack" Grid.Column="0" HorizontalOptions="End" />
+            <Label Text="vs" Grid.Column="1" FontSize="24" VerticalOptions="Center" />
+            <StackLayout x:Name="RightStack" Grid.Column="2" HorizontalOptions="Start" />
+        </Grid>
+
+        <!-- Botões de comparação -->
+        <Label Text="Qual é a relação entre os lados?" FontSize="20" HorizontalOptions="Center" />
+
+        <HorizontalStackLayout HorizontalOptions="Center" Spacing="15">
+            <Button Text=">" Clicked="OnGreaterClicked"/>
+            <Button Text="=" Clicked="OnEqualClicked"/>
+            <Button Text="&lt;" Clicked="OnLessClicked"/>
+        </HorizontalStackLayout>
+        
+        <Label x:Name="ScoreLabel"
+       Text="Pontuação: 0"
+       FontSize="20"
+       HorizontalOptions="Center"
+       TextColor="DarkBlue"/>
+        <Label x:Name="ResultLabel" FontSize="18" HorizontalOptions="Center" TextColor="Green"/>
+    </StackLayout>
+</ContentPage>
