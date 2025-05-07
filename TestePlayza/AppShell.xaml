@@ -8,11 +8,12 @@
     <!--Só para poder programar as outras views-->
     <TabBar>
         <!-- <ShellContent Title="Início" ContentTemplate="{DataTemplate views:MainPage}" Route="MainPage" /> -->
-        <ShellContent Title="Login" ContentTemplate="{DataTemplate views:LoginPage}" />
+        <ShellContent Title="Login" ContentTemplate="{DataTemplate views:LoginPage}" Route="LoginPage"/>
         <ShellContent Title="Criar Conta" ContentTemplate="{DataTemplate views:RegisterPage}" Route="RegisterPage" />
         <ShellContent Title="Menu" ContentTemplate="{DataTemplate views:MenuPage}" />
         <ShellContent Title="Definições" ContentTemplate="{DataTemplate views:SettingsPage}" Route="SettingsPage" />
         <ShellContent Title="Jogo" ContentTemplate="{DataTemplate views:GamePage}" Route="GamePage" />
+        <ShellContent Title="Mini-jogos" ContentTemplate="{DataTemplate views:MiniGamesPage}" Route="MiniGamesPage" />
 
     </TabBar>
     <ShellContent Route="MainPage" ContentTemplate="{DataTemplate views:MainPage}" />

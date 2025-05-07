@@ -1,4 +1,4 @@
-namespace Playza.Views
+namespace Playza.View
 {
     public partial class RegisterPage : ContentPage
     {
