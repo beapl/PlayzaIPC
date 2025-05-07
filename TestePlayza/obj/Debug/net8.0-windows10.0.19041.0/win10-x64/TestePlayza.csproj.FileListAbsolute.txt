@@ -22,3 +22,15 @@ C:\Users\fabio\Source\Repos\PlayzaIPC\TestePlayza\obj\Debug\net8.0-windows10.0.1
 C:\Users\fabio\Source\Repos\PlayzaIPC\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
 C:\Users\fabio\Source\Repos\PlayzaIPC\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
 C:\Users\fabio\Source\Repos\PlayzaIPC\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\TestePlayza.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leona\OneDrive\Documents\GitHub\PlayzaIPC\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\TestePlayza.csproj.AssemblyReference.cache
+C:\Users\leona\OneDrive\Documents\GitHub\PlayzaIPC\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.inputs
+C:\Users\leona\OneDrive\Documents\GitHub\PlayzaIPC\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauifont.inputs
+C:\Users\leona\OneDrive\Documents\GitHub\PlayzaIPC\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauisplash.inputs
+C:\Users\leona\OneDrive\Documents\GitHub\PlayzaIPC\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauimanifest.stamp
+C:\Users\leona\OneDrive\Documents\GitHub\PlayzaIPC\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.i.cs
+C:\Users\leona\OneDrive\Documents\GitHub\PlayzaIPC\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.cs
+C:\Users\leona\OneDrive\Documents\GitHub\PlayzaIPC\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlTypeInfo.g.cs
+C:\Users\leona\OneDrive\Documents\GitHub\PlayzaIPC\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
+C:\Users\leona\OneDrive\Documents\GitHub\PlayzaIPC\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
+C:\Users\leona\OneDrive\Documents\GitHub\PlayzaIPC\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
+C:\Users\leona\OneDrive\Documents\GitHub\PlayzaIPC\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\TestePlayza.GeneratedMSBuildEditorConfig.editorconfig

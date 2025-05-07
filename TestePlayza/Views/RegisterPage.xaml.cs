@@ -1,5 +1,4 @@
-namespace Playza.View
-{
+namespace Playza.Views;
     public partial class RegisterPage : ContentPage
     {
         public RegisterPage()
@@ -12,4 +11,3 @@ namespace Playza.View
             await Shell.Current.GoToAsync("MenuPage");
         }
     }
-}

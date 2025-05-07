@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Views"
   ],
-  "SelectedNode": "\\TestePlayza.sln",
+  "SelectedNode": "\\Views\\MiniGamesPage.xaml.cs",
   "PreviewInSolutionExplorer": false
 }
