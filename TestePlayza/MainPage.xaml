@@ -3,29 +3,55 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     BackgroundImageSource="wallpaper.jpg"
-
     Title="Bem-vindo!">
 
-    <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="20">
+    <Grid Padding="50" RowDefinitions="Auto,Auto,Auto,Auto,Auto" ColumnDefinitions="*">
+        <!-- Texto de boas-vindas -->
         <Label Text="Bem-vindo ao Playza!!!"
-               FontSize="50"
+               FontSize="80"
                HorizontalOptions="Center"
-               TextColor="#9462fc" />
-        <Button Text="Iniciar Sessão" 
-                BackgroundColor="#4245aa"
-                TextColor="White"
-                FontSize="30"
-                Clicked="OnLoginClicked"/>
-        <Button Text="Criar Conta"
-                BackgroundColor="#4245aa"
-                TextColor="White"
-                FontSize="30"
-                Clicked="OnRegisterClicked"/>
+               TextColor="#9462fc"
+               Grid.Row="0"
+               Grid.ColumnSpan="2" />
+
+        <!-- Retângulo branco para os botões sobre a conta -->
+        <Frame BackgroundColor="#80FFFFFF" Padding="10" Margin="0,30,0,10" WidthRequest="900" HeightRequest="400" CornerRadius="10" Grid.Row="1" Grid.ColumnSpan="2">
+            <StackLayout Spacing="15" VerticalOptions="Center" HorizontalOptions="Center">
+                <!-- Texto acima do botão "Iniciar Sessão" -->
+                <Label Text="Já tem conta? Inicie a sessão aqui:"
+                       FontSize="25"
+                       HorizontalOptions="Center" 
+                       Padding="20"/>
+                <Button Text="Iniciar Sessão" 
+                        BackgroundColor="#4245aa"
+                        TextColor="White"
+                        FontSize="30"
+                        Padding="20"
+                        HorizontalOptions="Center"
+                        Clicked="OnLoginClicked"/>
+
+                <!-- Texto acima do botão "Criar Conta" -->
+                <Label Text="Primeira vez na aplicação? Clique aqui para registar a sua criança:"
+                       FontSize="25"
+                       HorizontalOptions="Center"
+                       Padding="20" />
+                <Button Text="Criar Conta"
+                        BackgroundColor="#4245aa"
+                        TextColor="White"
+                        HorizontalOptions="Center"
+                        FontSize="30"
+                        Padding="20"
+                        Clicked="OnRegisterClicked"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Botão Sair -->
         <Button Text="Sair"
                 BackgroundColor="#4245aa"
                 TextColor="White"
-                FontSize="30" />
-        <!-- Provavelmente adicionar Clicked="OnLeaveClicked"/> -->
-    </StackLayout>
+                FontSize="30"
+                Grid.Row="4"
+                HorizontalOptions="End" />
+    </Grid>
 </ContentPage>
 
