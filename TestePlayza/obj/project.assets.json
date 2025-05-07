@@ -33165,26 +33165,29 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Beatriz\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\fabio\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\25.1.35\\ToolboxNuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\TestePlayza.csproj",
+      "projectUniqueName": "C:\\Users\\fabio\\Source\\Repos\\PlayzaIPC\\TestePlayza\\TestePlayza.csproj",
       "projectName": "TestePlayza",
-      "projectPath": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\TestePlayza.csproj",
-      "packagesPath": "C:\\Users\\Beatriz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\obj\\",
+      "projectPath": "C:\\Users\\fabio\\Source\\Repos\\PlayzaIPC\\TestePlayza\\TestePlayza.csproj",
+      "packagesPath": "C:\\Users\\fabio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fabio\\Source\\Repos\\PlayzaIPC\\TestePlayza\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WPF\\25.1.35\\ToolboxNuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Beatriz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\fabio\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
       ],
       "originalTargetFrameworks": [
         "net8.0-android",

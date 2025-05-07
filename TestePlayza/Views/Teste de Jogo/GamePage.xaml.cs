@@ -1,4 +1,4 @@
-using TestePlayza.Models;
+using Playza.Models;
 
 namespace Playza.Views;
 

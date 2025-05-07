@@ -1,101 +1,105 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\",
+  "WorkspaceRootPath": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\platforms\\windows\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:platforms\\windows\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\platforms\\maccatalyst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:platforms\\maccatalyst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\platforms\\maccatalyst\\appdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:platforms\\maccatalyst\\appdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\platforms\\ios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:platforms\\ios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\platforms\\ios\\appdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:platforms\\ios\\appdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\views\\menupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:views\\menupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\views\\teste de jogo\\gamepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:views\\teste de jogo\\gamepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\fabio\\source\\repos\\playzaipc\\testeplayza\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\fabio\\source\\repos\\playzaipc\\testeplayza\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\fabio\\source\\repos\\playzaipc\\testeplayza\\views\\teste de jogo\\gamepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:views\\teste de jogo\\gamepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\views\\teste de jogo\\gamepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\fabio\\source\\repos\\playzaipc\\testeplayza\\views\\menupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:views\\menupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\fabio\\source\\repos\\playzaipc\\testeplayza\\platforms\\windows\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:platforms\\windows\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\fabio\\source\\repos\\playzaipc\\testeplayza\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\fabio\\source\\repos\\playzaipc\\testeplayza\\views\\teste de jogo\\gamepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:views\\teste de jogo\\gamepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\views\\menupage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\fabio\\source\\repos\\playzaipc\\testeplayza\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\fabio\\source\\repos\\playzaipc\\testeplayza\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\fabio\\source\\repos\\playzaipc\\testeplayza\\views\\menupage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:views\\menupage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\fabio\\source\\repos\\playzaipc\\testeplayza\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\fabio\\source\\repos\\playzaipc\\testeplayza\\platforms\\maccatalyst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:platforms\\maccatalyst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\fabio\\source\\repos\\playzaipc\\testeplayza\\platforms\\maccatalyst\\appdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:platforms\\maccatalyst\\appdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\fabio\\source\\repos\\playzaipc\\testeplayza\\platforms\\ios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:platforms\\ios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\fabio\\source\\repos\\playzaipc\\testeplayza\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\fabio\\source\\repos\\playzaipc\\testeplayza\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\fabio\\source\\repos\\playzaipc\\testeplayza\\platforms\\ios\\appdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:platforms\\ios\\appdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\fabio\\source\\repos\\playzaipc\\testeplayza\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\fabio\\source\\repos\\playzaipc\\testeplayza\\views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\fabio\\source\\repos\\playzaipc\\testeplayza\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\fabio\\source\\repos\\playzaipc\\testeplayza\\views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\fabio\\source\\repos\\playzaipc\\testeplayza\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\fabio\\source\\repos\\playzaipc\\testeplayza\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\testeplayza.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\fabio\\source\\repos\\playzaipc\\testeplayza\\testeplayza.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:testeplayza.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\app.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\fabio\\source\\repos\\playzaipc\\testeplayza\\app.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:app.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -106,7 +110,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -127,139 +131,131 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Platforms\\MacCatalyst\\Program.cs",
-              "RelativeDocumentMoniker": "Platforms\\MacCatalyst\\Program.cs",
-              "ToolTip": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Platforms\\MacCatalyst\\Program.cs",
-              "RelativeToolTip": "Platforms\\MacCatalyst\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T16:42:30.797Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Platforms\\Windows\\App.xaml.cs",
-              "RelativeDocumentMoniker": "Platforms\\Windows\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Platforms\\Windows\\App.xaml.cs",
-              "RelativeToolTip": "Platforms\\Windows\\App.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAApwBUAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T16:36:43.663Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppDelegate.cs",
-              "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Platforms\\MacCatalyst\\AppDelegate.cs",
-              "RelativeDocumentMoniker": "Platforms\\MacCatalyst\\AppDelegate.cs",
-              "ToolTip": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Platforms\\MacCatalyst\\AppDelegate.cs",
-              "RelativeToolTip": "Platforms\\MacCatalyst\\AppDelegate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T16:36:35.113Z",
-              "EditorCaption": ""
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-06T13:52:10.412Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Platforms\\iOS\\Program.cs",
-              "RelativeDocumentMoniker": "Platforms\\iOS\\Program.cs",
-              "ToolTip": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Platforms\\iOS\\Program.cs",
-              "RelativeToolTip": "Platforms\\iOS\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T16:36:05.67Z",
-              "EditorCaption": ""
+              "Title": "MenuPage.xaml",
+              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Views\\MenuPage.xaml",
+              "RelativeDocumentMoniker": "Views\\MenuPage.xaml",
+              "ToolTip": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Views\\MenuPage.xaml",
+              "RelativeToolTip": "Views\\MenuPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-01T16:20:01.38Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "AppDelegate.cs",
-              "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Platforms\\iOS\\AppDelegate.cs",
-              "RelativeDocumentMoniker": "Platforms\\iOS\\AppDelegate.cs",
-              "ToolTip": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Platforms\\iOS\\AppDelegate.cs",
-              "RelativeToolTip": "Platforms\\iOS\\AppDelegate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Title": "GamePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Views\\Teste de Jogo\\GamePage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Teste de Jogo\\GamePage.xaml.cs",
+              "ToolTip": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Views\\Teste de Jogo\\GamePage.xaml.cs",
+              "RelativeToolTip": "Views\\Teste de Jogo\\GamePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T15:58:47.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T13:23:16.693Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainApplication.cs",
-              "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Platforms\\Android\\MainApplication.cs",
-              "RelativeDocumentMoniker": "Platforms\\Android\\MainApplication.cs",
-              "ToolTip": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Platforms\\Android\\MainApplication.cs",
-              "RelativeToolTip": "Platforms\\Android\\MainApplication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T15:45:43.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "MauiProgram.cs",
-              "ToolTip": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\MauiProgram.cs",
-              "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA4AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T15:23:31.654Z",
+              "WhenOpened": "2025-05-05T21:37:45.404Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T13:53:23.953Z",
-              "EditorCaption": ""
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-05T22:14:10.375Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AppShell.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\AppShell.xaml.cs",
-              "RelativeDocumentMoniker": "AppShell.xaml.cs",
-              "ToolTip": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\AppShell.xaml.cs",
-              "RelativeToolTip": "AppShell.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAKAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T21:37:45.404Z"
+              "WhenOpened": "2025-05-06T15:16:49.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GamePage.xaml",
+              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Views\\Teste de Jogo\\GamePage.xaml",
+              "RelativeDocumentMoniker": "Views\\Teste de Jogo\\GamePage.xaml",
+              "ToolTip": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Views\\Teste de Jogo\\GamePage.xaml",
+              "RelativeToolTip": "Views\\Teste de Jogo\\GamePage.xaml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-28T13:23:10.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Platforms\\Windows\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Platforms\\Windows\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Platforms\\Windows\\App.xaml.cs",
+              "RelativeToolTip": "Platforms\\Windows\\App.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAawBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T16:36:43.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Question.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Models\\Question.cs",
+              "RelativeDocumentMoniker": "Models\\Question.cs",
+              "ToolTip": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Models\\Question.cs",
+              "RelativeToolTip": "Models\\Question.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T14:24:04.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MenuPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Views\\MenuPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\MenuPage.xaml.cs",
+              "ToolTip": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Views\\MenuPage.xaml.cs",
+              "RelativeToolTip": "Views\\MenuPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T16:21:38.642Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "LoginPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\LoginPage.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\LoginPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\LoginPage.xaml.cs",
-              "RelativeToolTip": "Views\\LoginPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T21:47:32.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "LoginPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Views\\LoginPage.xaml",
               "RelativeDocumentMoniker": "Views\\LoginPage.xaml",
-              "ToolTip": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Views\\LoginPage.xaml",
               "RelativeToolTip": "Views\\LoginPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -267,49 +263,119 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RegisterPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\RegisterPage.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\RegisterPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\RegisterPage.xaml.cs",
-              "RelativeToolTip": "Views\\RegisterPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T14:00:45.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MenuPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\MenuPage.xaml",
-              "RelativeDocumentMoniker": "Views\\MenuPage.xaml",
-              "ToolTip": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\MenuPage.xaml",
-              "RelativeToolTip": "Views\\MenuPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-01T16:20:01.38Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GamePage.xaml",
-              "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\Teste de Jogo\\GamePage.xaml",
-              "RelativeDocumentMoniker": "Views\\Teste de Jogo\\GamePage.xaml",
-              "ToolTip": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\Teste de Jogo\\GamePage.xaml",
-              "RelativeToolTip": "Views\\Teste de Jogo\\GamePage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-28T13:23:10.381Z"
+              "WhenOpened": "2025-05-06T13:53:23.953Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T15:23:31.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainApplication.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Platforms\\Android\\MainApplication.cs",
+              "RelativeDocumentMoniker": "Platforms\\Android\\MainApplication.cs",
+              "ToolTip": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Platforms\\Android\\MainApplication.cs",
+              "RelativeToolTip": "Platforms\\Android\\MainApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T15:45:43.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppDelegate.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Platforms\\iOS\\AppDelegate.cs",
+              "RelativeDocumentMoniker": "Platforms\\iOS\\AppDelegate.cs",
+              "ToolTip": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Platforms\\iOS\\AppDelegate.cs",
+              "RelativeToolTip": "Platforms\\iOS\\AppDelegate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T15:58:47.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Platforms\\iOS\\Program.cs",
+              "RelativeDocumentMoniker": "Platforms\\iOS\\Program.cs",
+              "ToolTip": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Platforms\\iOS\\Program.cs",
+              "RelativeToolTip": "Platforms\\iOS\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T16:36:05.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppDelegate.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Platforms\\MacCatalyst\\AppDelegate.cs",
+              "RelativeDocumentMoniker": "Platforms\\MacCatalyst\\AppDelegate.cs",
+              "ToolTip": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Platforms\\MacCatalyst\\AppDelegate.cs",
+              "RelativeToolTip": "Platforms\\MacCatalyst\\AppDelegate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T16:36:35.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Platforms\\MacCatalyst\\Program.cs",
+              "RelativeDocumentMoniker": "Platforms\\MacCatalyst\\Program.cs",
+              "ToolTip": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Platforms\\MacCatalyst\\Program.cs",
+              "RelativeToolTip": "Platforms\\MacCatalyst\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T16:42:30.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Views\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Views\\LoginPage.xaml.cs",
+              "RelativeToolTip": "Views\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T21:47:32.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RegisterPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Views\\RegisterPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\RegisterPage.xaml.cs",
+              "ToolTip": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Views\\RegisterPage.xaml.cs",
+              "RelativeToolTip": "Views\\RegisterPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T14:00:45.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\App.xaml",
+              "ToolTip": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\App.xaml",
               "RelativeToolTip": "App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -317,11 +383,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "RegisterPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\RegisterPage.xaml",
+              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Views\\RegisterPage.xaml",
               "RelativeDocumentMoniker": "Views\\RegisterPage.xaml",
-              "ToolTip": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\RegisterPage.xaml",
+              "ToolTip": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Views\\RegisterPage.xaml",
               "RelativeToolTip": "Views\\RegisterPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -329,47 +395,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\MainPage.xaml",
-              "RelativeDocumentMoniker": "MainPage.xaml",
-              "ToolTip": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\MainPage.xaml",
-              "RelativeToolTip": "MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-05T22:14:10.375Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\AppShell.xaml",
-              "RelativeDocumentMoniker": "AppShell.xaml",
-              "ToolTip": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\AppShell.xaml",
-              "RelativeToolTip": "AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-06T13:52:10.412Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\MainPage.xaml.cs",
-              "RelativeToolTip": "MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T15:16:49.547Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "TestePlayza.csproj",
-              "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\TestePlayza.csproj",
+              "DocumentMoniker": "C:\\Users\\fabio\\Source\\Repos\\PlayzaIPC\\TestePlayza\\TestePlayza.csproj",
               "RelativeDocumentMoniker": "TestePlayza.csproj",
-              "ToolTip": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\TestePlayza.csproj",
+              "ToolTip": "C:\\Users\\fabio\\Source\\Repos\\PlayzaIPC\\TestePlayza\\TestePlayza.csproj",
               "RelativeToolTip": "TestePlayza.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -377,23 +407,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "GamePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\Teste de Jogo\\GamePage.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\Teste de Jogo\\GamePage.xaml.cs",
-              "ToolTip": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\Teste de Jogo\\GamePage.xaml.cs",
-              "RelativeToolTip": "Views\\Teste de Jogo\\GamePage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T13:23:16.693Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\App.xaml",
+              "ToolTip": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\App.xaml",
               "RelativeToolTip": "App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -401,27 +419,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "MainActivity.cs",
-              "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Platforms\\Android\\MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Platforms\\Android\\MainActivity.cs",
               "RelativeDocumentMoniker": "Platforms\\Android\\MainActivity.cs",
-              "ToolTip": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Platforms\\Android\\MainActivity.cs",
+              "ToolTip": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Platforms\\Android\\MainActivity.cs",
               "RelativeToolTip": "Platforms\\Android\\MainActivity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-05T21:00:22.818Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "MenuPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\MenuPage.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\MenuPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\MenuPage.xaml.cs",
-              "RelativeToolTip": "Views\\MenuPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T16:21:38.642Z"
             }
           ]
         }

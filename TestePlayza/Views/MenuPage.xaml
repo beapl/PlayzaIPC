@@ -7,7 +7,7 @@
     Title="Menu Principal">
 
     <StackLayout Padding="30" Spacing="20" VerticalOptions="Center">
-        <Button Text="Jogar" Clicked="OnPlayClicked" BackgroundColor="#22C55E" TextColor="White"/>
+        <Button Text="Jornada Principal" Clicked="OnPlayClicked" BackgroundColor="#22C55E" TextColor="White"/>
         <Button Text="Definições" Clicked="OnSettingsClicked" BackgroundColor="#34D399" TextColor="White"/>
         <Button Text="Terminar Sessão" Clicked="OnLogoutClicked" BackgroundColor="#F87171" TextColor="White"/>
     </StackLayout>
