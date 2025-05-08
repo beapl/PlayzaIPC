@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\views\\settings\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:views\\settings\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\beatriz\\desktop\\ipc\\testeplayza\\testeplayza\\views\\menupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:views\\menupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -63,19 +67,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SettingsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\Settings\\SettingsPage.xaml",
+              "RelativeDocumentMoniker": "Views\\Settings\\SettingsPage.xaml",
+              "ToolTip": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\Settings\\SettingsPage.xaml",
+              "RelativeToolTip": "Views\\Settings\\SettingsPage.xaml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-08T22:07:57.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MenuPage.xaml",
               "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\MenuPage.xaml",
               "RelativeDocumentMoniker": "Views\\MenuPage.xaml",
               "ToolTip": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\MenuPage.xaml",
               "RelativeToolTip": "Views\\MenuPage.xaml",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwA8AAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-08T21:42:15.2Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\MauiProgram.cs",
               "RelativeDocumentMoniker": "MauiProgram.cs",
@@ -87,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Register2Page.xaml",
               "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\Register\\Register2Page.xaml",
               "RelativeDocumentMoniker": "Views\\Register\\Register2Page.xaml",
@@ -100,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "RegisterPage.xaml",
               "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\Register\\RegisterPage.xaml",
               "RelativeDocumentMoniker": "Views\\Register\\RegisterPage.xaml",
@@ -113,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Register1Page.xaml",
               "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\Register\\Register1Page.xaml",
               "RelativeDocumentMoniker": "Views\\Register\\Register1Page.xaml",
@@ -126,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "LoginPage.xaml",
               "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Views\\Login\\LoginPage.xaml",
               "RelativeDocumentMoniker": "Views\\Login\\LoginPage.xaml",
@@ -139,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
@@ -152,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "UsageTracker.cs",
               "DocumentMoniker": "C:\\Users\\Beatriz\\Desktop\\IPC\\TestePlayza\\TestePlayza\\Services\\UsageTracker.cs",
               "RelativeDocumentMoniker": "Services\\UsageTracker.cs",

@@ -26,11 +26,25 @@ namespace Playza.Views
         }
 
         // Método para ajustar o tamanho da fonte
-        private void OnFontSizeChanged(object sender, ValueChangedEventArgs e)
+        private void OnFontSizeSliderChanged(object sender, ValueChangedEventArgs e)
         {
-            var newSize = e.NewValue;
-            //FontSizeLabel.Text = $"Tamanho da Fonte: {newSize}";
-            // Aqui você pode ajustar o tamanho das fontes conforme necessário
+            // Arredonda para o valor mais próximo: 0 (esquerda), 1 (meio), 2 (direita)
+            int snappedValue = (int)Math.Round(e.NewValue);
+            FontSizeSlider.Value = snappedValue; // bloqueia o slider nessa posição
+
+            // Atualiza o label
+            switch (snappedValue)
+            {
+                case 0:
+                    FontSizeLabel.Text = "Pequeno";
+                    break;
+                case 1:
+                    FontSizeLabel.Text = "Médio";
+                    break;
+                case 2:
+                    FontSizeLabel.Text = "Grande";
+                    break;
+            }
         }
 
         // Método para salvar as alterações

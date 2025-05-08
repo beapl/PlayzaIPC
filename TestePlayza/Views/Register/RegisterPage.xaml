@@ -34,7 +34,10 @@
                        FontFamily="Delfino"
                        HorizontalOptions="Start"
                        TextColor="#4043a5" />
-                <Entry Placeholder="Nome" BackgroundColor="White" FontFamily="Delfino" />
+                <Entry x:Name="NameEntry"
+                       Placeholder="Nome"
+                       BackgroundColor="White"
+                       FontFamily="Delfino" />
 
                 <!-- <Label Text="Qual é a tua idade?"
                        FontSize="30"
@@ -48,14 +51,21 @@
                        FontFamily="Delfino"
                        HorizontalOptions="Start"
                        TextColor="#4043a5"/>
-                <Entry Placeholder="Alcunha" BackgroundColor="White" FontFamily="Delfino" />
+                <Entry x:Name="UsernameEntry"
+                       Placeholder="Alcunha"
+                       BackgroundColor="White"
+                       FontFamily="Delfino" />
 
                 <Label Text="Cria uma palavra-passe:"
                        FontSize="28"
                        FontFamily="Delfino"
                        HorizontalOptions="Start"
                        TextColor="#4043a5" />
-                <Entry Placeholder="Palavra-passe" BackgroundColor="White" FontFamily="Delfino" IsPassword="True" />
+                <Entry x:Name="PasswordEntry"
+                       Placeholder="Palavra-passe"
+                       BackgroundColor="White"
+                       FontFamily="Delfino"
+                       IsPassword="True" />
             </StackLayout>
         </Frame>
 
