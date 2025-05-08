@@ -12,6 +12,7 @@
             <Label Text="Perfeito!!"
                    FontSize="80"
                    FontAttributes="Bold"
+                   FontFamily="Delfino"
                    TextColor="#9462fc"
                    HorizontalOptions="Center"/>
 
@@ -28,6 +29,7 @@
                     <Label Text="Agora já podes jogar à vontade!
                            Bons estudos!"
                            FontSize="30"
+                           FontFamily="Delfino"
                            TextColor="#9462fc"
                            HorizontalOptions="Center"/>
 
@@ -36,6 +38,7 @@
                             BackgroundColor="#4245aa"
                             TextColor="White"
                             FontSize="20"
+                            FontFamily="Delfino"
                             Padding="10"
                             HorizontalOptions="Center"/>
                 </StackLayout>

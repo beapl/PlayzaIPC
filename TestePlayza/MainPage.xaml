@@ -9,6 +9,7 @@
         <!-- Texto de boas-vindas -->
         <Label Text="Bem-vindo ao Playza!!!"
                FontSize="80"
+               FontFamily="Delfino"
                HorizontalOptions="Center"
                TextColor="#9462fc"
                Grid.Row="0"
@@ -20,11 +21,13 @@
                 <!-- Texto acima do botão "Iniciar Sessão" -->
                 <Label Text="Já tem conta? Inicie a sessão aqui:"
                        FontSize="25"
+                       FontFamily="Delfino"
                        HorizontalOptions="Center" 
                        Padding="20"/>
                 <Button Text="Iniciar Sessão" 
                         BackgroundColor="#4245aa"
                         TextColor="White"
+                        FontFamily="Delfino"
                         FontSize="30"
                         Padding="20"
                         HorizontalOptions="Center"
@@ -33,11 +36,13 @@
                 <!-- Texto acima do botão "Criar Conta" -->
                 <Label Text="Primeira vez na aplicação? Clique aqui para registar a sua criança:"
                        FontSize="25"
+                       FontFamily="Delfino"
                        HorizontalOptions="Center"
                        Padding="20" />
                 <Button Text="Criar Conta"
                         BackgroundColor="#4245aa"
                         TextColor="White"
+                        FontFamily="Delfino"
                         HorizontalOptions="Center"
                         FontSize="30"
                         Padding="20"
@@ -49,6 +54,7 @@
         <Button Text="Sair"
                 BackgroundColor="#4245aa"
                 TextColor="White"
+                FontFamily="Delfino"
                 FontSize="30"
                 Grid.Row="4"
                 HorizontalOptions="End" />

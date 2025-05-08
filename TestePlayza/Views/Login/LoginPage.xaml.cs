@@ -7,9 +7,10 @@ public partial class LoginPage : ContentPage
         InitializeComponent();
     }
 
-    private async void OnLogoutClicked(object sender, EventArgs e)
+    private async void OnSairClicked(object sender, EventArgs e)
     {
         await Shell.Current.GoToAsync("//MainPage");
+    }
     private async void OnLoginClicked(object sender, EventArgs e)
     {
         await Shell.Current.GoToAsync("MenuPage");

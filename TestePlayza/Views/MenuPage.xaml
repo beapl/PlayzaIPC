@@ -39,6 +39,7 @@
         <ImageButton Source="icondefinicoes.jpg"
                 Grid.Row="3" Grid.Column="2"
                 MaximumHeightRequest="240"
+                Clicked="OnSettingsClicked" 
                 Margin="5"/>
         
         <Button Text="Sair" 

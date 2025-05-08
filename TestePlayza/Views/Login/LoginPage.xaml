@@ -13,6 +13,7 @@
     <!-- Título -->
     <Label Text="Olá de novo!"
                FontSize="60"
+               FontFamily="Delfino"
                HorizontalOptions="Center"
                TextColor="#9462fc"
                Grid.Row="0"
@@ -32,17 +33,21 @@
 
             <Label Text="Digite a tua alcunha:"
                        FontSize="25"
+                       FontFamily="Delfino"
                        TextColor="Black" />
             <Entry Placeholder="Alcunha"
                        FontSize="20"
+                       FontFamily="Delfino"
                        BackgroundColor="White"
                        TextColor="Black" />
 
             <Label Text="Digite a sua palavra-passe:"
                        FontSize="25"
+                       FontFamily="Delfino"
                        TextColor="Black" />
             <Entry Placeholder="Palavra-passe"
                        FontSize="20"
+                       FontFamily="Delfino"
                        IsPassword="True"
                        BackgroundColor="White"
                        TextColor="Black" />
@@ -52,6 +57,7 @@
                     <Label Text="Manter sessão iniciada"
                         VerticalOptions="Center"
                         FontSize="20"
+                        FontFamily="Delfino"
                         HorizontalOptions="Start"
                         LineBreakMode="NoWrap" />
                 </StackLayout>
@@ -67,14 +73,16 @@
                     BackgroundColor="#4245aa"
                     TextColor="White"
                     FontSize="30"
+                    FontFamily="Delfino"
                     HorizontalOptions="Start"
                     Grid.Column="0"
-                    Clicked="OnLogoutClicked" />
+                    Clicked="OnSairClicked" />
 
         <Button Text="Entrar"
                     BackgroundColor="#4245aa"
                     TextColor="White"
                     FontSize="30"
+                    FontFamily="Delfino"
                     Grid.Column="2"
                     HorizontalOptions="End"
                     Clicked="OnLoginClicked"/>

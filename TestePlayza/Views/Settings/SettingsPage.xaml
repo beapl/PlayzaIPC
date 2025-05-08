@@ -1,14 +1,98 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage 
-    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="Playza.Views.SettingsPage"
-    BackgroundColor="#FAE8FF"
-    Title="Definições">
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Playza.Views.SettingsPage"
+             BackgroundImageSource="wallpaper.jpg"
+             Title="Definições">
 
-    <StackLayout Padding="30" Spacing="20" VerticalOptions="Center">
-        <Label Text="Configurações futuras..." FontSize="24" HorizontalOptions="Center" TextColor="#A21CAF"/>
-        <Button Text="Voltar" Clicked="OnBackClicked" BackgroundColor="#D946EF" TextColor="White"/>
-    </StackLayout>
+    <Grid Padding="10" RowDefinitions="*,Auto" ColumnDefinitions="*,*,*" RowSpacing="10">
 
+        <Label Text="Configurações" FontFamily="Delfino" FontSize="50" Padding="10" HorizontalOptions="Center" TextColor="#9462fc" Grid.Row="0" Grid.ColumnSpan="3" />
+        
+        <!-- Frame com configurações centralizadas e conteúdo rolável -->
+        <Frame BackgroundColor="#B3FFFFFF" Padding="60" CornerRadius="15" Grid.Row="0" Grid.ColumnSpan="3"
+               HorizontalOptions="Center" Margin="0,40,0,0" VerticalOptions="CenterAndExpand" WidthRequest="700" HeightRequest="500">
+
+            <!-- ScrollView para permitir o conteúdo rolável -->
+            <ScrollView>
+                <StackLayout Spacing="20" HorizontalOptions="Center">
+
+                    <!-- Titulo das Definições -->
+
+
+                    <!-- Configuração de Imagem de Tema -->
+                    <Label Text="Escolha o tema:"
+                           FontSize="25" 
+                           HorizontalOptions="Start" 
+                           FontFamily="Delfino"
+                           TextColor="#9462fc"/>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                        <!-- Exemplo de temas como imagens -->
+                        <ImageButton Source="tema1.png" WidthRequest="50" HeightRequest="50" Margin="10"/>
+                        <ImageButton Source="tema2.png" WidthRequest="50" HeightRequest="50" Margin="10"/>
+                        <ImageButton Source="tema3.png" WidthRequest="50" HeightRequest="50" Margin="10"/>
+                    </StackLayout>
+
+                    <!-- Configuração de Ícones -->
+                    <Label Text="Escolha o ícone:"
+                           FontSize="25" 
+                           HorizontalOptions="Start" 
+                           FontFamily="Delfino"
+                           TextColor="#9462fc"/>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                        <!-- Exemplo de ícones -->
+                        <ImageButton Source="icon1.png" WidthRequest="50" HeightRequest="50" Margin="10"/>
+                        <ImageButton Source="icon2.png" WidthRequest="50" HeightRequest="50" Margin="10"/>
+                        <ImageButton Source="icon3.png" WidthRequest="50" HeightRequest="50" Margin="10"/>
+                    </StackLayout>
+
+                    <!-- Configuração de Tamanho da Fonte -->
+                    <Label Text="Ajuste o tamanho da letra:"
+                           FontSize="25" 
+                           HorizontalOptions="Start" 
+                           FontFamily="Delfino" 
+                           TextColor="#9462fc"/>
+                    <Slider Minimum="10" Maximum="40" Value="20"  WidthRequest="550"  VerticalOptions="Center" HorizontalOptions="Center"/>
+
+                    <!-- Configuração de Som -->
+                    <Label Text="Efeitos sonoros:"
+                           FontSize="25" 
+                           HorizontalOptions="Start" 
+                           FontFamily="Delfino"
+                           TextColor="#9462fc"/>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
+                        <Switch x:Name="SoundEffectsSwitch" />
+                        <Label Text="Ativar" FontFamily="Delfino" VerticalOptions="Center" FontSize="20"/>
+                    </StackLayout>
+
+                    <!-- Configuração de Som de Música -->
+                    <Label Text="Música:"
+                           FontSize="25" 
+                           HorizontalOptions="Start" 
+                           FontFamily="Delfino"
+                           TextColor="#9462fc"/>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
+                        <Switch x:Name="MusicSwitch" />
+                        <Label Text="Ativar" FontFamily="Delfino" VerticalOptions="Center" FontSize="20"/>
+                    </StackLayout>
+
+                </StackLayout>
+            </ScrollView>
+        </Frame>
+
+        <!-- Botão Sair fora do Frame, alinhado no canto inferior -->
+        <Button Text="Sair" Grid.Row="1" 
+                HorizontalOptions="Start"
+                VerticalOptions="Start" 
+                BackgroundColor="#4245aa" 
+                TextColor="White" 
+                Margin="20,0,0,10" 
+                FontSize="30"  
+                FontFamily="Delfino" 
+                WidthRequest="120" 
+                Clicked="OnMenuClicked" />
+    </Grid>
 </ContentPage>
+
+
+

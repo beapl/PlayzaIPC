@@ -24,27 +24,31 @@
             <StackLayout Spacing="15">
                 <Label Text="Como te chamas?"
                        FontSize="30"
+                       FontFamily="Delfino"
                        HorizontalOptions="Start"
                        TextColor="#9462fc" />
-                <Entry Placeholder="Nome" />
+                <Entry Placeholder="Nome" FontFamily="Delfino" />
 
                 <Label Text="Qual é a tua idade?"
                        FontSize="30"
+                       FontFamily="Delfino"
                        HorizontalOptions="Start"
                        TextColor="#9462fc" />
-                <Entry Placeholder="Idade" Keyboard="Numeric" />
+                <Entry Placeholder="Idade" Keyboard="Numeric" FontFamily="Delfino" />
 
                 <Label Text="Cria uma alcunha:"
                        FontSize="30"
+                       FontFamily="Delfino"
                        HorizontalOptions="Start"
                        TextColor="#9462fc" />
-                <Entry Placeholder="Alcunha" />
+                <Entry Placeholder="Alcunha" FontFamily="Delfino" />
 
                 <Label Text="Cria uma palavra-passe:"
                        FontSize="30"
+                       FontFamily="Delfino"
                        HorizontalOptions="Start"
                        TextColor="#9462fc" />
-                <Entry Placeholder="Palavra-passe" IsPassword="True" />
+                <Entry Placeholder="Palavra-passe" FontFamily="Delfino" IsPassword="True" />
             </StackLayout>
         </Frame>
 
@@ -53,9 +57,12 @@
                 Grid.Row="2" Grid.Column="0"
                 HorizontalOptions="Start"
                 Clicked="OnLogoutClicked"
+                FontFamily="Delfino"
+                    FontSize="30"
+                    WidthRequest="130"
                 BackgroundColor="#4245aa"
                 TextColor="White"
-                WidthRequest="120"/>
+                />
 
         <!-- Botão Seguinte -->
         <Button Text="Seguinte"
@@ -63,7 +70,10 @@
                 HorizontalOptions="End"
                 Clicked="OnRegisterClicked"
                 BackgroundColor="#4245aa"
+                FontFamily="Delfino"
+                    FontSize="30"
+                    WidthRequest="160"
                 TextColor="White"
-                WidthRequest="120"/>
+                />
     </Grid>
 </ContentPage>
