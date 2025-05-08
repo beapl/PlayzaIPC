@@ -7,56 +7,79 @@
     Title="Qual é a disciplina que achas mais difícil?">
 
     <Grid RowDefinitions="Auto,*,Auto"
-          ColumnDefinitions="*,*"
-          Padding="20">
+          ColumnDefinitions="*"
+          Padding="50">
 
         <!-- Pergunta -->
         <Label Text="Qual é a disciplina que achas mais difícil?"
-               FontSize="24"
-               Grid.ColumnSpan="2"
+               FontSize="50"
+               Grid.Row="0"
                HorizontalOptions="Center"
-               Margin="0,0,0,20" />
+               Margin="0,0,0,60" />
 
-        <!-- Checkboxes lado esquerdo -->
-        <StackLayout Grid.Row="1" Grid.Column="0" Spacing="20">
-            <CheckBox x:Name="PortuguesCheck" />
-            <Label Text="Português" />
+        <!-- Frame com todas as checkboxes -->
+        <Frame Grid.Row="1"
+               BackgroundColor="#80FFFFFF"
+               Padding="10"
+               Margin="0"
+               WidthRequest="900"
+               CornerRadius="10"
+               HorizontalOptions="Center">
+            <Grid ColumnDefinitions="*,*" RowDefinitions="Auto" ColumnSpacing="60">
+                <!-- Coluna da esquerda -->
+                <StackLayout Grid.Column="0" Spacing="80">
+                    <StackLayout Orientation="Horizontal" Spacing="70">
+                        <CheckBox x:Name="PortuguesCheck" />
+                        <Label Text="Português" FontSize="30" VerticalOptions="Center" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Spacing="70">
+                        <CheckBox x:Name="MatematicaCheck" />
+                        <Label Text="Matemática" FontSize="30" VerticalOptions="Center" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Spacing="70">
+                        <CheckBox x:Name="EstudoCheck" />
+                        <Label Text="Estudo do Meio" FontSize="30" VerticalOptions="Center" />
+                    </StackLayout>
+                </StackLayout>
 
-            <CheckBox x:Name="MatematicaCheck" />
-            <Label Text="Matemática" />
+                <!-- Coluna da direita -->
+                <StackLayout Grid.Column="1" Spacing="80">
+                    <StackLayout Orientation="Horizontal" Spacing="70">
+                        <CheckBox x:Name="ArtisticaCheck" />
+                        <Label Text="Educação Artística" FontSize="30" VerticalOptions="Center" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Spacing="70">
+                        <CheckBox x:Name="InglesCheck" />
+                        <Label Text="Inglês" FontSize="30" VerticalOptions="Center" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Spacing="70">
+                        <CheckBox x:Name="NenhumaCheck" />
+                        <Label Text="Nenhuma!" FontSize="30" VerticalOptions="Center" />
+                    </StackLayout>
+                </StackLayout>
+            </Grid>
+        </Frame>
 
-            <CheckBox x:Name="EstudoCheck" />
-            <Label Text="Estudo do Meio" />
-        </StackLayout>
+        <!-- Botões -->
+        <Grid Grid.Row="2" ColumnDefinitions="*,*" Margin="0,20,0,0">
+            <Button Text="Voltar"
+                    Grid.Column="0"
+                    HorizontalOptions="Start"
+                    Clicked="OnLogoutClicked"
+                    BackgroundColor="#4245aa"
+                    TextColor="White"
+                    FontSize="30"
+                    WidthRequest="120" />
 
-        <!-- Checkboxes lado direito -->
-        <StackLayout Grid.Row="1" Grid.Column="1" Spacing="20">
-            <CheckBox x:Name="ArtisticaCheck" />
-            <Label Text="Educação Artística" />
+            <Button Text="Seguinte"
+                    Grid.Column="1"
+                    HorizontalOptions="End"
+                    Clicked="OnRegisterClicked"
+                    BackgroundColor="#4245aa"
+                    TextColor="White"
+                    FontSize="30"
+                    WidthRequest="160" />
+        </Grid>
 
-            <CheckBox x:Name="InglesCheck" />
-            <Label Text="Inglês" />
-
-            <CheckBox x:Name="NenhumaCheck" />
-            <Label Text="Nenhuma!" />
-        </StackLayout>
-
-        <!-- Botão Voltar -->
-        <Button Text="Voltar"
-                Grid.Row="2" Grid.Column="0"
-                HorizontalOptions="Start"
-                Clicked="OnLogoutClicked"
-                BackgroundColor="#4245aa"
-                TextColor="White"
-                WidthRequest="120" />
-
-        <!-- Botão Seguinte -->
-        <Button Text="Seguinte"
-                Grid.Row="2" Grid.Column="1"
-                HorizontalOptions="End"
-                Clicked="OnRegisterClicked"
-                BackgroundColor="#4245aa"
-                TextColor="White"
-                WidthRequest="120" />
     </Grid>
 </ContentPage>
