@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\fabio\\source\\repos\\playzaipc\\testeplayza\\views\\minijogo2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:views\\minijogo2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\fabio\\source\\repos\\playzaipc\\testeplayza\\views\\minijogo4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:views\\minijogo4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\fabio\\source\\repos\\playzaipc\\testeplayza\\views\\minijogo4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:views\\minijogo4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\fabio\\source\\repos\\playzaipc\\testeplayza\\views\\minijogo2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:views\\minijogo2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\fabio\\source\\repos\\playzaipc\\testeplayza\\views\\minigamespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:views\\minigamespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\fabio\\source\\repos\\playzaipc\\testeplayza\\testeplayza.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:testeplayza.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,52 +42,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TestePlayza.csproj",
-              "DocumentMoniker": "C:\\Users\\fabio\\Source\\Repos\\PlayzaIPC\\TestePlayza\\TestePlayza.csproj",
-              "RelativeDocumentMoniker": "TestePlayza.csproj",
-              "ToolTip": "C:\\Users\\fabio\\Source\\Repos\\PlayzaIPC\\TestePlayza\\TestePlayza.csproj",
-              "RelativeToolTip": "TestePlayza.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-07T19:09:40.917Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MiniGamesPage.xaml",
-              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Views\\MiniGamesPage.xaml",
-              "RelativeDocumentMoniker": "Views\\MiniGamesPage.xaml",
-              "ToolTip": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Views\\MiniGamesPage.xaml",
-              "RelativeToolTip": "Views\\MiniGamesPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-07T18:58:47.321Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MiniJogo2.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Views\\MiniJogo2.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\MiniJogo2.xaml.cs",
-              "ToolTip": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Views\\MiniJogo2.xaml.cs",
-              "RelativeToolTip": "Views\\MiniJogo2.xaml.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAwwFAAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T18:54:44.163Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "MiniJogo2.xaml",
               "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Views\\MiniJogo2.xaml",
               "RelativeDocumentMoniker": "Views\\MiniJogo2.xaml",
               "ToolTip": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Views\\MiniJogo2.xaml",
               "RelativeToolTip": "Views\\MiniJogo2.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-07T17:32:37.826Z"
+              "WhenOpened": "2025-05-08T19:14:18.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MiniJogo4.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Views\\MiniJogo4.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\MiniJogo4.xaml.cs",
+              "ToolTip": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Views\\MiniJogo4.xaml.cs",
+              "RelativeToolTip": "Views\\MiniJogo4.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T16:06:44.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MiniJogo4.xaml",
+              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Views\\MiniJogo4.xaml",
+              "RelativeDocumentMoniker": "Views\\MiniJogo4.xaml",
+              "ToolTip": "C:\\Users\\fabio\\source\\repos\\PlayzaIPC\\TestePlayza\\Views\\MiniJogo4.xaml",
+              "RelativeToolTip": "Views\\MiniJogo4.xaml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-08T15:46:19.075Z",
+              "EditorCaption": ""
             }
           ]
         }

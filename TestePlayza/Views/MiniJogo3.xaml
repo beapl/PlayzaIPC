@@ -1,0 +1,35 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Playza.Views.MiniJogo3"
+             BackgroundImageSource="wallpaper.jpg"
+             Title="Jogo de Inicial">
+
+    <Grid Padding="20">
+        <!-- Coluna do topo: Pergunta e Imagem -->
+        <VerticalStackLayout Grid.Row="0" Spacing="20" VerticalOptions="Start" HorizontalOptions="Center">
+            <Label x:Name="QuestionLabel" Text="Qual é a inicial deste animal?" FontSize="40" HorizontalOptions="Center" FontFamily="Delfino"/>
+            <Image x:Name="AnimalImage" WidthRequest="250" HeightRequest="250" HorizontalOptions="Center"/>
+        </VerticalStackLayout>
+
+        <!-- Coluna inferior: Letras para escolher e Feedback -->
+        <VerticalStackLayout Grid.Row="1" Spacing="20" HorizontalOptions="Center" VerticalOptions="EndAndExpand" >
+            <Label Text="Escolha a inicial" FontSize="40" HorizontalOptions="Center" FontFamily="Delfino"/>
+
+            <HorizontalStackLayout x:Name="LettersLayout" Spacing="10" HorizontalOptions="Center" >
+                <Button x:Name="LetterA" Text="F" Clicked="OnLetterClicked" FontFamily="Delfino" FontSize="40"/>
+                <Button x:Name="LetterB" Text="U" Clicked="OnLetterClicked" FontFamily="Delfino" FontSize="40"/>
+                <Button x:Name="LetterC" Text="G" Clicked="OnLetterClicked" FontFamily="Delfino" FontSize="40"/>
+                <Button x:Name="LetterD" Text="D" Clicked="OnLetterClicked" FontFamily="Delfino" FontSize="40"/>
+                <Button x:Name="LetterE" Text="B" Clicked="OnLetterClicked" FontFamily="Delfino" FontSize="40"/>
+                <Button x:Name="LetterF" Text="P" Clicked="OnLetterClicked" FontFamily="Delfino" FontSize="40"/>
+            </HorizontalStackLayout>
+            
+            <!--Pontuação--> 
+            <Label x:Name="ScoreLabel" Text="Pontuação: 0" HorizontalOptions="Center" FontFamily="Delfino" FontSize="40"/>
+            
+            <!-- Feedback -->
+            <Label x:Name="FeedbackLabel" Text="" FontSize="40" HorizontalOptions="Center" FontFamily="Delfino"/>
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>
+

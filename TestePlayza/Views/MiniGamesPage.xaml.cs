@@ -2,10 +2,10 @@ namespace Playza.Views;
 
 public partial class MiniGamesPage : ContentPage
 {
-	public MiniGamesPage()
-	{
-		InitializeComponent();
-	}
+    public MiniGamesPage()
+    {
+        InitializeComponent();
+    }
 
     private async void OnMiniGame1Clicked(object sender, EventArgs e)
     {
@@ -16,4 +16,15 @@ public partial class MiniGamesPage : ContentPage
     {
         await Shell.Current.GoToAsync("MiniJogo2");
     }
+
+    private async void OnMiniGame3Clicked(object sender, EventArgs e)
+    {
+        await Shell.Current.GoToAsync("MiniJogo3");
+    }
+
+    private async void OnMiniGame4Clicked(object sender, EventArgs e)
+    {
+        await Shell.Current.GoToAsync("MiniJogo4");
+    }
+
 }
