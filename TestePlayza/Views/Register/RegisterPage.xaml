@@ -11,44 +11,51 @@
           Padding="30"
           RowSpacing="20">
 
+        <Image Source="ola.png"
+           Grid.Row="0"
+           Grid.ColumnSpan="3"
+           HorizontalOptions="Start"
+           HeightRequest="100" />
+        
         <!-- Frame com campos -->
         <Frame Grid.Row="1" Grid.ColumnSpan="2"
-               BackgroundColor="#B3FFFFFF"
+               BackgroundColor="#80FFFFFF"
                Padding="30"
                CornerRadius="15"
                HasShadow="True"
-               HorizontalOptions="Center"
+               HorizontalOptions="Start"
                VerticalOptions="Center"
-               WidthRequest="800">
+               WidthRequest="1200"
+               HeightRequest="440">
 
-            <StackLayout Spacing="15">
+            <StackLayout Spacing="30">
                 <Label Text="Como te chamas?"
-                       FontSize="30"
+                       FontSize="28"
                        FontFamily="Delfino"
                        HorizontalOptions="Start"
-                       TextColor="#9462fc" />
-                <Entry Placeholder="Nome" FontFamily="Delfino" />
+                       TextColor="#4043a5" />
+                <Entry Placeholder="Nome" BackgroundColor="White" FontFamily="Delfino" />
 
-                <Label Text="Qual é a tua idade?"
+                <!-- <Label Text="Qual é a tua idade?"
                        FontSize="30"
                        FontFamily="Delfino"
                        HorizontalOptions="Start"
                        TextColor="#9462fc" />
-                <Entry Placeholder="Idade" Keyboard="Numeric" FontFamily="Delfino" />
+                <Entry Placeholder="Idade" Keyboard="Numeric" FontFamily="Delfino" /> -->
 
                 <Label Text="Cria uma alcunha:"
-                       FontSize="30"
+                       FontSize="28"
                        FontFamily="Delfino"
                        HorizontalOptions="Start"
-                       TextColor="#9462fc" />
-                <Entry Placeholder="Alcunha" FontFamily="Delfino" />
+                       TextColor="#4043a5"/>
+                <Entry Placeholder="Alcunha" BackgroundColor="White" FontFamily="Delfino" />
 
                 <Label Text="Cria uma palavra-passe:"
-                       FontSize="30"
+                       FontSize="28"
                        FontFamily="Delfino"
                        HorizontalOptions="Start"
-                       TextColor="#9462fc" />
-                <Entry Placeholder="Palavra-passe" FontFamily="Delfino" IsPassword="True" />
+                       TextColor="#4043a5" />
+                <Entry Placeholder="Palavra-passe" BackgroundColor="White" FontFamily="Delfino" IsPassword="True" />
             </StackLayout>
         </Frame>
 

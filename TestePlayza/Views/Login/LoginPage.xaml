@@ -4,13 +4,13 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="Playza.Views.LoginPage"
     BackgroundImageSource="wallpaper.jpg"
-    Title="Login">
+    >
 
     <Grid Padding="50"
           RowDefinitions="Auto,Auto,*,Auto"
           ColumnDefinitions="*">
 
-    <!-- Título -->
+    <!-- Título
     <Label Text="Olá de novo!"
                FontSize="60"
                FontFamily="Delfino"
@@ -18,23 +18,31 @@
                TextColor="#9462fc"
                Grid.Row="0"
                Grid.Column="0"
-               Margin="0,0,0,30"/>
+               Margin="0,0,0,30"/> -->
 
-    <!-- Retângulo com campos e checkbox -->
+        <Image Source="oladenovo.png"
+             Grid.Row="0"
+             Grid.Column="0"
+             HorizontalOptions="Start"
+             HeightRequest="120"
+        />
+
+        <!-- Retângulo com campos e checkbox -->
     <Frame BackgroundColor="#80FFFFFF"
                Padding="30"
-               Margin="0"
-               WidthRequest="900"
+               Margin="0,20,0,0"
+               WidthRequest="1170"
+           HeightRequest="350"
                CornerRadius="10"
                Grid.Row="1"
-               HorizontalOptions="Center">
+               HorizontalOptions="Start">
 
         <StackLayout Spacing="25">
 
             <Label Text="Digite a tua alcunha:"
                        FontSize="25"
                        FontFamily="Delfino"
-                       TextColor="Black" />
+                       TextColor="#4043a5" />
             <Entry Placeholder="Alcunha"
                        FontSize="20"
                        FontFamily="Delfino"
@@ -43,8 +51,9 @@
 
             <Label Text="Digite a sua palavra-passe:"
                        FontSize="25"
+                       TextColor="#4043a5"
                        FontFamily="Delfino"
-                       TextColor="Black" />
+                    />
             <Entry Placeholder="Palavra-passe"
                        FontSize="20"
                        FontFamily="Delfino"
@@ -57,6 +66,7 @@
                     <Label Text="Manter sessão iniciada"
                         VerticalOptions="Center"
                         FontSize="20"
+                        TextColor="#4043a5"
                         FontFamily="Delfino"
                         HorizontalOptions="Start"
                         LineBreakMode="NoWrap" />

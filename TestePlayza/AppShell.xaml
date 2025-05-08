@@ -5,10 +5,11 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:views="clr-namespace:Playza.Views">
 
-    <!--Só para poder programar as outras views-->
+    <!--
     <TabBar>
-        <!-- <ShellContent Title="Início" ContentTemplate="{DataTemplate views:MainPage}" Route="MainPage" /> -->
-        <ShellContent Title="Login" ContentTemplate="{DataTemplate views:LoginPage}" Route="LoginPage" />
+
+        <ShellContent Title="Início" Shell.NavBarIsVisible="False" ContentTemplate="{DataTemplate views:MainPage}" Route="MainPage" />
+        <ShellContent Title="Login" Shell.NavBarIsVisible="False" ContentTemplate="{DataTemplate views:LoginPage}" Route="LoginPage" />
         <ShellContent Title="Criar Conta" ContentTemplate="{DataTemplate views:RegisterPage}" Route="RegisterPage" />
         <ShellContent Title="Criar Conta 1" ContentTemplate="{DataTemplate views:Register1Page}" Route="Register1Page" />
         <ShellContent Title="Criar Conta 2" ContentTemplate="{DataTemplate views:Register2Page}" Route="Register2Page" />
@@ -18,7 +19,8 @@
         <ShellContent Title="Definições" ContentTemplate="{DataTemplate views:SettingsPage}" Route="SettingsPage" />
         <ShellContent Title="Jogo" ContentTemplate="{DataTemplate views:GamePage}" Route="GamePage" />
 
-    </TabBar>
-    <ShellContent Route="MainPage" ContentTemplate="{DataTemplate views:MainPage}" />
+    </TabBar> -->
+    <ShellContent Route="MainPage" Shell.NavBarIsVisible="False" ContentTemplate="{DataTemplate views:MainPage}" />
+    <ShellContent Title="Login" Shell.NavBarIsVisible="False" ContentTemplate="{DataTemplate views:LoginPage}" Route="LoginPage" />
 </Shell>
 

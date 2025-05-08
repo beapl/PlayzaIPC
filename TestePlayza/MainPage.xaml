@@ -5,23 +5,32 @@
     BackgroundImageSource="wallpaper.jpg"
     Title="Bem-vindo!">
 
-    <Grid Padding="50" RowDefinitions="Auto,Auto,Auto,Auto,Auto" ColumnDefinitions="*">
-        <!-- Texto de boas-vindas -->
+    <Grid Padding="10" RowSpacing="0" RowDefinitions="Auto,Auto,Auto,Auto,Auto" ColumnDefinitions="*,*,*">
+        
+        <!--
         <Label Text="Bem-vindo ao Playza!!!"
                FontSize="80"
                FontFamily="Delfino"
                HorizontalOptions="Center"
                TextColor="#9462fc"
                Grid.Row="0"
-               Grid.ColumnSpan="2" />
+               Grid.ColumnSpan="2" /> -->
+
+        <Image Source="bemvindo.png"
+           Grid.Row="0"
+           Grid.ColumnSpan="3"
+           HorizontalOptions="Center"
+           HeightRequest="240" />
+
 
         <!-- Retângulo branco para os botões sobre a conta -->
-        <Frame BackgroundColor="#B3FFFFFF" Padding="10" Margin="0,30,0,10" WidthRequest="900" HeightRequest="400" CornerRadius="10" Grid.Row="1" Grid.ColumnSpan="2">
+        <Frame BackgroundColor="#80FFFFFF" Padding="10" Margin="0,0,0,10" WidthRequest="850" HeightRequest="380" VerticalOptions="Start" CornerRadius="10" Grid.Row="1" Grid.ColumnSpan="3">
             <StackLayout Spacing="15" VerticalOptions="Center" HorizontalOptions="Center">
                 <!-- Texto acima do botão "Iniciar Sessão" -->
                 <Label Text="Já tem conta? Inicie a sessão aqui:"
                        FontSize="25"
                        FontFamily="Delfino"
+                       TextColor="#4043a5"
                        HorizontalOptions="Center" 
                        Padding="20"/>
                 <Button Text="Iniciar Sessão" 
@@ -36,6 +45,7 @@
                 <!-- Texto acima do botão "Criar Conta" -->
                 <Label Text="Primeira vez na aplicação? Clique aqui para registar a sua criança:"
                        FontSize="25"
+                       TextColor="#4043a5"
                        FontFamily="Delfino"
                        HorizontalOptions="Center"
                        Padding="20" />
@@ -55,9 +65,11 @@
                 BackgroundColor="#4245aa"
                 TextColor="White"
                 FontFamily="Delfino"
-                FontSize="30"
-                Grid.Row="4"
-                HorizontalOptions="End" />
+                 FontSize="30"
+                WidthRequest="120"
+                Grid.Row="3"
+                Grid.ColumnSpan="1"
+                HorizontalOptions="Start" />
     </Grid>
 </ContentPage>
     

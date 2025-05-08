@@ -29,7 +29,7 @@ namespace Playza.Views
         private void OnFontSizeChanged(object sender, ValueChangedEventArgs e)
         {
             var newSize = e.NewValue;
-            FontSizeLabel.Text = $"Tamanho da Fonte: {newSize}";
+            //FontSizeLabel.Text = $"Tamanho da Fonte: {newSize}";
             // Aqui você pode ajustar o tamanho das fontes conforme necessário
         }
 

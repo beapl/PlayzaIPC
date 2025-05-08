@@ -10,36 +10,44 @@
           ColumnDefinitions="*"
           Padding="50">
 
-        <!-- Pergunta -->
+        <!-- Pergunta 
         <Label Text="Qual é a disciplina que achas mais difícil?"
                FontSize="50"
                Grid.Row="0"
+               TextColor="#2F3179"
                FontFamily="Delfino" 
-               HorizontalOptions="Center"
-               Margin="0,0,0,60" />
+               HorizontalOptions="Start"
+               Margin="0,0,0,60" /> -->
+
+        <Image Source="disciplina.png"
+           Grid.Row="0"
+           HorizontalOptions="Start"
+           HeightRequest="180"
+         />
 
         <!-- Frame com todas as checkboxes -->
         <Frame Grid.Row="1"
-               BackgroundColor="#B3FFFFFF"
-               Padding="10"
-               Margin="0"
-               WidthRequest="900"
+               BackgroundColor="#80FFFFFF"
+               Padding="20"
+               Margin="0,0,0,50"
+               WidthRequest="1180"
+               HeightRequest="350"
                CornerRadius="10"
-               HorizontalOptions="Center">
+               HorizontalOptions="Start">
             <Grid ColumnDefinitions="*,*" RowDefinitions="Auto" ColumnSpacing="60">
                 <!-- Coluna da esquerda -->
                 <StackLayout Grid.Column="0" Spacing="80">
                     <StackLayout Orientation="Horizontal" Spacing="70">
                         <CheckBox x:Name="PortuguesCheck" />
-                        <Label Text="Português" FontFamily="Delfino" FontSize="30" VerticalOptions="Center" />
+                        <Label Text="Português" TextColor="#4043a5" FontFamily="Delfino" FontSize="30" VerticalOptions="Center" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal" Spacing="70">
                         <CheckBox x:Name="MatematicaCheck" />
-                        <Label Text="Matemática" FontSize="30" FontFamily="Delfino" VerticalOptions="Center" />
+                        <Label Text="Matemática" TextColor="#4043a5" FontSize="30" FontFamily="Delfino" VerticalOptions="Center" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal" Spacing="70">
                         <CheckBox x:Name="EstudoCheck" />
-                        <Label Text="Estudo do Meio" FontSize="30" FontFamily="Delfino" VerticalOptions="Center" />
+                        <Label Text="Estudo do Meio" TextColor="#4043a5" FontSize="30" FontFamily="Delfino" VerticalOptions="Center" />
                     </StackLayout>
                 </StackLayout>
 
@@ -47,15 +55,15 @@
                 <StackLayout Grid.Column="1" Spacing="80">
                     <StackLayout Orientation="Horizontal" Spacing="70">
                         <CheckBox x:Name="ArtisticaCheck" />
-                        <Label Text="Educação Artística" FontSize="30" FontFamily="Delfino" VerticalOptions="Center" />
+                        <Label Text="Educação Artística" TextColor="#4043a5" FontSize="30" FontFamily="Delfino" VerticalOptions="Center" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal" Spacing="70">
                         <CheckBox x:Name="InglesCheck" />
-                        <Label Text="Inglês" FontSize="30" FontFamily="Delfino" VerticalOptions="Center" />
+                        <Label Text="Inglês" FontSize="30" TextColor="#4043a5" FontFamily="Delfino" VerticalOptions="Center" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal" Spacing="70">
                         <CheckBox x:Name="NenhumaCheck" />
-                        <Label Text="Nenhuma!" FontSize="30" FontFamily="Delfino"  VerticalOptions="Center" />
+                        <Label Text="Nenhuma!" FontSize="30" TextColor="#4043a5" FontFamily="Delfino"  VerticalOptions="Center" />
                     </StackLayout>
                 </StackLayout>
             </Grid>
