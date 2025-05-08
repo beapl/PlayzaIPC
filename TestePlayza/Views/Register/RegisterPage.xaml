@@ -11,32 +11,42 @@
           Padding="30"
           RowSpacing="20">
 
-        <!-- Stack com os campos -->
-        <StackLayout Grid.Row="1" Grid.ColumnSpan="2" Spacing="20" VerticalOptions="Center">
-            <Label Text="Como te chamas?"
-                   FontSize="20"
-                   HorizontalOptions="Center"
-                   TextColor="#9462fc" />
-            <Entry Placeholder="Nome"/>
+        <!-- Frame com campos -->
+        <Frame Grid.Row="1" Grid.ColumnSpan="2"
+               BackgroundColor="#B3FFFFFF"
+               Padding="30"
+               CornerRadius="15"
+               HasShadow="True"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               WidthRequest="800">
 
-            <Label Text="Qual é a tua idade?"
-                   FontSize="20"
-                   HorizontalOptions="Center"
-                   TextColor="#9462fc" />
-            <Entry Placeholder="Idade"/>
+            <StackLayout Spacing="15">
+                <Label Text="Como te chamas?"
+                       FontSize="30"
+                       HorizontalOptions="Start"
+                       TextColor="#9462fc" />
+                <Entry Placeholder="Nome" />
 
-            <Label Text="Cria uma alcunha:"
-                   FontSize="20"
-                   HorizontalOptions="Center"
-                   TextColor="#9462fc" />
-            <Entry Placeholder="Alcunha"/>
+                <Label Text="Qual é a tua idade?"
+                       FontSize="30"
+                       HorizontalOptions="Start"
+                       TextColor="#9462fc" />
+                <Entry Placeholder="Idade" Keyboard="Numeric" />
 
-            <Label Text="Cria uma palavra-passe:"
-                   FontSize="20"
-                   HorizontalOptions="Center"
-                   TextColor="#9462fc" />
-            <Entry Placeholder="Palavra-passe" IsPassword="True"/>
-        </StackLayout>
+                <Label Text="Cria uma alcunha:"
+                       FontSize="30"
+                       HorizontalOptions="Start"
+                       TextColor="#9462fc" />
+                <Entry Placeholder="Alcunha" />
+
+                <Label Text="Cria uma palavra-passe:"
+                       FontSize="30"
+                       HorizontalOptions="Start"
+                       TextColor="#9462fc" />
+                <Entry Placeholder="Palavra-passe" IsPassword="True" />
+            </StackLayout>
+        </Frame>
 
         <!-- Botão Voltar -->
         <Button Text="Voltar"

@@ -6,29 +6,41 @@
     BackgroundImageSource="wallpaper.jpg"
     Title="Final">
 
-    <Grid Padding="30" RowDefinitions="*,Auto,Auto,Auto" RowSpacing="20">
+    <Grid Padding="30">
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Center" Spacing="40">
 
-        <Label Text="Perfeito!!"
-               Grid.Row="0"
-               HorizontalOptions="Center"
-               VerticalOptions="Center"
-               FontSize="40"
-               FontAttributes="Bold"
-               TextColor="#9462fc"/>
+            <Label Text="Perfeito!!"
+                   FontSize="80"
+                   FontAttributes="Bold"
+                   TextColor="#9462fc"
+                   HorizontalOptions="Center"/>
 
-        <Label Text="Agora já podes jogar à vontade! Bons estudos!"
-               Grid.Row="1"
-               HorizontalOptions="Center"
-               FontSize="20"
-               TextColor="#9462fc"/>
+            <!-- Frame central com a mensagem e o botão -->
+            <Frame BackgroundColor="#B3FFFFFF"
+                Padding="90"
+                   CornerRadius="15"
+                   HasShadow="True"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   WidthRequest="700">
+                
+                <StackLayout Spacing="50" HorizontalOptions="Center">
+                    <Label Text="Agora já podes jogar à vontade!
+                           Bons estudos!"
+                           FontSize="30"
+                           TextColor="#9462fc"
+                           HorizontalOptions="Center"/>
 
-        <Button Text="Vamos a isto!"
-                Grid.Row="3"
-                HorizontalOptions="Center"
-                Clicked="OnRegisterClicked"
-                BackgroundColor="#4245aa"
-                TextColor="White"
-                FontSize="25"
-                Padding="10,5"/>
+                    <Button Text="Vamos a isto!"
+                            Clicked="OnRegisterClicked"
+                            BackgroundColor="#4245aa"
+                            TextColor="White"
+                            FontSize="20"
+                            Padding="10"
+                            HorizontalOptions="Center"/>
+                </StackLayout>
+            </Frame>
+
+        </StackLayout>
     </Grid>
 </ContentPage>

@@ -19,7 +19,7 @@
 
         <!-- Frame com todas as checkboxes -->
         <Frame Grid.Row="1"
-               BackgroundColor="#80FFFFFF"
+               BackgroundColor="#B3FFFFFF"
                Padding="10"
                Margin="0"
                WidthRequest="900"

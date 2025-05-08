@@ -15,7 +15,7 @@
                Grid.ColumnSpan="2" />
 
         <!-- Retângulo branco para os botões sobre a conta -->
-        <Frame BackgroundColor="#80FFFFFF" Padding="10" Margin="0,30,0,10" WidthRequest="900" HeightRequest="400" CornerRadius="10" Grid.Row="1" Grid.ColumnSpan="2">
+        <Frame BackgroundColor="#B3FFFFFF" Padding="10" Margin="0,30,0,10" WidthRequest="900" HeightRequest="400" CornerRadius="10" Grid.Row="1" Grid.ColumnSpan="2">
             <StackLayout Spacing="15" VerticalOptions="Center" HorizontalOptions="Center">
                 <!-- Texto acima do botão "Iniciar Sessão" -->
                 <Label Text="Já tem conta? Inicie a sessão aqui:"
