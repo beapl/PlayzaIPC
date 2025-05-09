@@ -6,10 +6,9 @@
              Title="Jogo Da Diferença">
 
     <Grid ColumnDefinitions="*, Auto, *" Padding="20">
-        <!-- Coluna esquerda: objetos -->
+
         <VerticalStackLayout x:Name="LeftStack" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center" />
 
-        <!-- Coluna do meio: interações -->
         <VerticalStackLayout Grid.Column="1" Spacing="20" VerticalOptions="Center">
             <Label Text="vs" FontSize="32" HorizontalOptions="Center" FontFamily="Delfino" />
 
@@ -37,7 +36,6 @@
                    />
         </VerticalStackLayout>
 
-        <!-- Coluna direita: objetos -->
         <VerticalStackLayout x:Name="RightStack" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="Center" />
     </Grid>
 </ContentPage>

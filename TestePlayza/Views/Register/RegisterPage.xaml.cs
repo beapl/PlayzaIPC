@@ -19,7 +19,6 @@ namespace Playza.Views
             var username = UsernameEntry.Text;
             var password = PasswordEntry.Text;
 
-            // Validação simples
             if (string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
             {
                 await DisplayAlert("Erro", "Preenche todos os campos.", "OK");
@@ -28,7 +27,6 @@ namespace Playza.Views
 
             var nextPage = new Register1Page(name, username, password);
 
-            // Mostrar a nova página
             await Navigation.PushAsync(nextPage);
         }
     }

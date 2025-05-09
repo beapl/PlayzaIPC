@@ -23,7 +23,7 @@
            HorizontalOptions="Center"
            HeightRequest="160" />
 
-            <!-- Frame central com a mensagem e o botão -->
+
             <Frame BackgroundColor="#80FFFFFF"
                 Padding="90"
                    CornerRadius="15"

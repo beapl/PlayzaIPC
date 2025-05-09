@@ -27,7 +27,7 @@
              HeightRequest="120"
         />
 
-        <!-- Retângulo com campos e checkbox -->
+        
     <Frame BackgroundColor="#80FFFFFF"
                Padding="30"
                Margin="0,20,0,0"
@@ -76,7 +76,7 @@
             </StackLayout>
     </Frame>
 
-    <!-- Botões -->
+
     <Grid Grid.Row="3"
               ColumnDefinitions="Auto,*,Auto"
               Margin="0,30,0,0">

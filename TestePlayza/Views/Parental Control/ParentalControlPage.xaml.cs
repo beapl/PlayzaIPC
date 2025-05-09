@@ -16,27 +16,7 @@ public partial class ParentalControlPage : ContentPage
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-
-            // Obtém os dados de tempo de uso da classe UsageTracker
-            var usageData = await _usageTracker.GetUsageData();
-
-            // Converte os dados de uso para o formato de gráfico
-            var entries = usageData.Select(data => new ChartEntry((float)data.Value)
-            {
-                Label = data.Key,
-                ValueLabel = $"{data.Value} min",
-                Color = SKColor.Parse("#ff0000")
-            }).ToList();
-
-            // Cria o gráfico de barras
-            var chart = new BarChart() // Ou outro tipo de gráfico, como LineChart
-            {
-                Entries = entries, // Adiciona as entradas ao gráfico
-                LabelTextSize = 30  // Ajuste do tamanho da legenda
-            };
-
-            // Exibe o gráfico na página
-            //chartView.Chart = chart;
+            //Aqui era suposto colocar o gráfico de atividade but it's not working
         }
     
     private async void OnDefParClicked(object sender, EventArgs e)

@@ -38,7 +38,6 @@ namespace Playza.Services
         {
             var usage = new Dictionary<string, double>();
 
-            // Usando Task.Run para fazer isso de forma assíncrona
             await Task.Run(() =>
             {
                 for (int i = 0; i < 7; i++)

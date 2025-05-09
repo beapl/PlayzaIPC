@@ -9,7 +9,7 @@
 
     <Grid RowDefinitions="*,*,*,*, Auto" Padding="30">
 
-        <!-- Título com imagem -->
+
         <Image Source="controloparental.png"
                HeightRequest="190"
                Grid.Row="0"
@@ -17,7 +17,7 @@
                VerticalOptions="Start" 
                Margin="0,0,0,0"/>
 
-        <!-- Frame branco com os botões e textos -->
+
         <Frame BackgroundColor="#B3FFFFFF"
                Padding="20"
                CornerRadius="15"
@@ -32,7 +32,7 @@
                   ColumnSpacing="20"
                   RowSpacing="25">
 
-                <!-- Botão 1 -->
+             
                 <Button Grid.Row="0" Grid.Column="0" 
                         Text="Definições Parentais" 
                         Clicked="OnDefParClicked" 
@@ -48,7 +48,7 @@
                        FontSize="30"
                        TextColor="#4043a5"/>
 
-                <!-- Botão 2 -->
+               
                 <Button Grid.Row="1" Grid.Column="0" 
                         Text="Relatório de atividade" 
                         FontFamily="Delfino"
@@ -63,7 +63,7 @@
                        FontSize="30"
                        TextColor="#4043a5"/>
 
-                <!-- Botão 3 -->
+              
                 <Button Grid.Row="2" Grid.Column="0" 
                         Text="Suporte e Ajuda" 
                         FontFamily="Delfino"
@@ -80,7 +80,6 @@
             </Grid>
         </Frame>
 
-        <!-- Botão de sair na parte inferior, fora do frame -->
         <Button Text="Sair" 
                     Grid.Row="3"
                     Clicked="OnLogoutClicked"

@@ -11,7 +11,6 @@
       Padding="50"
       RowSpacing="20">
 
-        <!-- Imagem do título -->
         <Image Source="menu.png"
            Grid.Row="0" Grid.ColumnSpan="3"
            HorizontalOptions="Start"
@@ -20,8 +19,6 @@
            Margin="0,0,0,0" 
            />
 
-
-            <!-- Frame que engloba os ImageButtons principais -->
         <Frame Grid.Row="2" Grid.ColumnSpan="3"
                BackgroundColor="#B3FFFFFF"
                CornerRadius="20"
@@ -35,7 +32,7 @@
                   RowSpacing="0" ColumnSpacing="10"
                   HorizontalOptions="Center">
 
-                <!-- Canto superior esquerdo -->
+
                 <ImageButton Source="iconjornada.jpg"
                              Grid.Row="0" Grid.Column="0"
                              Clicked="OnPlayClicked"
@@ -43,7 +40,6 @@
                              HorizontalOptions="Start"
                              VerticalOptions="Center"/>
 
-                <!-- Canto superior direito -->
                 <ImageButton Source="iconminijogo.jpg" 
                              Grid.Row="0" Grid.Column="3"
                              MaximumHeightRequest="200" 
@@ -51,7 +47,6 @@
                              Clicked="OnMiniClicked"
                              VerticalOptions="Center"/>
 
-                <!-- Canto inferior esquerdo -->
                 <ImageButton Source="iconparental.jpg"
                              Grid.Row="1" Grid.Column="0"
                              Clicked="OnParentalClicked" 
@@ -59,7 +54,6 @@
                              HorizontalOptions="Start"
                              VerticalOptions="Center"/>
 
-                <!-- Canto inferior direito -->
                 <ImageButton Source="icondefinicoes.jpg"
                              Grid.Row="1" Grid.Column="3"
                              Clicked="OnSettingsClicked"
@@ -69,7 +63,6 @@
             </Grid>
         </Frame>
 
-        <!-- Botão Sair no canto inferior esquerdo -->
         <Button Text="Sair" 
                 Grid.Row="4" Grid.Column="0"
                 HorizontalOptions="Start"

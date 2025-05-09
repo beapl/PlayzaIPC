@@ -23,10 +23,9 @@
            HeightRequest="240" />
 
 
-        <!-- Retângulo branco para os botões sobre a conta -->
         <Frame BackgroundColor="#80FFFFFF" Padding="10" Margin="0,0,0,10" WidthRequest="850" HeightRequest="380" VerticalOptions="Start" CornerRadius="10" Grid.Row="1" Grid.ColumnSpan="3">
             <StackLayout Spacing="15" VerticalOptions="Center" HorizontalOptions="Center">
-                <!-- Texto acima do botão "Iniciar Sessão" -->
+ 
                 <Label Text="Já tem conta? Inicie a sessão aqui:"
                        FontSize="25"
                        FontFamily="Delfino"
@@ -42,7 +41,7 @@
                         HorizontalOptions="Center"
                         Clicked="OnLoginClicked"/>
 
-                <!-- Texto acima do botão "Criar Conta" -->
+
                 <Label Text="Primeira vez na aplicação? Clique aqui para registar a sua criança:"
                        FontSize="25"
                        TextColor="#4043a5"
@@ -60,7 +59,7 @@
             </StackLayout>
         </Frame>
 
-        <!-- Botão Sair -->
+
         <Button Text="Sair"
                 BackgroundColor="#4245aa"
                 TextColor="White"

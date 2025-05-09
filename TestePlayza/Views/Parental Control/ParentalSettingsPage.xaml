@@ -8,7 +8,6 @@
 
     <Grid RowDefinitions="*, Auto, Auto" ColumnDefinitions="*">
 
-        <!-- Conteúdo com Scroll -->
         <ScrollView Grid.Row="0">
             <Frame BackgroundColor="#80FFFFFF"
                    Margin="30"
@@ -19,14 +18,14 @@
                 <VerticalStackLayout Spacing="25">
 
                     <Grid ColumnDefinitions="Auto, *" VerticalOptions="Center">
-                        <!-- Ícone -->
+                        
                         <Image Source="icon1.png"
            Grid.Column="0"
            WidthRequest="150"
            HeightRequest="150"
            VerticalOptions="Center"/>
 
-                        <!-- Nome de utilizador -->
+                       
                         <Label x:Name="UserNameLabel"
            Text="Nome do Utilizador"
            Grid.Column="1"
@@ -36,7 +35,7 @@
            VerticalOptions="Center"
            Margin="20,0,0,0"/>
                     </Grid>
-                    <!-- Título -->
+              
                     <Label Text="Informações da conta:"
                            FontSize="50"
                            FontFamily="Delfino"
@@ -45,23 +44,22 @@
                            HorizontalOptions="Start"
                            Margin="0,10"/>
 
-                    <!-- Nome -->
+                    
                     <Label Text="Nome:" TextColor="#9462fc" FontSize="28" FontFamily="Delfino"/>
                     <Entry x:Name="NameEntry" Placeholder="Nome" BackgroundColor="White" FontFamily="Delfino"/>
 
-                    <!-- Alcunha -->
                     <Label Text="Alcunha:" TextColor="#9462fc" FontSize="28" FontFamily="Delfino"/>
                     <Entry x:Name="NicknameEntry" Placeholder="Alcunha" BackgroundColor="White"  FontFamily="Delfino"/>
 
-                    <!-- Palavra-passe -->
+                    
                     <Label Text="Palavra-passe:" TextColor="#9462fc"  FontSize="28" FontFamily="Delfino"/>
                     <Entry x:Name="PasswordEntry" Placeholder="Palavra-passe" BackgroundColor="White" IsPassword="True" FontFamily="Delfino"/>
 
-                    <!-- Confirmar Palavra-passe -->
+                 
                     <Label Text="Confirmar palavra-passe:" TextColor="#9462fc" FontSize="28" FontFamily="Delfino"/>
                     <Entry x:Name="ConfirmPasswordEntry" Placeholder="Confirmar palavra-passe"  BackgroundColor="White" IsPassword="True" FontFamily="Delfino"/>
 
-                    <!-- Botão Guardar -->
+                    
                     <Button Text="Guardar alterações"
                             BackgroundColor="#4245aa"
                             TextColor="White"
@@ -72,7 +70,7 @@
                             HorizontalOptions="End"
                             Margin="0,10,0,0"/>
 
-                    <!-- Secção Eliminar conta -->
+                  
                     <Label Text="Eliminar conta"
                            FontSize="50"
                            FontAttributes="Bold"
@@ -86,14 +84,14 @@
                            TextColor="Red"
                            Margin="0,0,0,10"/>
 
-                    <!-- Palavra-passe para confirmar -->
+                  
                     <Label Text="Palavra-passe:" TextColor="#9462fc" FontSize="28" FontFamily="Delfino"/>
                     <Entry x:Name="DeletePasswordEntry" Placeholder="Palavra-passe" BackgroundColor="White"  IsPassword="True" FontFamily="Delfino"/>
 
                     <Label Text="Confirmar palavra-passe:" TextColor="#9462fc" FontSize="28" FontFamily="Delfino"/>
                     <Entry x:Name="DeleteConfirmPasswordEntry" Placeholder="Confirmar palavra-passe" BackgroundColor="White" IsPassword="True" FontFamily="Delfino"/>
 
-                    <!-- Botão Eliminar -->
+            
                     <Button Text="Eliminar conta"
                             BackgroundColor="Red"
                             TextColor="White"
@@ -108,8 +106,6 @@
             </Frame>
         </ScrollView>
 
-
-        <!-- Botão Sair -->
         <Button Text="Sair"
                 Grid.Row="2"
                 BackgroundColor="#4245aa"

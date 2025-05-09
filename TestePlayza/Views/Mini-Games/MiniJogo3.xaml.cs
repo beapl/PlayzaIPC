@@ -13,7 +13,6 @@
             Dispatcher.Dispatch(() => LoadNewAnimal());
         }
 
-        // Baralhar os animais com as respetivas iniciais
         private void ShuffleAnimals()
         {
             var original = new List<(string, string)>

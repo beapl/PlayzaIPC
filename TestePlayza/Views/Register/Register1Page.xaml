@@ -25,7 +25,6 @@
            HeightRequest="180"
          />
 
-        <!-- Frame com todas as checkboxes -->
         <Frame Grid.Row="1"
                BackgroundColor="#80FFFFFF"
                Padding="20"
@@ -35,7 +34,8 @@
                CornerRadius="10"
                HorizontalOptions="Start">
             <Grid ColumnDefinitions="*,*" RowDefinitions="Auto" ColumnSpacing="60">
-                <!-- Coluna da esquerda -->
+
+                
                 <StackLayout Grid.Column="0" Spacing="80">
                     <StackLayout Orientation="Horizontal" Spacing="70">
                         <CheckBox x:Name="PortuguesCheck" />
@@ -51,7 +51,6 @@
                     </StackLayout>
                 </StackLayout>
 
-                <!-- Coluna da direita -->
                 <StackLayout Grid.Column="1" Spacing="80">
                     <StackLayout Orientation="Horizontal" Spacing="70">
                         <CheckBox x:Name="ArtisticaCheck" />
@@ -69,7 +68,7 @@
             </Grid>
         </Frame>
 
-        <!-- Botões -->
+
         <Grid Grid.Row="2" ColumnDefinitions="*,*" Margin="0,20,0,0">
             <Button Text="Voltar"
                     Grid.Column="0"

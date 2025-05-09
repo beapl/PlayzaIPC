@@ -32,9 +32,9 @@ public partial class LoginPage : ContentPage
 
         if (user != null)
         {
-            Session.CurrentUser = user; // Aqui definimos a sessão com o utilizador logado
+            Session.CurrentUser = user; // Aqui está definido a sessão com o utilizador logged in
 
-            // Aqui podes guardar sessão se quiseres (Ex: Preferences)
+       
             await DisplayAlert("Bem-vindo!", $"Olá, {user.Name}!", "OK");
             await Shell.Current.GoToAsync("MenuPage");
         }
