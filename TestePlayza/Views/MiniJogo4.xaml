@@ -1,74 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Playza.Views.MiniJogo4"
-             BackgroundImageSource="wallpaper.jpg"
-             Title="Reciclagem">
+             BackgroundImageSource="background.jpg"
+             Title="Jogo da Reciclagem">
 
     <VerticalStackLayout Padding="20" Spacing="30">
 
-        <!-- Instrução no topo -->
-        <Label Text="Arrasta cada item para o contentor correto!" 
-               FontSize="30" 
+        <Label Text="Coloca no contentor correto cada pedaço de lixo"
+               FontSize="40"
                HorizontalOptions="Center"
-               TextColor="Black"
+               TextColor="Black" 
                FontFamily="Delfino"/>
 
-        <!-- Lixo para arrastar -->
-        <HorizontalStackLayout x:Name="LixosLayout" HorizontalOptions="Center" Spacing="30" Margin="0,30,0,0">
-            <Image x:Name="GlassBottle" Source="glassbottle.jpg" WidthRequest="80" AutomationId="Verde">
+        <!-- Lixos -->
+        <HorizontalStackLayout Spacing="20" HorizontalOptions="Center">
+            <Image x:Name="GlassBottle" Source="glassbottle.jpg" WidthRequest="80" AutomationId="Verde" ClassId="Garrafa de vidro">
                 <Image.GestureRecognizers>
-                    <DragGestureRecognizer DragStarting="OnDragStarting"/>
+                    <TapGestureRecognizer Tapped="OnTrashTapped"/>
                 </Image.GestureRecognizers>
             </Image>
 
-            <Image x:Name="PlasticBottle" Source="garrafaplastico.png" WidthRequest="80" AutomationId="Amarelo">
+            <Image x:Name="PlasticBottle" Source="garrafaplastico.png" WidthRequest="80" AutomationId="Amarelo" ClassId="Garrafa de plástico">
                 <Image.GestureRecognizers>
-                    <DragGestureRecognizer DragStarting="OnDragStarting"/>
+                    <TapGestureRecognizer Tapped="OnTrashTapped"/>
                 </Image.GestureRecognizers>
             </Image>
 
-            <Image x:Name="Paper" Source="papel.png" WidthRequest="80" AutomationId="Azul">
+            <Image x:Name="Paper" Source="papel.png" WidthRequest="80" AutomationId="Azul" ClassId="Papel">
                 <Image.GestureRecognizers>
-                    <DragGestureRecognizer DragStarting="OnDragStarting"/>
+                    <TapGestureRecognizer Tapped="OnTrashTapped"/>
                 </Image.GestureRecognizers>
             </Image>
 
-            <Image x:Name="TinCan" Source="tincan.jpg" WidthRequest="80" AutomationId="Amarelo">
+            <Image x:Name="TinCan" Source="tincan.jpg" WidthRequest="80" AutomationId="Amarelo" ClassId="Lata">
                 <Image.GestureRecognizers>
-                    <DragGestureRecognizer DragStarting="OnDragStarting"/>
+                    <TapGestureRecognizer Tapped="OnTrashTapped"/>
                 </Image.GestureRecognizers>
             </Image>
         </HorizontalStackLayout>
-
 
         <!-- Contentores por baixo -->
-        <HorizontalStackLayout HorizontalOptions="Center" Spacing="40" Margin="0,40,0,0">
-            <Image Source="amarelo.png" WidthRequest="100" AutomationId="Amarelo">
+        <HorizontalStackLayout HorizontalOptions="Center" Spacing="40" Margin="0,100,0,0">
+            <Image Source="amarelo.png" WidthRequest="200" HeightRequest="200" AutomationId="Amarelo">
                 <Image.GestureRecognizers>
-                    <DropGestureRecognizer AllowDrop="True" Drop="OnDrop"/>
+                    <TapGestureRecognizer Tapped="OnContainerTapped"/>
                 </Image.GestureRecognizers>
             </Image>
-            <Image Source="verde.png" WidthRequest="100" AutomationId="Verde">
+            <Image Source="verde.png" WidthRequest="200" HeightRequest="200" AutomationId="Verde">
                 <Image.GestureRecognizers>
-                    <DropGestureRecognizer AllowDrop="True" Drop="OnDrop"/>
+                    <TapGestureRecognizer Tapped="OnContainerTapped"/>
                 </Image.GestureRecognizers>
             </Image>
-            <Image Source="azul.png" WidthRequest="100" AutomationId="Azul">
+            <Image Source="azul.png" WidthRequest="200" HeightRequest="200" AutomationId="Azul">
                 <Image.GestureRecognizers>
-                    <DropGestureRecognizer AllowDrop="True" Drop="OnDrop"/>
+                    <TapGestureRecognizer Tapped="OnContainerTapped"/>
                 </Image.GestureRecognizers>
             </Image>
         </HorizontalStackLayout>
 
+
         <!-- Feedback -->
-        <Label x:Name="FeedbackLabel" FontSize="22" TextColor="Black" HorizontalOptions="Center" Margin="0,20,0,0" />
-
-        <!-- Dica explicativa -->
-        <Label Text="Dica: Amarelo = Plástico/Metal, Azul = Papel, Verde = Vidro" 
-               FontSize="18" 
-               HorizontalOptions="Center"
-               TextColor="Gray"
-               Margin="0,10,0,0" />
-
+        <Label x:Name="FeedbackLabel" FontSize="40" TextColor="Black" HorizontalOptions="Center" Margin="0,20,0,0" FontFamily="Delfino" />
     </VerticalStackLayout>
 </ContentPage>

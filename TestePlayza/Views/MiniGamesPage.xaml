@@ -4,7 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="Playza.Views.MiniGamesPage"
     BackgroundImageSource="wallpaper.jpg"
-    Title="Criar Conta">
+    Title="Mini-jogos">
 
     <StackLayout Padding="20" Spacing="10" VerticalOptions="Center">
         <Button Text="Minijogo 1" Clicked="OnMiniGame1Clicked" BackgroundColor="#4245aa" TextColor="White"/>

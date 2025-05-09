@@ -1,46 +1,59 @@
-﻿namespace Playza.Views;
+﻿using Microsoft.Maui.Controls;
+using Microsoft.Maui.Graphics;
+
+namespace Playza.Views;
 
 public partial class MiniJogo4 : ContentPage
 {
+    private Image _selectedTrash = null;
+
     public MiniJogo4()
     {
         InitializeComponent();
     }
 
-    private void OnDragStarting(object sender, DragStartingEventArgs e)
+    private void OnTrashTapped(object sender, EventArgs e)
     {
-        if (sender is Image image)
+        if (sender is Image img)
         {
-            e.Data.Properties["tipoLixo"] = image.AutomationId;
-            e.Data.Text = "lixo"; // necessário para ativar o drag
+            _selectedTrash = img;
+            FeedbackLabel.Text = $"Pegaste em: {img.ClassId}";
+            FeedbackLabel.TextColor = Colors.Black;
         }
     }
 
-    private void OnDrop(object sender, DropEventArgs e)
+    private void OnContainerTapped(object sender, EventArgs e)
     {
-        if (sender is Image contentor &&
-            e.Data.Properties.TryGetValue("tipoLixo", out var tipoLixoObj))
+        if (_selectedTrash == null)
         {
-            string tipoLixo = tipoLixoObj?.ToString();
-            string contentorCor = contentor.AutomationId;
+            FeedbackLabel.Text = "Escolhe primeiro um lixo!";
+            FeedbackLabel.TextColor = Colors.Red;
+            return;
+        }
 
-            if (tipoLixo == contentorCor)
+        if (sender is Image container)
+        {
+            if (_selectedTrash.AutomationId == container.AutomationId)
             {
-                FeedbackLabel.Text = "Acertaste! 😀";
+                FeedbackLabel.Text = "Boa! Recolha correta!";
                 FeedbackLabel.TextColor = Colors.Green;
-
-                // Encontra e esconde a imagem correta
-                var draggedImage = LixosLayout.Children
-                    .OfType<Image>()
-                    .FirstOrDefault(img => img.AutomationId == tipoLixo && img.IsVisible);
-
-                if (draggedImage != null)
-                    draggedImage.IsVisible = false;
+                _selectedTrash.IsVisible = false;
             }
             else
             {
-                FeedbackLabel.Text = "Erraste 😕";
+                FeedbackLabel.Text = "Ops! Contentor errado.";
                 FeedbackLabel.TextColor = Colors.Red;
+            }
+
+            _selectedTrash = null;
+
+            if (!GlassBottle.IsVisible &&
+                !PlasticBottle.IsVisible &&
+                !Paper.IsVisible &&
+                !TinCan.IsVisible)
+            {
+                FeedbackLabel.Text = "Parabéns! Conseguiste Fazer a reciclagem! 🎉";
+                FeedbackLabel.TextColor = Colors.DarkGreen;
             }
         }
     }

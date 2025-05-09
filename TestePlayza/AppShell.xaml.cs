@@ -18,7 +18,7 @@ namespace Playza
             Routing.RegisterRoute("MiniJogo2", typeof(Playza.Views.MiniJogo2));
             Routing.RegisterRoute("MiniJogo3", typeof(Playza.Views.MiniJogo3));
             Routing.RegisterRoute("MiniJogo4", typeof(Playza.Views.MiniJogo4));
-
+            Routing.RegisterRoute("JourneyPage", typeof(Playza.Views.JourneyPage));
         }
     }
 }

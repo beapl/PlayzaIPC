@@ -7,9 +7,9 @@ public partial class MenuPage : ContentPage
         InitializeComponent();
     }
 
-    private async void OnPlayClicked(object sender, EventArgs e)
+    private async void OnJourneyClicked(object sender, EventArgs e)
     {
-        await Shell.Current.GoToAsync("GamePage");
+        await Shell.Current.GoToAsync("JourneyPage");
     }
 
     private async void OnMiniGameClicked(object sender, EventArgs e)

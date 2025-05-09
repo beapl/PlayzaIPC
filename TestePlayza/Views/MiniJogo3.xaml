@@ -1,13 +1,13 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Playza.Views.MiniJogo3"
-             BackgroundImageSource="wallpaper.jpg"
+             BackgroundImageSource="background.jpg"
              Title="Jogo de Inicial">
 
     <Grid Padding="20">
         <!-- Coluna do topo: Pergunta e Imagem -->
         <VerticalStackLayout Grid.Row="0" Spacing="20" VerticalOptions="Start" HorizontalOptions="Center">
-            <Label x:Name="QuestionLabel" Text="Qual é a inicial deste animal?" FontSize="40" HorizontalOptions="Center" FontFamily="Delfino"/>
+            <Label x:Name="QuestionLabel" Text="Qu\al é a inicial deste animal?" FontSize="40" HorizontalOptions="Center" FontFamily="Delfino"/>
             <Image x:Name="AnimalImage" WidthRequest="250" HeightRequest="250" HorizontalOptions="Center"/>
         </VerticalStackLayout>
 

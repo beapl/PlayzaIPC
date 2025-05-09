@@ -2,67 +2,71 @@
 {
     public partial class MiniJogo3 : ContentPage
     {
-        string[] animals = { "foca", "pinguim", "burro", "gato", "panda" };
-        string[] initials = { "F", "P", "B", "G", "P" };
+        List<(string Animal, string Initial)> animalList;
         int currentAnimalIndex = 0;
         int score = 0;
 
         public MiniJogo3()
         {
             InitializeComponent();
+            ShuffleAnimals();
             Dispatcher.Dispatch(() => LoadNewAnimal());
         }
 
-        // Carrega o novo animal e a pergunta
+        // Baralhar os animais com as respetivas iniciais
+        private void ShuffleAnimals()
+        {
+            var original = new List<(string, string)>
+            {
+                ("foca", "F"),
+                ("pinguim", "P"),
+                ("burro", "B"),
+                ("gato", "G"),
+                ("panda", "P")
+            };
+
+            var random = new Random();
+            animalList = original.OrderBy(item => random.Next()).ToList();
+        }
+
         private void LoadNewAnimal()
         {
-            if (currentAnimalIndex >= animals.Length)
+            if (currentAnimalIndex >= animalList.Count)
             {
-                // Jogo termina
                 FeedbackLabel.Text = "🎉Acabou!🎉";
                 FeedbackLabel.TextColor = Colors.Black;
                 ScoreLabel.Text = $"Pontuação final: {score}";
                 LettersLayout.IsVisible = false;
                 return;
             }
-            // Atualiza a pergunta
+
             QuestionLabel.Text = "Qual é a inicial deste animal?";
-
-            // Define o animal e a sua imagem correspondente
-            string animal = animals[currentAnimalIndex];
-            AnimalImage.Source = $"{animal.ToLower()}.jpg"; // Certifique-se de que a imagem está corretamente nomeada
-
-            // Reseta o feedback
+            var (animal, _) = animalList[currentAnimalIndex];
+            AnimalImage.Source = $"{animal.ToLower()}.jpg";
             ScoreLabel.Text = $"Pontuação: {score}";
         }
 
-        // Verifica a letra clicada e mostra o feedback
         private void OnLetterClicked(object sender, EventArgs e)
         {
             if (sender is Button button)
             {
                 string selectedLetter = button.Text;
+                string correctInitial = animalList[currentAnimalIndex].Initial;
 
-                // Verifica se a letra selecionada é a correta
-                if (selectedLetter == initials[currentAnimalIndex])
+                if (selectedLetter == correctInitial)
                 {
                     FeedbackLabel.Text = "Acertaste! 🥳";
                     FeedbackLabel.TextColor = Colors.Green;
                     score += 10;
-
-                    // Avança para o próximo animal
-                    currentAnimalIndex = (currentAnimalIndex + 1);
-
-                    // Atualiza a pergunta e a imagem para o próximo animal
-                    LoadNewAnimal();
                 }
                 else
                 {
-                    FeedbackLabel.Text =  $"Erraste! Era {initials[currentAnimalIndex]} 😔 ";
+                    FeedbackLabel.Text = $"Erraste! Era {correctInitial} 😔";
                     FeedbackLabel.TextColor = Colors.Red;
-                    currentAnimalIndex = (currentAnimalIndex + 1);
-                    LoadNewAnimal();
                 }
+
+                currentAnimalIndex++;
+                LoadNewAnimal();
             }
         }
     }

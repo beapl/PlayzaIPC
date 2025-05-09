@@ -1,10 +1,12 @@
 ﻿obj\Debug\net8.0-android\resizetizer\r\drawable\amarelo.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\apple.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\azul.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\background.jpg
 obj\Debug\net8.0-android\resizetizer\r\drawable\burro.jpg
 obj\Debug\net8.0-android\resizetizer\r\drawable\foca.jpg
 obj\Debug\net8.0-android\resizetizer\r\drawable\garrafaplastico.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\gato.jpg
+obj\Debug\net8.0-android\resizetizer\r\drawable\glassbottle.jpg
 obj\Debug\net8.0-android\resizetizer\r\drawable\icondefinicoes.jpg
 obj\Debug\net8.0-android\resizetizer\r\drawable\iconjornada.jpg
 obj\Debug\net8.0-android\resizetizer\r\drawable\iconminijogo.jpg

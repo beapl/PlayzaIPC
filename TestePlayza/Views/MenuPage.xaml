@@ -14,7 +14,7 @@
         <!-- Canto superior esquerdo -->
         <ImageButton Source="iconjornada.jpg"
              Grid.Row="0" Grid.Column="0"
-             Clicked="OnPlayClicked" 
+             Clicked="OnJourneyClicked" 
              MaximumHeightRequest="240"
              HorizontalOptions="Center"
              VerticalOptions="Center"
