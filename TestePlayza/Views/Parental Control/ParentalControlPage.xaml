@@ -83,6 +83,7 @@
         <!-- Botão de sair na parte inferior, fora do frame -->
         <Button Text="Sair" 
                     Grid.Row="3"
+                    Clicked="OnLogoutClicked"
                     FontFamily="Delfino"
                     BackgroundColor="#4245aa"
                     TextColor="White"

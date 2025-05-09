@@ -11615,15 +11615,16 @@ public final class R {
     public static final int ola=0x7f0700f3;
     public static final int oladenovo=0x7f0700f4;
     public static final int perfeito=0x7f0700f5;
-    public static final int splash=0x7f0700f6;
-    public static final int tema0=0x7f0700f7;
-    public static final int tema1=0x7f0700f8;
-    public static final int tema2=0x7f0700f9;
-    public static final int tema3=0x7f0700fa;
-    public static final int test_level_drawable=0x7f0700fb;
-    public static final int tooltip_frame_dark=0x7f0700fc;
-    public static final int tooltip_frame_light=0x7f0700fd;
-    public static final int wallpaper=0x7f0700fe;
+    public static final int selecaoniveis=0x7f0700f6;
+    public static final int splash=0x7f0700f7;
+    public static final int tema0=0x7f0700f8;
+    public static final int tema1=0x7f0700f9;
+    public static final int tema2=0x7f0700fa;
+    public static final int tema3=0x7f0700fb;
+    public static final int test_level_drawable=0x7f0700fc;
+    public static final int tooltip_frame_dark=0x7f0700fd;
+    public static final int tooltip_frame_light=0x7f0700fe;
+    public static final int wallpaper=0x7f0700ff;
   }
   public static final class id {
     public static final int ALT=0x7f080000;

@@ -1,4 +1,5 @@
 using Playza.Services;
+using Playza.Utils;
 
 namespace Playza.Views;
 
@@ -31,6 +32,8 @@ public partial class LoginPage : ContentPage
 
         if (user != null)
         {
+            Session.CurrentUser = user; // Aqui definimos a sessão com o utilizador logado
+
             // Aqui podes guardar sessão se quiseres (Ex: Preferences)
             await DisplayAlert("Bem-vindo!", $"Olá, {user.Name}!", "OK");
             await Shell.Current.GoToAsync("MenuPage");

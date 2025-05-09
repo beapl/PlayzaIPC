@@ -33,6 +33,16 @@ namespace Playza.Services
         {
             return _database.Table<User>().ToListAsync();
         }
+
+        public Task<int> UpdateUserAsync(User user)
+        {
+            return _database.UpdateAsync(user);
+        }
+
+        public Task<int> DeleteUserAsync(User user)
+        {
+            return _database.DeleteAsync(user);
+        }
     }
 }
 
