@@ -22,5 +22,10 @@
     </TabBar> -->
     <ShellContent Route="MainPage" Shell.NavBarIsVisible="False" ContentTemplate="{DataTemplate views:MainPage}" />
     <ShellContent Title="Login" Shell.NavBarIsVisible="False" ContentTemplate="{DataTemplate views:LoginPage}" Route="LoginPage" />
+    <ShellContent Title="Mini-jogos" ContentTemplate="{DataTemplate views:MiniGamesPage}" Route="MiniGamesPage" />
+    <ShellContent Title="Minijogo1" ContentTemplate="{DataTemplate views:MiniJogo1}" Route="MiniJogo1" />
+    <ShellContent Title="Minijogo2" ContentTemplate="{DataTemplate views:MiniJogo2}" Route="MiniJogo2" />
+    <ShellContent Title="MiniJogo3" ContentTemplate="{DataTemplate views:MiniJogo3}" Route="MiniJogo3" />
+    <ShellContent Title="JourneyPage" ContentTemplate="{DataTemplate views:JourneyPage}" Route="JourneyPage" />
 </Shell>
 

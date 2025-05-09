@@ -9,9 +9,13 @@ public partial class MenuPage : ContentPage
 
     private async void OnPlayClicked(object sender, EventArgs e)
     {
-        await Shell.Current.GoToAsync("GamePage");
+        await Shell.Current.GoToAsync("JourneyPage");
     }
 
+    private async void OnMiniClicked(object sender, EventArgs e)
+    {
+        await Shell.Current.GoToAsync("MiniGamesPage");
+    }
     private async void OnParentalClicked(object sender, EventArgs e)
     {
         await Shell.Current.GoToAsync("ParentalControlPage");

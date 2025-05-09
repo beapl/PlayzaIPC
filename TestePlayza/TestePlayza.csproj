@@ -70,6 +70,21 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Views\JourneyPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Mini-Games\MiniGamesPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Mini-Games\MiniJogo1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Mini-Games\MiniJogo2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Mini-Games\MiniJogo3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\Parental Control\ParentalControlPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

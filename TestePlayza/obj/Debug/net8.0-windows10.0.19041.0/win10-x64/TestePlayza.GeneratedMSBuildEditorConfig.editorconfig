@@ -52,6 +52,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = TestePlayza.Resources.Styl
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/Beatriz/Desktop/IPC/TestePlayza/TestePlayza/Views/JourneyPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestePlayza.Views.JourneyPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\JourneyPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\JourneyPage.xaml
+
 [C:/Users/Beatriz/Desktop/IPC/TestePlayza/TestePlayza/Views/Login/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TestePlayza.Views.Login.LoginPage.xaml
@@ -63,6 +69,30 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TestePlayza.Views.MenuPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\MenuPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\MenuPage.xaml
+
+[C:/Users/Beatriz/Desktop/IPC/TestePlayza/TestePlayza/Views/Mini-Games/MiniGamesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestePlayza.Views.Mini_Games.MiniGamesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Mini-Games\MiniGamesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Mini-Games\MiniGamesPage.xaml
+
+[C:/Users/Beatriz/Desktop/IPC/TestePlayza/TestePlayza/Views/Mini-Games/MiniJogo1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestePlayza.Views.Mini_Games.MiniJogo1.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Mini-Games\MiniJogo1.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Mini-Games\MiniJogo1.xaml
+
+[C:/Users/Beatriz/Desktop/IPC/TestePlayza/TestePlayza/Views/Mini-Games/MiniJogo2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestePlayza.Views.Mini_Games.MiniJogo2.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Mini-Games\MiniJogo2.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Mini-Games\MiniJogo2.xaml
+
+[C:/Users/Beatriz/Desktop/IPC/TestePlayza/TestePlayza/Views/Mini-Games/MiniJogo3.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestePlayza.Views.Mini_Games.MiniJogo3.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Mini-Games\MiniJogo3.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Mini-Games\MiniJogo3.xaml
 
 [C:/Users/Beatriz/Desktop/IPC/TestePlayza/TestePlayza/Views/Parental Control/ParentalControlPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

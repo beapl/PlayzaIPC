@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Playza.Views.MiniJogo2"
+             BackgroundImageSource="background.jpg"
+             Title="Jogo Da Diferença">
+
+    <Grid ColumnDefinitions="*, Auto, *" Padding="20">
+        <!-- Coluna esquerda: objetos -->
+        <VerticalStackLayout x:Name="LeftStack" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center" />
+
+        <!-- Coluna do meio: interações -->
+        <VerticalStackLayout Grid.Column="1" Spacing="20" VerticalOptions="Center">
+            <Label Text="vs" FontSize="32" HorizontalOptions="Center" FontFamily="Delfino" />
+
+            <Label Text="Qual lado tem mais maçãs?" FontSize="30" HorizontalOptions="Center" FontFamily="Delfino"/>
+
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
+                <Button x:Name="GreaterButton" Text=">" Clicked="OnGreaterClicked" FontFamily="Delfino" FontSize="40"/>
+                <Button x:Name="EqualButton" Text="=" Clicked="OnEqualClicked" FontFamily="Delfino" FontSize="40"/>
+                <Button x:Name="LessButton" Text="&lt;" Clicked="OnLessClicked" FontFamily="Delfino" FontSize="40"/>
+            </HorizontalStackLayout>
+
+            <Label x:Name="ScoreLabel"
+                   Text="Pontuação: 0"
+                   FontSize="35"
+                   HorizontalOptions="Center"
+                   TextColor="Black"
+                   FontFamily="Delfino"/>
+
+
+            <Label x:Name="ResultLabel"
+                   FontSize="45"
+                   HorizontalOptions="Center"
+                   TextColor="Black"
+                   FontFamily="Delfino"
+                   />
+        </VerticalStackLayout>
+
+        <!-- Coluna direita: objetos -->
+        <VerticalStackLayout x:Name="RightStack" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="Center" />
+    </Grid>
+</ContentPage>

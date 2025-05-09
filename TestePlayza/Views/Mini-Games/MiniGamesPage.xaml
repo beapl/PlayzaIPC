@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Playza.Views.MiniGamesPage"
+    BackgroundImageSource="wallpaper.jpg"
+    Title="Mini-jogos">
+
+    <StackLayout Padding="20" Spacing="10" VerticalOptions="Center">
+        <Button Text="Minijogo 1" Clicked="OnMiniGame1Clicked" BackgroundColor="#4245aa" TextColor="White"/>
+        <Button Text="Minijogo 2" Clicked="OnMiniGame2Clicked" BackgroundColor="#4245aa" TextColor="White"/>
+        <Button Text="Minijogo 3" Clicked="OnMiniGame3Clicked" BackgroundColor="#4245aa" TextColor="White"/>
+        <Button Text="Minijogo 4" Clicked="OnMiniGame4Clicked" BackgroundColor="#4245aa" TextColor="White"/>
+    </StackLayout>
+
+</ContentPage>

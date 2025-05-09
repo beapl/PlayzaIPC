@@ -46,11 +46,11 @@
                        FontFamily="Delfino"
                        VerticalOptions="Center"
                        FontSize="30"
-                       TextColor="Black"/>
+                       TextColor="#4043a5"/>
 
                 <!-- Botão 2 -->
                 <Button Grid.Row="1" Grid.Column="0" 
-                        Text="Relatório de atividade de perfil" 
+                        Text="Relatório de atividade" 
                         FontFamily="Delfino"
                         FontSize="15"
                         WidthRequest="220"
@@ -61,7 +61,7 @@
                        VerticalOptions="Center"
                        FontFamily="Delfino"
                        FontSize="30"
-                       TextColor="Black"/>
+                       TextColor="#4043a5"/>
 
                 <!-- Botão 3 -->
                 <Button Grid.Row="2" Grid.Column="0" 
@@ -76,7 +76,7 @@
                        VerticalOptions="Center"
                        FontSize="30"
                        FontFamily="Delfino"
-                       TextColor="Black"/>
+                       TextColor="#4043a5"/>
             </Grid>
         </Frame>
 
