@@ -4,7 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:microcharts="clr-namespace:Microcharts.Maui;assembly=Microcharts.Maui"
     x:Class="Playza.Views.ParentalControlPage"
-    BackgroundImageSource="wallpaper.jpg"
+    BackgroundImageSource="fundoparental.jpg"
     Title="Controlo Parental">
 
     <Grid RowDefinitions="*,*,*,*, Auto" Padding="30">
@@ -30,7 +30,7 @@
             <Grid RowDefinitions="Auto, Auto, Auto"
                   ColumnDefinitions="Auto, *"
                   ColumnSpacing="20"
-                  RowSpacing="25">
+                  RowSpacing="70">
 
              
                 <Button Grid.Row="0" Grid.Column="0" 
@@ -52,7 +52,7 @@
                 <Button Grid.Row="1" Grid.Column="0" 
                         Text="Relatório de atividade" 
                         FontFamily="Delfino"
-                        FontSize="15"
+                        FontSize="18"
                         WidthRequest="220"
                         BackgroundColor="#4245aa"
                         TextColor="White"/>

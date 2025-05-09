@@ -12,7 +12,7 @@
         <VerticalStackLayout Grid.Column="1" Spacing="20" VerticalOptions="Center">
             <Label Text="vs" FontSize="32" HorizontalOptions="Center" FontFamily="Delfino" />
 
-            <Label Text="Qual lado tem mais maçãs?" FontSize="30" HorizontalOptions="Center" FontFamily="Delfino"/>
+            <Label Text="Escolhe o símbolo correto! " FontSize="30" HorizontalOptions="Center" FontFamily="Delfino"/>
 
             <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
                 <Button x:Name="GreaterButton" Text=">" Clicked="OnGreaterClicked" FontFamily="Delfino" FontSize="40"/>

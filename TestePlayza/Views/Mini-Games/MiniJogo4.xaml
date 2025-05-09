@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Playza.Views.MiniJogo4"
+             BackgroundImageSource="background.jpg"
+             Title="Jogo da Reciclagem">
+
+    <VerticalStackLayout Padding="20" Spacing="30">
+
+        <Label Text="Coloca no contentor correto cada pedaço de lixo"
+               FontSize="40"
+               HorizontalOptions="Center"
+               TextColor="Black" 
+               FontFamily="Delfino"/>
+
+        <!-- Lixos -->
+        <HorizontalStackLayout Spacing="20" HorizontalOptions="Center">
+            <Image x:Name="GlassBottle" Source="glassbottle.jpg" WidthRequest="80" AutomationId="Verde" ClassId="Garrafa de vidro">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnTrashTapped"/>
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image x:Name="PlasticBottle" Source="garrafaplastico.png" WidthRequest="80" AutomationId="Amarelo" ClassId="Garrafa de plástico">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnTrashTapped"/>
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image x:Name="Paper" Source="papel.png" WidthRequest="80" AutomationId="Azul" ClassId="Papel">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnTrashTapped"/>
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image x:Name="TinCan" Source="tincan.jpg" WidthRequest="80" AutomationId="Amarelo" ClassId="Lata">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnTrashTapped"/>
+                </Image.GestureRecognizers>
+            </Image>
+        </HorizontalStackLayout>
+
+        <!-- Contentores por baixo -->
+        <HorizontalStackLayout HorizontalOptions="Center" Spacing="40" Margin="0,100,0,0">
+            <Image Source="amarelo.png" WidthRequest="200" HeightRequest="200" AutomationId="Amarelo">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnContainerTapped"/>
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="verde.png" WidthRequest="200" HeightRequest="200" AutomationId="Verde">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnContainerTapped"/>
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="azul.png" WidthRequest="200" HeightRequest="200" AutomationId="Azul">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnContainerTapped"/>
+                </Image.GestureRecognizers>
+            </Image>
+        </HorizontalStackLayout>
+
+
+        <!-- Feedback -->
+        <Label x:Name="FeedbackLabel" FontSize="40" TextColor="Black" HorizontalOptions="Center" Margin="0,20,0,0" FontFamily="Delfino" />
+    </VerticalStackLayout>
+</ContentPage>

@@ -85,7 +85,7 @@ namespace Playza.Views
         private async void OnLogoutClicked(object sender, EventArgs e)
         {
             Session.CurrentUser = null;
-            await Shell.Current.GoToAsync("MenuPage");
+            await Shell.Current.GoToAsync("ParentalControlPage");
         }
     }
 }
