@@ -1,4 +1,5 @@
 using Microsoft.Maui.Controls;
+using Plugin.Maui.Audio;
 
 namespace Playza.Views
 {
@@ -61,6 +62,34 @@ namespace Playza.Views
                 case 2:
                     FontSizeLabel.Text = "Grande";
                     break;
+            }
+        }
+
+        private void OnMusicSwitchToggled(object sender, ToggledEventArgs e)
+        {
+            var player = App.BackgroundPlayer;
+
+            if (player == null)
+            {
+                return; // Player ainda não foi carregado
+            }
+
+            if (e.Value)
+            {
+                player.Play(); // Ligar música
+            }
+            else
+            {
+                player.Pause(); // Desligar música
+            }
+        }
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            if (App.BackgroundPlayer != null)
+            {
+                MusicSwitch.IsToggled = App.BackgroundPlayer.IsPlaying;
             }
         }
 

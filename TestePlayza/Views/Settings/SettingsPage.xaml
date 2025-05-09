@@ -91,7 +91,7 @@
                            FontFamily="Delfino"
                            TextColor="#9462fc"/>
                     <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
-                        <Switch x:Name="MusicSwitch" />
+                        <Switch x:Name="MusicSwitch" Toggled="OnMusicSwitchToggled" />
                         <Label Text="Ativar" FontFamily="Delfino" VerticalOptions="Center" FontSize="20"/>
                     </StackLayout>
 
