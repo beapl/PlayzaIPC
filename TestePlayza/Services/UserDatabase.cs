@@ -1,8 +1,9 @@
 ﻿using SQLite;
-using Playza.Models;
-using System.Threading.Tasks;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using System.IO;
+using System;
+using Playza.Models;
 
 namespace Playza.Services
 {
@@ -16,17 +17,22 @@ namespace Playza.Services
             _database.CreateTableAsync<User>().Wait();
         }
 
-        public Task<List<User>> GetUsersAsync() =>
-            _database.Table<User>().ToListAsync();
+        public Task<int> SaveUserAsync(User user)
+        {
+            return _database.InsertAsync(user);
+        }
 
-        public Task<User> GetUserByUsernameAsync(string username) =>
-            _database.Table<User>().FirstOrDefaultAsync(u => u.Username == username);
+        public Task<User> GetUserByUsernameAndPasswordAsync(string username, string password)
+        {
+            return _database.Table<User>()
+                .Where(u => u.Username == username && u.Password == password)
+                .FirstOrDefaultAsync();
+        }
 
-        public Task<int> SaveUserAsync(User user) =>
-            _database.InsertAsync(user);
-
-        public Task<int> DeleteUserAsync(User user) =>
-            _database.DeleteAsync(user);
+        public Task<List<User>> GetUsersAsync()
+        {
+            return _database.Table<User>().ToListAsync();
+        }
     }
 }
 

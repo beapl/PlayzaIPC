@@ -6,4 +6,9 @@ public partial class ParentalSettingsPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private async void OnLogoutClicked(object sender, EventArgs e)
+    {
+        await Shell.Current.GoToAsync("ParentalControlPage");
+    }
 }

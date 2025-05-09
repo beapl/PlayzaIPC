@@ -43,7 +43,8 @@
                        FontSize="25"
                        FontFamily="Delfino"
                        TextColor="#4043a5" />
-            <Entry Placeholder="Alcunha"
+            <Entry x:Name="UsernameEntry"  
+                       Placeholder="Alcunha"
                        FontSize="20"
                        FontFamily="Delfino"
                        BackgroundColor="White"
@@ -54,7 +55,8 @@
                        TextColor="#4043a5"
                        FontFamily="Delfino"
                     />
-            <Entry Placeholder="Palavra-passe"
+                <Entry x:Name="PasswordEntry"
+                Placeholder="Palavra-passe"
                        FontSize="20"
                        FontFamily="Delfino"
                        IsPassword="True"
