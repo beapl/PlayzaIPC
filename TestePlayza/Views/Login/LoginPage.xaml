@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Playza.Views.LoginPage"
+    BackgroundImageSource="wallpaper.jpg"
+    >
+
+    <Grid Padding="50"
+          RowDefinitions="Auto,Auto,*,Auto"
+          ColumnDefinitions="*">
+
+    <!-- Título
+    <Label Text="Olá de novo!"
+               FontSize="60"
+               FontFamily="Delfino"
+               HorizontalOptions="Center"
+               TextColor="#9462fc"
+               Grid.Row="0"
+               Grid.Column="0"
+               Margin="0,0,0,30"/> -->
+
+        <Image Source="oladenovo.png"
+             Grid.Row="0"
+             Grid.Column="0"
+             HorizontalOptions="Start"
+             HeightRequest="120"
+        />
+
+        
+    <Frame BackgroundColor="#80FFFFFF"
+               Padding="30"
+               Margin="0,20,0,0"
+               WidthRequest="1170"
+           HeightRequest="360"
+               CornerRadius="10"
+               Grid.Row="1"
+               HorizontalOptions="Start">
+
+        <StackLayout Spacing="25">
+
+            <Label Text="Digite a tua alcunha:"
+                       FontSize="25"
+                       FontFamily="Delfino"
+                       TextColor="#4043a5" />
+            <Entry x:Name="UsernameEntry"  
+                       Placeholder="Alcunha"
+                       FontSize="20"
+                       FontFamily="Delfino"
+                       BackgroundColor="White"
+                       TextColor="Black" />
+
+            <Label Text="Digite a sua palavra-passe:"
+                       FontSize="25"
+                       TextColor="#4043a5"
+                       FontFamily="Delfino"
+                    />
+                <Entry x:Name="PasswordEntry"
+                Placeholder="Palavra-passe"
+                       FontSize="20"
+                       FontFamily="Delfino"
+                       IsPassword="True"
+                       BackgroundColor="White"
+                       TextColor="Black" />
+            
+                <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="Start">
+                    <CheckBox x:Name="Manter"  />
+                    <Label Text="Manter sessão iniciada"
+                        VerticalOptions="Center"
+                        FontSize="20"
+                        TextColor="#4043a5"
+                        FontFamily="Delfino"
+                        HorizontalOptions="Start"
+                        LineBreakMode="NoWrap" />
+                </StackLayout>
+            </StackLayout>
+    </Frame>
+
+
+    <Grid Grid.Row="3"
+              ColumnDefinitions="Auto,*,Auto"
+              Margin="0,30,0,0">
+
+        <Button Text="Voltar"
+                    BackgroundColor="#4245aa"
+                    TextColor="White"
+                    FontSize="30"
+                    FontFamily="Delfino"
+                    HorizontalOptions="Start"
+                    Grid.Column="0"
+                    Clicked="OnSairClicked" />
+
+        <Button Text="Entrar"
+                    BackgroundColor="#4245aa"
+                    TextColor="White"
+                    FontSize="30"
+                    FontFamily="Delfino"
+                    Grid.Column="2"
+                    HorizontalOptions="End"
+                    Clicked="OnLoginClicked"/>
+    </Grid>
+</Grid>
+</ContentPage>

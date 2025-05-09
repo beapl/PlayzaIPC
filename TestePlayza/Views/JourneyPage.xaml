@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Playza.Views.JourneyPage"
+    BackgroundImageSource="wallpaper.jpg"
+    Title="Journey">
+
+    <Grid RowDefinitions="Auto,*,Auto,*,Auto"
+          ColumnDefinitions="*,*,*"
+          Padding="50"
+          RowSpacing="20">
+        
+        <Image Source="selecaoniveis.png"
+               Grid.Row="0" Grid.ColumnSpan="3"
+               HorizontalOptions="Start"
+               VerticalOptions="Start"
+               HeightRequest="150"
+               Margin="0" />
+
+        <Frame Grid.Row="2" Grid.ColumnSpan="3"
+       BackgroundColor="#B3FFFFFF"
+       CornerRadius="20"
+       Padding="10"
+       Margin="0"
+       WidthRequest="800"
+       HeightRequest="430"
+       HorizontalOptions="Center"
+       VerticalOptions="Center">
+
+            <Grid RowDefinitions="*,*"
+          ColumnDefinitions="*,*"
+          RowSpacing="20"
+          ColumnSpacing="20"
+          HorizontalOptions="FillAndExpand"
+          VerticalOptions="FillAndExpand">
+
+                <Button Grid.Row="0" Grid.Column="0"
+                Text="Nível 1"
+                Clicked="OnMiniGame1Clicked"
+                BackgroundColor="#4245aa"
+                TextColor="White"
+                FontSize="24"
+                WidthRequest="300"
+                HeightRequest="100"
+                FontFamily="Delfino"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Margin="40,20,10,10"/>
+
+            
+                <Button Grid.Row="0" Grid.Column="1"
+                Text="Nível 2"
+                Clicked="OnMiniGame2Clicked"
+                BackgroundColor="#4245aa"
+                TextColor="White"
+                FontSize="24"
+                WidthRequest="300"
+                HeightRequest="100"
+                FontFamily="Delfino"       
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Margin="10,20,40,10"/>
+
+            
+                <Button Grid.Row="1" Grid.Column="0"
+                Text="Nível 3"
+                Clicked="OnMiniGame3Clicked"
+                BackgroundColor="#4245aa"
+                TextColor="White"
+                FontSize="24"
+                WidthRequest="300"
+                HeightRequest="100"
+                FontFamily="Delfino"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Margin="40,10,10,20"/>
+
+                <Button Grid.Row="1" Grid.Column="1"
+                Text="Nível 4"
+                Clicked="OnMiniGame4Clicked"
+                BackgroundColor="#4245aa"
+                TextColor="White"
+                FontSize="24"
+                WidthRequest="300"
+                HeightRequest="100"
+                FontFamily="Delfino"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Margin="10,10,40,20"/>
+            </Grid>
+        </Frame>
+
+
+        <Button Text="Sair" 
+                Grid.Row="4" Grid.Column="0"
+                HorizontalOptions="Start"
+                FontFamily="Delfino"
+                Clicked="OnRegisterClicked"
+                BackgroundColor="#4245aa" 
+                TextColor="White"
+                FontSize="30"
+                WidthRequest="120"/>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Playza.Views.Register1Page"
+    BackgroundImageSource="wallpaper.jpg"
+    Title="Qual é a disciplina que achas mais difícil?">
+
+    <Grid RowDefinitions="Auto,*,Auto"
+          ColumnDefinitions="*"
+          Padding="50">
+
+        <!-- Pergunta 
+        <Label Text="Qual é a disciplina que achas mais difícil?"
+               FontSize="50"
+               Grid.Row="0"
+               TextColor="#2F3179"
+               FontFamily="Delfino" 
+               HorizontalOptions="Start"
+               Margin="0,0,0,60" /> -->
+
+        <Image Source="disciplina.png"
+           Grid.Row="0"
+           HorizontalOptions="Start"
+           HeightRequest="180"
+         />
+
+        <Frame Grid.Row="1"
+               BackgroundColor="#80FFFFFF"
+               Padding="20"
+               Margin="0,0,0,50"
+               WidthRequest="1180"
+               HeightRequest="350"
+               CornerRadius="10"
+               HorizontalOptions="Start">
+            <Grid ColumnDefinitions="*,*" RowDefinitions="Auto" ColumnSpacing="60">
+
+                
+                <StackLayout Grid.Column="0" Spacing="80">
+                    <StackLayout Orientation="Horizontal" Spacing="70">
+                        <CheckBox x:Name="PortuguesCheck" />
+                        <Label Text="Português" TextColor="#4043a5" FontFamily="Delfino" FontSize="30" VerticalOptions="Center" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Spacing="70">
+                        <CheckBox x:Name="MatematicaCheck" />
+                        <Label Text="Matemática" TextColor="#4043a5" FontSize="30" FontFamily="Delfino" VerticalOptions="Center" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Spacing="70">
+                        <CheckBox x:Name="EstudoCheck" />
+                        <Label Text="Estudo do Meio" TextColor="#4043a5" FontSize="30" FontFamily="Delfino" VerticalOptions="Center" />
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout Grid.Column="1" Spacing="80">
+                    <StackLayout Orientation="Horizontal" Spacing="70">
+                        <CheckBox x:Name="ArtisticaCheck" />
+                        <Label Text="Educação Artística" TextColor="#4043a5" FontSize="30" FontFamily="Delfino" VerticalOptions="Center" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Spacing="70">
+                        <CheckBox x:Name="InglesCheck" />
+                        <Label Text="Inglês" FontSize="30" TextColor="#4043a5" FontFamily="Delfino" VerticalOptions="Center" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Spacing="70">
+                        <CheckBox x:Name="NenhumaCheck" />
+                        <Label Text="Nenhuma!" FontSize="30" TextColor="#4043a5" FontFamily="Delfino"  VerticalOptions="Center" />
+                    </StackLayout>
+                </StackLayout>
+            </Grid>
+        </Frame>
+
+
+        <Grid Grid.Row="2" ColumnDefinitions="*,*" Margin="0,20,0,0">
+            <Button Text="Voltar"
+                    Grid.Column="0"
+                    HorizontalOptions="Start"
+                    Clicked="OnLogoutClicked"
+                    FontFamily="Delfino"
+                    BackgroundColor="#4245aa"
+                    TextColor="White"
+                    FontSize="30"
+                    WidthRequest="130" />
+
+            <Button Text="Seguinte"
+                    Grid.Column="1"
+                    HorizontalOptions="End"
+                    Clicked="OnRegisterClicked"
+                    FontFamily="Delfino"
+                    BackgroundColor="#4245aa"
+                    TextColor="White"
+                    FontSize="30"
+                    WidthRequest="160" />
+        </Grid>
+
+    </Grid>
+</ContentPage>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Playza.Views.Register2Page"
+    BackgroundImageSource="wallpaper.jpg"
+    Title="Final">
+
+    <Grid Padding="30">
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Center" Spacing="40">
+
+           <!--
+            <Label Text="Perfeito!!"
+                   FontSize="80"
+                   FontAttributes="Bold"
+                   FontFamily="Delfino"
+                   TextColor="#9462fc"
+                   HorizontalOptions="Center"/> -->
+
+            <Image Source="perfeito.png"
+           Grid.Row="0"
+           Grid.ColumnSpan="3"
+           HorizontalOptions="Center"
+           HeightRequest="160" />
+
+
+            <Frame BackgroundColor="#80FFFFFF"
+                Padding="90"
+                   CornerRadius="15"
+                   HasShadow="True"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   WidthRequest="700">
+                
+                <StackLayout Spacing="50" HorizontalOptions="Center">
+                    <Label Text="Agora já podes jogar à vontade!"
+                           FontSize="32"
+                           FontFamily="Delfino"
+                           TextColor="#9462fc"
+                           HorizontalOptions="Center"/>
+                    <Label Text="Bons estudos!"
+                           FontSize="32"
+                           FontFamily="Delfino"
+                           TextColor="#9462fc"
+                           HorizontalOptions="Center"/>     
+
+                    <Button Text="Vamos a isto!"
+                            Clicked="OnRegisterClicked"
+                            BackgroundColor="#4245aa"
+                            TextColor="White"
+                            FontSize="40"
+                            FontFamily="Delfino"
+                            Padding="10"
+                            HorizontalOptions="Center"/>
+                </StackLayout>
+            </Frame>
+
+        </StackLayout>
+    </Grid>
+</ContentPage>

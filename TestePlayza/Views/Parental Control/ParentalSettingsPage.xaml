@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Playza.Views.ParentalSettingsPage"
+    BackgroundImageSource="fundoparental.jpg"
+    Title="Controlo Parental">
+
+    <Grid RowDefinitions="*, Auto, Auto" ColumnDefinitions="*">
+
+        <ScrollView Grid.Row="0">
+            <Frame BackgroundColor="#80FFFFFF"
+                   Margin="30"
+                   Padding="30"
+                   CornerRadius="15"
+                   HasShadow="True">
+
+                <VerticalStackLayout Spacing="25">
+
+                    <Grid ColumnDefinitions="Auto, *" VerticalOptions="Center">
+                        
+                        <Image Source="icon1.png"
+           Grid.Column="0"
+           WidthRequest="150"
+           HeightRequest="150"
+           VerticalOptions="Center"/>
+
+                       
+                        <Label x:Name="UserNameLabel"
+           Text="Nome do Utilizador"
+           Grid.Column="1"
+           FontSize="50"
+           FontFamily="Delfino"
+           TextColor="#9462fc"
+           VerticalOptions="Center"
+           Margin="20,0,0,0"/>
+                    </Grid>
+              
+                    <Label Text="Informações da conta:"
+                           FontSize="50"
+                           FontFamily="Delfino"
+                           TextColor="#9462fc"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Start"
+                           Margin="0,10"/>
+
+                    
+                    <Label Text="Nome:" TextColor="#9462fc" FontSize="28" FontFamily="Delfino"/>
+                    <Entry x:Name="NameEntry" Placeholder="Nome" BackgroundColor="White" FontFamily="Delfino"/>
+
+                    <Label Text="Alcunha:" TextColor="#9462fc" FontSize="28" FontFamily="Delfino"/>
+                    <Entry x:Name="NicknameEntry" Placeholder="Alcunha" BackgroundColor="White"  FontFamily="Delfino"/>
+
+                    
+                    <Label Text="Palavra-passe:" TextColor="#9462fc"  FontSize="28" FontFamily="Delfino"/>
+                    <Entry x:Name="PasswordEntry" Placeholder="Palavra-passe" BackgroundColor="White" IsPassword="True" FontFamily="Delfino"/>
+
+                 
+                    <Label Text="Confirmar palavra-passe:" TextColor="#9462fc" FontSize="28" FontFamily="Delfino"/>
+                    <Entry x:Name="ConfirmPasswordEntry" Placeholder="Confirmar palavra-passe"  BackgroundColor="White" IsPassword="True" FontFamily="Delfino"/>
+
+                    
+                    <Button Text="Guardar alterações"
+                            BackgroundColor="#4245aa"
+                            TextColor="White"
+                            Clicked="OnSaveChangesClicked"
+                            FontFamily="Delfino"
+                            FontSize="20"
+                            WidthRequest="120"
+                            HorizontalOptions="End"
+                            Margin="0,10,0,0"/>
+
+                  
+                    <Label Text="Eliminar conta"
+                           FontSize="50"
+                           FontAttributes="Bold"
+                           TextColor="#9462fc"
+                           FontFamily="Delfino"
+                           Margin="0,30,0,0"/>
+
+                    <Label Text="Se eliminares a conta, todos os dados associados serão removidos permanentemente."
+                           FontSize="28"
+                           FontFamily="Delfino"
+                           TextColor="Red"
+                           Margin="0,0,0,10"/>
+
+                  
+                    <Label Text="Palavra-passe:" TextColor="#9462fc" FontSize="28" FontFamily="Delfino"/>
+                    <Entry x:Name="DeletePasswordEntry" Placeholder="Palavra-passe" BackgroundColor="White"  IsPassword="True" FontFamily="Delfino"/>
+
+                    <Label Text="Confirmar palavra-passe:" TextColor="#9462fc" FontSize="28" FontFamily="Delfino"/>
+                    <Entry x:Name="DeleteConfirmPasswordEntry" Placeholder="Confirmar palavra-passe" BackgroundColor="White" IsPassword="True" FontFamily="Delfino"/>
+
+            
+                    <Button Text="Eliminar conta"
+                            BackgroundColor="Red"
+                            TextColor="White"
+                            Clicked="OnDeleteAccountClicked"
+                            FontFamily="Delfino"
+                            FontSize="12"
+                            WidthRequest="120"
+                            HorizontalOptions="End"
+                            Margin="0,10,0,0"/>
+
+                </VerticalStackLayout>
+            </Frame>
+        </ScrollView>
+
+        <Button Text="Sair"
+                Grid.Row="2"
+                BackgroundColor="#4245aa"
+                TextColor="White"
+                FontFamily="Delfino"
+                                FontSize="30"
+                WidthRequest="120"
+                Clicked="OnLogoutClicked"
+                HorizontalOptions="Start"
+                Margin="30,10,30,30"/>
+    </Grid>
+</ContentPage>

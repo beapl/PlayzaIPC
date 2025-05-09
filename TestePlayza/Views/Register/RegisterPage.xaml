@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Playza.Views.RegisterPage"
+    BackgroundImageSource="wallpaper.jpg"
+    Title="Olá!">
+
+    <Grid RowDefinitions="Auto,*,Auto"
+          ColumnDefinitions="*,*"
+          Padding="30"
+          RowSpacing="20">
+
+        <Image Source="ola.png"
+           Grid.Row="0"
+           Grid.ColumnSpan="3"
+           HorizontalOptions="Start"
+           HeightRequest="100" />
+        
+        <Frame Grid.Row="1" Grid.ColumnSpan="2"
+               BackgroundColor="#80FFFFFF"
+               Padding="30"
+               CornerRadius="15"
+               HasShadow="True"
+               HorizontalOptions="Start"
+               VerticalOptions="Center"
+               WidthRequest="1200"
+               HeightRequest="440">
+
+            <StackLayout Spacing="30">
+                <Label Text="Como te chamas?"
+                       FontSize="28"
+                       FontFamily="Delfino"
+                       HorizontalOptions="Start"
+                       TextColor="#4043a5" />
+                <Entry x:Name="NameEntry"
+                       Placeholder="Nome"
+                       BackgroundColor="White"
+                       FontFamily="Delfino" />
+
+                <!-- <Label Text="Qual é a tua idade?"
+                       FontSize="30"
+                       FontFamily="Delfino"
+                       HorizontalOptions="Start"
+                       TextColor="#9462fc" />
+                <Entry Placeholder="Idade" Keyboard="Numeric" FontFamily="Delfino" /> -->
+
+                <Label Text="Cria uma alcunha:"
+                       FontSize="28"
+                       FontFamily="Delfino"
+                       HorizontalOptions="Start"
+                       TextColor="#4043a5"/>
+                <Entry x:Name="UsernameEntry"
+                       Placeholder="Alcunha"
+                       BackgroundColor="White"
+                       FontFamily="Delfino" />
+
+                <Label Text="Cria uma palavra-passe:"
+                       FontSize="28"
+                       FontFamily="Delfino"
+                       HorizontalOptions="Start"
+                       TextColor="#4043a5" />
+                <Entry x:Name="PasswordEntry"
+                       Placeholder="Palavra-passe"
+                       BackgroundColor="White"
+                       FontFamily="Delfino"
+                       IsPassword="True" />
+            </StackLayout>
+        </Frame>
+
+        <Button Text="Voltar"
+                Grid.Row="2" Grid.Column="0"
+                HorizontalOptions="Start"
+                Clicked="OnLogoutClicked"
+                FontFamily="Delfino"
+                    FontSize="30"
+                    WidthRequest="130"
+                BackgroundColor="#4245aa"
+                TextColor="White"
+                />
+
+        <Button Text="Seguinte"
+                Grid.Row="2" Grid.Column="1"
+                HorizontalOptions="End"
+                Clicked="OnRegisterClicked"
+                BackgroundColor="#4245aa"
+                FontFamily="Delfino"
+                    FontSize="30"
+                    WidthRequest="160"
+                TextColor="White"
+                />
+    </Grid>
+</ContentPage>

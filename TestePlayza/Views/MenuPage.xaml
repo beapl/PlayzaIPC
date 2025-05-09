@@ -3,13 +3,126 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="Playza.Views.MenuPage"
-    BackgroundColor="#DCFCE7"
-    Title="Menu Principal">
+    BackgroundImageSource="wallpaper.jpg"
+    Title="MENU">
 
-    <StackLayout Padding="30" Spacing="20" VerticalOptions="Center">
-        <Button Text="Jogar" Clicked="OnPlayClicked" BackgroundColor="#22C55E" TextColor="White"/>
-        <Button Text="Definições" Clicked="OnSettingsClicked" BackgroundColor="#34D399" TextColor="White"/>
-        <Button Text="Terminar Sessão" Clicked="OnLogoutClicked" BackgroundColor="#F87171" TextColor="White"/>
-    </StackLayout>
+    <Grid RowDefinitions="Auto,*,Auto,*,Auto"
+      ColumnDefinitions="*,*,*"
+      Padding="50"
+      RowSpacing="20">
 
+        <Image Source="menu.png"
+           Grid.Row="0" Grid.ColumnSpan="3"
+           HorizontalOptions="Start"
+           VerticalOptions="Start"
+           HeightRequest="150"
+           Margin="0,0,0,0" 
+           />
+
+        <Frame Grid.Row="2" Grid.ColumnSpan="3"
+               BackgroundColor="#B3FFFFFF"
+               CornerRadius="20"
+               Padding="10"
+               Margin="0,0,0,0"
+                WidthRequest="800"
+                HeightRequest="430"
+               HorizontalOptions="Center"
+               VerticalOptions="Center">
+            <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="*,*,*,*"
+                  RowSpacing="0" ColumnSpacing="10"
+                  HorizontalOptions="Center">
+
+
+                <ImageButton Source="iconjornada.jpg"
+                             Grid.Row="0" Grid.Column="0"
+                             Clicked="OnPlayClicked"
+                             MaximumHeightRequest="200"
+                             HorizontalOptions="Start"
+                             VerticalOptions="Center"/>
+
+                <ImageButton Source="iconminijogo.jpg" 
+                             Grid.Row="0" Grid.Column="3"
+                             MaximumHeightRequest="200" 
+                             HorizontalOptions="End"
+                             Clicked="OnMiniClicked"
+                             VerticalOptions="Center"/>
+
+                <ImageButton Source="iconparental.jpg"
+                             Grid.Row="1" Grid.Column="0"
+                             Clicked="OnParentalClicked" 
+                             MaximumHeightRequest="200"
+                             HorizontalOptions="Start"
+                             VerticalOptions="Center"/>
+
+                <ImageButton Source="icondefinicoes.jpg"
+                             Grid.Row="1" Grid.Column="3"
+                             Clicked="OnSettingsClicked"
+                             MaximumHeightRequest="200"
+                             HorizontalOptions="End"
+                             VerticalOptions="Center"/>
+            </Grid>
+        </Frame>
+
+        <Button Text="Sair" 
+                Grid.Row="4" Grid.Column="0"
+                HorizontalOptions="Start"
+                Clicked="OnLogoutClicked" 
+                FontFamily="Delfino"
+                BackgroundColor="#4245aa" 
+                TextColor="White"
+                FontSize="30"
+                WidthRequest="120"/>
+    </Grid>
 </ContentPage>
+
+
+<!-- <ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Playza.Views.MenuPage"
+    BackgroundImageSource="wallpaper.jpg"
+    Title="MENU">
+
+
+    <Grid RowDefinitions="Auto,*,*,Auto,Auto"
+          ColumnDefinitions="*,*,*"
+          Padding="50"
+          RowSpacing="10">
+
+        <ImageButton Source="iconjornada.jpg"
+             Grid.Row="0" Grid.Column="0"
+             Clicked="OnPlayClicked" 
+             MaximumHeightRequest="240"
+             HorizontalOptions="Center"
+             VerticalOptions="Center"
+             Padding="0"
+             Margin="0"/>
+
+        <ImageButton Source="iconminijogo.jpg" 
+                Grid.Row="0" Grid.Column="2"
+                MaximumHeightRequest="240" 
+                Margin="5"/>
+    
+        <ImageButton Source="iconparental.jpg"
+                Grid.Row="3" Grid.Column="0"
+                Clicked="OnParentalClicked" 
+                MaximumHeightRequest="240"
+                Margin="5"/>
+
+        <ImageButton Source="icondefinicoes.jpg"
+                Grid.Row="3" Grid.Column="2"
+                MaximumHeightRequest="240"
+                Clicked="OnSettingsClicked" 
+                Margin="5"/>
+
+        <Button Text="Sair" 
+            Grid.Row="5"
+            Grid.Column="3"
+            HorizontalOptions="End"
+            Clicked="OnLogoutClicked" 
+            FontFamily="Delfino"
+            BackgroundColor="#4245aa" 
+            TextColor="White"
+            FontSize="30"/>
+    </Grid>
+</ContentPage> -->

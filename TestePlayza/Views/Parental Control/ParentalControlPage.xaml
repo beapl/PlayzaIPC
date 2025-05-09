@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:microcharts="clr-namespace:Microcharts.Maui;assembly=Microcharts.Maui"
+    x:Class="Playza.Views.ParentalControlPage"
+    BackgroundImageSource="fundoparental.jpg"
+    Title="Controlo Parental">
+
+    <Grid RowDefinitions="*,*,*,*, Auto" Padding="30">
+
+
+        <Image Source="controloparental.png"
+               HeightRequest="190"
+               Grid.Row="0"
+               HorizontalOptions="Start"
+               VerticalOptions="Start" 
+               Margin="0,0,0,0"/>
+
+
+        <Frame BackgroundColor="#B3FFFFFF"
+               Padding="20"
+               CornerRadius="15"
+               HasShadow="True"
+               BorderColor="LightGray"
+               Grid.Row="1"
+               HorizontalOptions="Start"
+               VerticalOptions="Start">
+
+            <Grid RowDefinitions="Auto, Auto, Auto"
+                  ColumnDefinitions="Auto, *"
+                  ColumnSpacing="20"
+                  RowSpacing="70">
+
+             
+                <Button Grid.Row="0" Grid.Column="0" 
+                        Text="Definições Parentais" 
+                        Clicked="OnDefParClicked" 
+                        FontSize="30"
+                        WidthRequest="220"
+                        FontFamily="Delfino"
+                        BackgroundColor="#4245aa"
+                        TextColor="White"/>
+                <Label Grid.Row="0" Grid.Column="1" 
+                       Text="Acesso aos perfis com sessão iniciada neste dispositivo. Limitação de tempo diário na aplicação para cada perfil."
+                       FontFamily="Delfino"
+                       VerticalOptions="Center"
+                       FontSize="30"
+                       TextColor="#4043a5"/>
+
+               
+                <Button Grid.Row="1" Grid.Column="0" 
+                        Text="Relatório de atividade" 
+                        FontFamily="Delfino"
+                        FontSize="18"
+                        WidthRequest="220"
+                        BackgroundColor="#4245aa"
+                        TextColor="White"/>
+                <Label Grid.Row="1" Grid.Column="1" 
+                       Text="Acesso ao relatório de atividade do perfil selecionado, com informações sobre o progresso da criança."
+                       VerticalOptions="Center"
+                       FontFamily="Delfino"
+                       FontSize="30"
+                       TextColor="#4043a5"/>
+
+              
+                <Button Grid.Row="2" Grid.Column="0" 
+                        Text="Suporte e Ajuda" 
+                        FontFamily="Delfino"
+                        FontSize="20"
+                        WidthRequest="220"
+                        BackgroundColor="#4245aa"
+                        TextColor="White"/>
+                <Label Grid.Row="2" Grid.Column="1" 
+                       Text="Acesso a um formulário de suporte, para divulgação de quaisquer dúvidas ou problemas."
+                       VerticalOptions="Center"
+                       FontSize="30"
+                       FontFamily="Delfino"
+                       TextColor="#4043a5"/>
+            </Grid>
+        </Frame>
+
+        <Button Text="Sair" 
+                    Grid.Row="3"
+                    Clicked="OnLogoutClicked"
+                    FontFamily="Delfino"
+                    BackgroundColor="#4245aa"
+                    TextColor="White"
+                    FontSize="30"
+                    WidthRequest="120"
+                    HorizontalOptions="Start"
+                    VerticalOptions="End"/>
+    </Grid>
+</ContentPage>
