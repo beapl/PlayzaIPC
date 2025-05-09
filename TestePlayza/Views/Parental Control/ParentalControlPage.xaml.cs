@@ -36,7 +36,7 @@ public partial class ParentalControlPage : ContentPage
             };
 
             // Exibe o gráfico na página
-            chartView.Chart = chart;
+            //chartView.Chart = chart;
         }
     
     private async void OnDefParClicked(object sender, EventArgs e)

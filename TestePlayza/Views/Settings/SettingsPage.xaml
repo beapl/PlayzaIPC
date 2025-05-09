@@ -38,10 +38,10 @@
 
                     <ScrollView Orientation="Horizontal">
                         <StackLayout Orientation="Horizontal" Padding="0">
-                            <ImageButton Source="tema0.png" WidthRequest="200" HeightRequest="200" Margin="10"/>
-                            <ImageButton Source="tema1.png" WidthRequest="200" HeightRequest="200" Margin="10"/>
-                            <ImageButton Source="tema2.png" WidthRequest="200" HeightRequest="200" Margin="10"/>
-                            <ImageButton Source="tema3.png" WidthRequest="200" HeightRequest="200" Margin="10"/>
+                            <ImageButton Source="tema0.png" Clicked="OnThemeSelected" WidthRequest="200" HeightRequest="200" Margin="10"/>
+                            <ImageButton Source="tema1.png" Clicked="OnThemeSelected" WidthRequest="200" HeightRequest="200" Margin="10"/>
+                            <ImageButton Source="tema2.png" Clicked="OnThemeSelected" WidthRequest="200" HeightRequest="200" Margin="10"/>
+                            <ImageButton Source="tema3.png" Clicked="OnThemeSelected" WidthRequest="200" HeightRequest="200" Margin="10"/>
                         </StackLayout>
                     </ScrollView>
 

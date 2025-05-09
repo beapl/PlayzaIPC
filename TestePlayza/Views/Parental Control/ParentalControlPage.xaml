@@ -7,70 +7,76 @@
     BackgroundImageSource="wallpaper.jpg"
     Title="Controlo Parental">
 
-    <Grid RowDefinitions="*, Auto" Padding="30">
+    <Grid RowDefinitions="*,*,*, Auto" Padding="30">
 
-        <microcharts:ChartView
-            x:Name="chartView"
-            HeightRequest="200"
-            WidthRequest="300"
-            VerticalOptions="Start"
-            HorizontalOptions="Center" />
+        <!-- Título com imagem -->
+        <Image Source="controloparental.png"
+               HeightRequest="100"
+               Grid.Row="0"
+               HorizontalOptions="Start"
+               VerticalOptions="Start" 
+               Margin="0,0,0,0"/>
 
+        <!-- Frame branco com os botões e textos -->
+        <Frame BackgroundColor="#B3FFFFFF"
+               Padding="20"
+               CornerRadius="15"
+               HasShadow="True"
+               BorderColor="LightGray"
+               Grid.Row="1"
+               HorizontalOptions="Start"
+               VerticalOptions="Start">
 
+            <Grid RowDefinitions="Auto, Auto, Auto"
+                  ColumnDefinitions="Auto, *"
+                  ColumnSpacing="20"
+                  RowSpacing="25">
 
-        <!-- Parte principal com os 3 botões e textos -->
-        <Grid Grid.Row="0"
-              RowDefinitions="Auto, Auto, Auto"
-              ColumnDefinitions="Auto, *"
-              ColumnSpacing="20"
-              RowSpacing="25">
+                <!-- Botão 1 -->
+                <Button Grid.Row="0" Grid.Column="0" 
+                        Text="Definições Parentais" 
+                        Clicked="OnDefParClicked" 
+                        FontFamily="Delfino"
+                        BackgroundColor="#4245aa"
+                        TextColor="White"/>
+                <Label Grid.Row="0" Grid.Column="1" 
+                       Text="Acesso aos perfis com sessão iniciada neste dispositivo. Limitação de tempo diário na aplicação para cada perfil."
+                       FontFamily="Delfino"
+                       VerticalOptions="Center"
+                       FontSize="16"
+                       TextColor="Black"/>
 
-            <!-- Botão 1 -->
-            <Button Grid.Row="0" Grid.Column="0" 
-                    Text="Definições Parentais" 
-                    Clicked="OnDefParClicked" 
-                    FontFamily="Delfino"
-                    BackgroundColor="#4245aa"
-                    TextColor="White"/>
-            <Label Grid.Row="0" Grid.Column="1" 
-                   Text="Acesso aos perfis com sessão iniciada neste dispositivo.
-                   Limitação de tempo diário na aplicação para cada perfil."
-                   FontFamily="Delfino"
-                   VerticalOptions="Center"
-                   FontSize="16"
-                   TextColor="Black"/>
+                <!-- Botão 2 -->
+                <Button Grid.Row="1" Grid.Column="0" 
+                        Text="Relatório de atividade de perfil" 
+                        FontFamily="Delfino"
+                        BackgroundColor="#4245aa"
+                        TextColor="White"/>
+                <Label Grid.Row="1" Grid.Column="1" 
+                       Text="Acesso ao relatório de atividade do perfil selecionado, com informações sobre o progresso da criança."
+                       VerticalOptions="Center"
+                       FontFamily="Delfino"
+                       FontSize="16"
+                       TextColor="Black"/>
 
-            <!-- Botão 2 -->
-            <Button Grid.Row="1" Grid.Column="0" 
-                    Text="Relatório de atividade de perfil" 
-                    FontFamily="Delfino"
-                    BackgroundColor="#4245aa"
-                    TextColor="White"/>
-            <Label Grid.Row="1" Grid.Column="1" 
-                   Text="Acesso ao relatório de atividade do perfil selecionado,
-                   com informações sobre o progresso da criança."
-                   VerticalOptions="Center"
-                   FontFamily="Delfino"
-                   FontSize="16"
-                   TextColor="Black"/>
+                <!-- Botão 3 -->
+                <Button Grid.Row="2" Grid.Column="0" 
+                        Text="Suporte e Ajuda" 
+                        FontFamily="Delfino"
+                        BackgroundColor="#4245aa"
+                        TextColor="White"/>
+                <Label Grid.Row="2" Grid.Column="1" 
+                       Text="Acesso a um formulário de suporte, para divulgação de quaisquer dúvidas ou problemas."
+                       VerticalOptions="Center"
+                       FontSize="16"
+                       FontFamily="Delfino"
+                       TextColor="Black"/>
+            </Grid>
+        </Frame>
 
-            <!-- Botão 3 -->
-            <Button Grid.Row="2" Grid.Column="0" 
-                    Text="Suporte e Ajuda" 
-                    FontFamily="Delfino"
-                    BackgroundColor="#4245aa"
-                    TextColor="White"/>
-            <Label Grid.Row="2" Grid.Column="1" 
-                   Text="Acesso a um formulário de suporte, para divulgação de quaisquer dúvidas ou problemas."
-                   VerticalOptions="Center"
-                   FontSize="16"
-                   FontFamily="Delfino"
-                   TextColor="Black"/>
-        </Grid>
-
-        <!-- Botão de sair na parte inferior -->
-        <Grid Grid.Row="1"
-              ColumnDefinitions="Auto, *">
+        <!-- Botão de sair na parte inferior, fora do frame -->
+        <Grid Grid.Row="2"
+>
             <Button Text="Sair"
                     FontFamily="Delfino"
                     BackgroundColor="#4245aa"

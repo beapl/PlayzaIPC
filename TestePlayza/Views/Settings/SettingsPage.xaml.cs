@@ -12,9 +12,30 @@ namespace Playza.Views
         // Método para mudar o tema
         private void OnThemeSelected(object sender, EventArgs e)
         {
-            var button = (ImageButton)sender;
-            var selectedTheme = button.Source.ToString(); // Pega a URL da imagem clicada
-            // Aqui você pode aplicar a mudança de tema com base na imagem selecionada
+            // Aqui você pode identificar qual tema foi selecionado
+            var button = sender as ImageButton;
+
+            if (button != null)
+            {
+                // Alterar o tema de acordo com o botão clicado
+                switch (button.Source.ToString()) // Verificando a imagem do botão clicado
+                {
+                    case "tema0.png":
+                        BackgroundImageSource = "tema0.png"; // Mudar a imagem de fundo para tema0
+                        break;
+                    case "tema1.png":
+                        BackgroundImageSource = "tema1.png"; // Mudar a imagem de fundo para tema1
+                        break;
+                    case "tema2.png":
+                        BackgroundImageSource = "tema2.png"; // Mudar a imagem de fundo para tema2
+                        break;
+                    case "tema3.png":
+                        BackgroundImageSource = "tema3.png"; // Mudar a imagem de fundo para tema3
+                        break;
+                    default:
+                        break;
+                }
+            }
         }
 
         // Método para mudar o ícone

@@ -48,7 +48,7 @@
                             Clicked="OnRegisterClicked"
                             BackgroundColor="#4245aa"
                             TextColor="White"
-                            FontSize="50"
+                            FontSize="40"
                             FontFamily="Delfino"
                             Padding="10"
                             HorizontalOptions="Center"/>

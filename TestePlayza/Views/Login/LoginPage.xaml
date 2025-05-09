@@ -32,7 +32,7 @@
                Padding="30"
                Margin="0,20,0,0"
                WidthRequest="1170"
-           HeightRequest="350"
+           HeightRequest="360"
                CornerRadius="10"
                Grid.Row="1"
                HorizontalOptions="Start">
