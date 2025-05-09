@@ -65,9 +65,10 @@
                     <Button Text="Guardar alterações"
                             BackgroundColor="#4245aa"
                             TextColor="White"
+                            Clicked="OnSaveChangesClicked"
                             FontFamily="Delfino"
-                                                            FontSize="20"
-                WidthRequest="120"
+                            FontSize="20"
+                            WidthRequest="120"
                             HorizontalOptions="End"
                             Margin="0,10,0,0"/>
 
@@ -96,9 +97,10 @@
                     <Button Text="Eliminar conta"
                             BackgroundColor="Red"
                             TextColor="White"
+                            Clicked="OnDeleteAccountClicked"
                             FontFamily="Delfino"
-                                                            FontSize="12"
-                WidthRequest="120"
+                            FontSize="12"
+                            WidthRequest="120"
                             HorizontalOptions="End"
                             Margin="0,10,0,0"/>
 
