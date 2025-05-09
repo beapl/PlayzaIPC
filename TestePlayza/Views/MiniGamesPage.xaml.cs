@@ -9,11 +9,11 @@ public partial class MiniGamesPage : ContentPage
 
     private async void OnMiniGame1Clicked(object sender, EventArgs e)
     {
-        await Shell.Current.GoToAsync("MiniGame1");
+        await Shell.Current.GoToAsync("MiniJogo1");
     }
 
     private async void OnMiniGame2Clicked(object sender, EventArgs e)
     {
-        await Shell.Current.GoToAsync("MiniGame2");
+        await Shell.Current.GoToAsync("MiniJogo2");
     }
 }

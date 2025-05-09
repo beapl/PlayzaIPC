@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\leona\\OneDrive\\Documents\\GitHub\\PlayzaIPC\\TestePlayza\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\leona\\onedrive\\documents\\github\\playzaipc\\testeplayza\\views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,6 +22,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\leona\\onedrive\\documents\\github\\playzaipc\\testeplayza\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\leona\\onedrive\\documents\\github\\playzaipc\\testeplayza\\views\\minijogo1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:views\\minijogo1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|c:\\users\\leona\\onedrive\\documents\\github\\playzaipc\\testeplayza\\views\\minijogo1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{105AA7C2-6089-47CC-96F1-A03B9856A08F}|TestePlayza.csproj|solutionrelative:views\\minijogo1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -112,6 +121,35 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+<<<<<<< Updated upstream
+=======
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MiniJogo1.xaml",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documents\\GitHub\\PlayzaIPC\\TestePlayza\\Views\\MiniJogo1.xaml",
+              "RelativeDocumentMoniker": "Views\\MiniJogo1.xaml",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documents\\GitHub\\PlayzaIPC\\TestePlayza\\Views\\MiniJogo1.xaml",
+              "RelativeToolTip": "Views\\MiniJogo1.xaml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-07T17:30:06.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MiniJogo1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documents\\GitHub\\PlayzaIPC\\TestePlayza\\Views\\MiniJogo1.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\MiniJogo1.xaml.cs",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documents\\GitHub\\PlayzaIPC\\TestePlayza\\Views\\MiniJogo1.xaml.cs",
+              "RelativeToolTip": "Views\\MiniJogo1.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T19:43:52.002Z",
+              "EditorCaption": ""
+>>>>>>> Stashed changes
             }
           ]
         }

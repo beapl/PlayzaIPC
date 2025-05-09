@@ -3,6 +3,10 @@
     "",
     "\\Views"
   ],
+<<<<<<< Updated upstream
   "SelectedNode": "\\Views\\MiniGamesPage.xaml.cs",
+=======
+  "SelectedNode": "\\TestePlayza.csproj",
+>>>>>>> Stashed changes
   "PreviewInSolutionExplorer": false
 }

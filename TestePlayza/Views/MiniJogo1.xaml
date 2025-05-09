@@ -1,0 +1,74 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestePlayza.Views.MiniJogo1"
+             BackgroundColor="#A8DADC">
+
+    <Grid x:Name="MainGrid" Padding="10">
+        <Frame CornerRadius="20" Padding="20" BackgroundColor="#1D3557">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Label x:Name="QuestionLabel"
+                       FontSize="48"
+                       FontAttributes="Bold"
+                       FontFamily="Fredoka"
+                       TextColor="White"
+                       HorizontalOptions="Center"
+                       Margin="0,10" />
+
+                <HorizontalStackLayout x:Name="ImagePanel"
+                                       Grid.Row="1"
+                                       HorizontalOptions="Center"
+                                       VerticalOptions="Center"
+                                       Spacing="10" />
+
+                <VerticalStackLayout Grid.Row="2"
+                                     Padding="10"
+                                     Spacing="10"
+                                     HorizontalOptions="Center">
+
+                    <HorizontalStackLayout Spacing="20">
+                        <Button x:Name="OptionButton1"
+                                FontSize="36"
+                                FontFamily="Fredoka"
+                                TextColor="White"
+                                BackgroundColor="#457B9D"
+                                CornerRadius="20"
+                                WidthRequest="120"
+                                HeightRequest="70"
+                                Clicked="OnAnswerClicked"/>
+                        <Button x:Name="OptionButton2"
+                                FontSize="36"
+                                FontFamily="Fredoka"
+                                TextColor="White"
+                                BackgroundColor="#457B9D"
+                                CornerRadius="20"
+                                WidthRequest="120"
+                                HeightRequest="70"
+                                Clicked="OnAnswerClicked"/>
+                        <Button x:Name="OptionButton3"
+                                FontSize="36"
+                                FontFamily="Fredoka"
+                                TextColor="White"
+                                BackgroundColor="#457B9D"
+                                CornerRadius="20"
+                                WidthRequest="120"
+                                HeightRequest="70"
+                                Clicked="OnAnswerClicked"/>
+                    </HorizontalStackLayout>
+
+                    <Label x:Name="FeedbackLabel"
+                           FontSize="28"
+                           FontFamily="Fredoka"
+                           TextColor="Yellow"
+                           HorizontalOptions="Center"
+                           Margin="0,10"/>
+                </VerticalStackLayout>
+            </Grid>
+        </Frame>
+    </Grid>
+</ContentPage>

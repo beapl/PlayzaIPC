@@ -356,11 +356,22 @@ C:\Users\leona\OneDrive\Documents\GitHub\PlayzaIPC\TestePlayza\obj\Debug\net8.0-
 C:\Users\leona\OneDrive\Documents\GitHub\PlayzaIPC\TestePlayza\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauifont.inputs
 C:\Users\leona\OneDrive\Documents\GitHub\PlayzaIPC\TestePlayza\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauisplash.inputs
 C:\Users\leona\OneDrive\Documents\GitHub\PlayzaIPC\TestePlayza\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauisplash.stamp
+<<<<<<< Updated upstream
 C:\Users\leona\OneDrive\Documents\GitHub\PlayzaIPC\TestePlayza\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\iconparental.jpg
 C:\Users\leona\OneDrive\Documents\GitHub\PlayzaIPC\TestePlayza\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\iconminijogo.jpg
 C:\Users\leona\OneDrive\Documents\GitHub\PlayzaIPC\TestePlayza\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icondefinicoes.jpg
 C:\Users\leona\OneDrive\Documents\GitHub\PlayzaIPC\TestePlayza\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\wallpaper.jpg
 C:\Users\leona\OneDrive\Documents\GitHub\PlayzaIPC\TestePlayza\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\iconjornada.jpg
+=======
+C:\Users\leona\OneDrive\Documents\GitHub\PlayzaIPC\TestePlayza\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icondefinicoes.jpg
+C:\Users\leona\OneDrive\Documents\GitHub\PlayzaIPC\TestePlayza\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\wallpaper.jpg
+C:\Users\leona\OneDrive\Documents\GitHub\PlayzaIPC\TestePlayza\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\iconminijogo.jpg
+C:\Users\leona\OneDrive\Documents\GitHub\PlayzaIPC\TestePlayza\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\iconjornada.jpg
+C:\Users\leona\OneDrive\Documents\GitHub\PlayzaIPC\TestePlayza\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\balloons.png
+C:\Users\leona\OneDrive\Documents\GitHub\PlayzaIPC\TestePlayza\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\apple.png
+C:\Users\leona\OneDrive\Documents\GitHub\PlayzaIPC\TestePlayza\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\banana.png
+C:\Users\leona\OneDrive\Documents\GitHub\PlayzaIPC\TestePlayza\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\iconparental.jpg
+>>>>>>> Stashed changes
 C:\Users\leona\OneDrive\Documents\GitHub\PlayzaIPC\TestePlayza\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@3x.png
 C:\Users\leona\OneDrive\Documents\GitHub\PlayzaIPC\TestePlayza\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@2x.png
 C:\Users\leona\OneDrive\Documents\GitHub\PlayzaIPC\TestePlayza\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot.png

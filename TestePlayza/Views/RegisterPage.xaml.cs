@@ -1,4 +1,9 @@
 namespace Playza.Views;
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
     public partial class RegisterPage : ContentPage
     {
         public RegisterPage()
@@ -10,4 +15,8 @@ namespace Playza.Views;
         {
             await Shell.Current.GoToAsync("MenuPage");
         }
+<<<<<<< Updated upstream
     }
+=======
+    }
+>>>>>>> Stashed changes
