@@ -15,23 +15,21 @@ namespace Playza.Views
         }
         private async void OnRegisterClicked(object sender, EventArgs e)
         {
+            var name = NameEntry.Text;
+            var username = UsernameEntry.Text;
+            var password = PasswordEntry.Text;
 
-            var user = new User
+            // Validação simples
+            if (string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
             {
-                Name = NameEntry.Text,
-                Username = UsernameEntry.Text,
-                Password = PasswordEntry.Text
-            };
-
-            var existing = await App.Database.GetUserByUsernameAsync(user.Username);
-                if (existing != null)
-                {
-                    await DisplayAlert("Erro", "Essa alcunha já existe!", "OK");
-                    return;
-                }
-
-                await App.Database.SaveUserAsync(user);
-                await Shell.Current.GoToAsync("Register1Page");
+                await DisplayAlert("Erro", "Preenche todos os campos.", "OK");
+                return;
             }
+
+            var nextPage = new Register1Page(name, username, password);
+
+            // Mostrar a nova página
+            await Navigation.PushAsync(nextPage);
+        }
     }
 }

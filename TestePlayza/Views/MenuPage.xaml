@@ -6,7 +6,7 @@
     BackgroundImageSource="wallpaper.jpg"
     Title="MENU">
 
-    <Grid RowDefinitions="Auto,*,Auto,Auto"
+    <Grid RowDefinitions="Auto,*,Auto,*,Auto"
       ColumnDefinitions="*,*,*"
       Padding="50"
       RowSpacing="20">
@@ -22,15 +22,17 @@
 
 
             <!-- Frame que engloba os ImageButtons principais -->
-        <Frame Grid.Row="1" Grid.ColumnSpan="3"
+        <Frame Grid.Row="2" Grid.ColumnSpan="3"
                BackgroundColor="#B3FFFFFF"
                CornerRadius="20"
-               Padding="30"
+               Padding="10"
                Margin="0,0,0,0"
+                WidthRequest="800"
+                HeightRequest="430"
                HorizontalOptions="Center"
                VerticalOptions="Center">
             <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="*,*,*,*"
-                  RowSpacing="0" ColumnSpacing="40"
+                  RowSpacing="0" ColumnSpacing="10"
                   HorizontalOptions="Center">
 
                 <!-- Canto superior esquerdo -->
@@ -38,14 +40,14 @@
                              Grid.Row="0" Grid.Column="0"
                              Clicked="OnPlayClicked"
                              MaximumHeightRequest="200"
-                             HorizontalOptions="Center"
+                             HorizontalOptions="Start"
                              VerticalOptions="Center"/>
 
                 <!-- Canto superior direito -->
                 <ImageButton Source="iconminijogo.jpg" 
                              Grid.Row="0" Grid.Column="3"
                              MaximumHeightRequest="200" 
-                             HorizontalOptions="Center"
+                             HorizontalOptions="End"
                              VerticalOptions="Center"/>
 
                 <!-- Canto inferior esquerdo -->
@@ -53,7 +55,7 @@
                              Grid.Row="1" Grid.Column="0"
                              Clicked="OnParentalClicked" 
                              MaximumHeightRequest="200"
-                             HorizontalOptions="Center"
+                             HorizontalOptions="Start"
                              VerticalOptions="Center"/>
 
                 <!-- Canto inferior direito -->
@@ -61,7 +63,7 @@
                              Grid.Row="1" Grid.Column="3"
                              Clicked="OnSettingsClicked"
                              MaximumHeightRequest="200"
-                             HorizontalOptions="Center"
+                             HorizontalOptions="End"
                              VerticalOptions="Center"/>
             </Grid>
         </Frame>
