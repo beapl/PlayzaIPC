@@ -271,7 +271,6 @@ C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\bin\Debug\net8.0-ios\ios-ar
 C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\bin\Debug\net8.0-ios\ios-arm64\Microsoft.Maui.Controls.HotReload.Forms.dll
 C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\bin\Debug\net8.0-ios\ios-arm64\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
 C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\bin\Debug\net8.0-ios\ios-arm64\Microsoft.VisualStudio.DesignTools.TapContract.dll
-C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-ios\ios-arm64\build-signature\signature
 C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-ios\ios-arm64\mauiimage.inputs
 C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-ios\ios-arm64\mauifont.inputs
 C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-ios\ios-arm64\mauisplash.inputs

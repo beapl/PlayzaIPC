@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage 
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
@@ -6,74 +5,81 @@
     BackgroundImageSource="wallpaper.jpg"
     Title="MENU">
 
-    <Grid RowDefinitions="Auto,*,Auto,*,Auto"
-      ColumnDefinitions="*,*,*"
-      Padding="50"
-      RowSpacing="20">
-
+    <Grid>
+        <!-- Imagem GRANDE no topo, por cima de tudo -->
         <Image Source="menu.png"
-           Grid.Row="0" Grid.ColumnSpan="3"
-           HorizontalOptions="Start"
-           VerticalOptions="Start"
-           HeightRequest="150"
-           Margin="0,0,0,0" 
-           />
-
-        <Frame Grid.Row="2" Grid.ColumnSpan="3"
-               BackgroundColor="#B3FFFFFF"
-               CornerRadius="20"
-               Padding="10"
+               HorizontalOptions="Start"
+               VerticalOptions="Start"
                Margin="0,0,0,0"
-                WidthRequest="800"
-                HeightRequest="430"
-               HorizontalOptions="Center"
-               VerticalOptions="Center">
-            <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="*,*,*,*"
-                  RowSpacing="0" ColumnSpacing="10"
-                  HorizontalOptions="Center">
+               HeightRequest="200"
+               WidthRequest="280"
+               ZIndex="100"/>
 
+        <!-- Layout principal -->
+        <Grid RowDefinitions="*,*,*,*,Auto"
+              ColumnDefinitions="*,*,*"
+              Padding="50"
+              RowSpacing="50">
 
-                <ImageButton Source="iconjornada.jpg"
-                             Grid.Row="0" Grid.Column="0"
-                             Clicked="OnPlayClicked"
-                             MaximumHeightRequest="200"
-                             HorizontalOptions="Start"
-                             VerticalOptions="Center"/>
+            <Frame Grid.Row="2" Grid.ColumnSpan="3"
+                   BackgroundColor="#B3FFFFFF"
+                   CornerRadius="20"
+                   Padding="5"
+                   WidthRequest="900"
+                   HeightRequest="440"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center">
+                <Grid RowDefinitions="*, *" ColumnDefinitions="*,*,*,*,*"
+                      ColumnSpacing="60">
 
-                <ImageButton Source="iconminijogo.jpg" 
-                             Grid.Row="0" Grid.Column="3"
-                             MaximumHeightRequest="200" 
-                             HorizontalOptions="End"
-                             Clicked="OnMiniClicked"
-                             VerticalOptions="Center"/>
+                    <ImageButton Source="iconjornada.jpg"
+                                 Grid.Row="0" Grid.Column="1"
+                                 HeightRequest="300"
+                                 WidthRequest="300"
+                                 HorizontalOptions="Center"
+                                 VerticalOptions="Center"
+                                 Clicked="OnPlayClicked"/>
 
-                <ImageButton Source="iconparental.jpg"
-                             Grid.Row="1" Grid.Column="0"
-                             Clicked="OnParentalClicked" 
-                             MaximumHeightRequest="200"
-                             HorizontalOptions="Start"
-                             VerticalOptions="Center"/>
+                    <ImageButton Source="iconminijogo.jpg" 
+                                 Grid.Row="0" Grid.Column="3"
+                                 HeightRequest="300"
+                                 WidthRequest="300"
+                                 HorizontalOptions="Center"
+                                 VerticalOptions="Center"
+                                 Clicked="OnMiniClicked"/>
 
-                <ImageButton Source="icondefinicoes.jpg"
-                             Grid.Row="1" Grid.Column="3"
-                             Clicked="OnSettingsClicked"
-                             MaximumHeightRequest="200"
-                             HorizontalOptions="End"
-                             VerticalOptions="Center"/>
-            </Grid>
-        </Frame>
+                    <ImageButton Source="iconparental.jpg"
+                                 Grid.Row="1" Grid.Column="1"
+                                 HeightRequest="300"
+                                 WidthRequest="300"
+                                 HorizontalOptions="Center"
+                                 VerticalOptions="Center"
+                                 Clicked="OnParentalClicked"/>
 
-        <Button Text="Sair" 
-                Grid.Row="4" Grid.Column="0"
-                HorizontalOptions="Start"
-                Clicked="OnLogoutClicked" 
-                FontFamily="Delfino"
-                BackgroundColor="#4245aa" 
-                TextColor="White"
-                FontSize="30"
-                WidthRequest="120"/>
+                    <ImageButton Source="icondefinicoes.jpg"
+                                 Grid.Row="1" Grid.Column="3"
+                                 HeightRequest="300"
+                                 WidthRequest="300"
+                                 HorizontalOptions="Center"
+                                 VerticalOptions="Center"
+                                 Clicked="OnSettingsClicked"/>
+                </Grid>
+            </Frame>
+
+            <!-- Botão Sair -->
+            <Button Text="Sair" 
+                    Grid.Row="4" Grid.Column="0"
+                    HorizontalOptions="Start"
+                    Clicked="OnLogoutClicked" 
+                    FontFamily="Delfino"
+                    BackgroundColor="#4245aa" 
+                    TextColor="White"
+                    FontSize="30"
+                    WidthRequest="120"/>
+        </Grid>
     </Grid>
 </ContentPage>
+
 
 
 <!-- <ContentPage 
