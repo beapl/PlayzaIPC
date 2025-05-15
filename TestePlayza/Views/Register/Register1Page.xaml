@@ -38,30 +38,30 @@
                 
                 <StackLayout Grid.Column="0" Spacing="80">
                     <StackLayout Orientation="Horizontal" Spacing="70">
-                        <CheckBox x:Name="PortuguesCheck" />
+                        <CheckBox x:Name="PortuguesCheck" Scale="2.1" />
                         <Label Text="Português" TextColor="#4043a5" FontFamily="Delfino" FontSize="30" VerticalOptions="Center" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal" Spacing="70">
-                        <CheckBox x:Name="MatematicaCheck" />
+                        <CheckBox x:Name="MatematicaCheck" Scale="2.1" />
                         <Label Text="Matemática" TextColor="#4043a5" FontSize="30" FontFamily="Delfino" VerticalOptions="Center" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal" Spacing="70">
-                        <CheckBox x:Name="EstudoCheck" />
+                        <CheckBox x:Name="EstudoCheck" Scale="2.1" />
                         <Label Text="Estudo do Meio" TextColor="#4043a5" FontSize="30" FontFamily="Delfino" VerticalOptions="Center" />
                     </StackLayout>
                 </StackLayout>
 
                 <StackLayout Grid.Column="1" Spacing="80">
                     <StackLayout Orientation="Horizontal" Spacing="70">
-                        <CheckBox x:Name="ArtisticaCheck" />
+                        <CheckBox x:Name="ArtisticaCheck" Scale="2.1" />
                         <Label Text="Educação Artística" TextColor="#4043a5" FontSize="30" FontFamily="Delfino" VerticalOptions="Center" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal" Spacing="70">
-                        <CheckBox x:Name="InglesCheck" />
+                        <CheckBox x:Name="InglesCheck" Scale="2.1" />
                         <Label Text="Inglês" FontSize="30" TextColor="#4043a5" FontFamily="Delfino" VerticalOptions="Center" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal" Spacing="70">
-                        <CheckBox x:Name="NenhumaCheck" />
+                        <CheckBox x:Name="NenhumaCheck" Scale="2.1" />
                         <Label Text="Nenhuma!" FontSize="30" TextColor="#4043a5" FontFamily="Delfino"  VerticalOptions="Center" />
                     </StackLayout>
                 </StackLayout>
