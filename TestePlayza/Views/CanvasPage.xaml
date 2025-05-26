@@ -1,0 +1,80 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Playza.Views.CanvasPage"
+             Title="Desenha!"
+             BackgroundImageSource="fundodesenho.jpg"
+             NavigationPage.HasNavigationBar="False">
+
+    <Grid RowDefinitions="Auto,*" Padding="10">
+
+        <!-- Botões no topo -->
+        <Grid Grid.Row="0"
+              ColumnSpacing="10"
+              HorizontalOptions="Fill"
+              Margin="0,10"
+              ColumnDefinitions="Auto,*,Auto,Auto,Auto,Auto,Auto,Auto">
+
+            <!-- Botão de Pausa à esquerda -->
+            <ImageButton Source="pausa.png" Clicked="OnPauseClicked"
+                         BackgroundColor="Transparent" Grid.Column="0"
+                         WidthRequest="40" HeightRequest="40"
+                         HorizontalOptions="Start" />
+
+            <!-- Espaço entre pausa e ferramentas -->
+            <BoxView Grid.Column="1" WidthRequest="10" />
+
+            <!-- Ferramentas -->
+            <ImageButton Source="black.png" Clicked="OnColorSelected" BackgroundColor="Transparent" Grid.Column="2"
+                         WidthRequest="40" HeightRequest="40"/>
+            <ImageButton Source="red.png" Clicked="OnColorSelected" BackgroundColor="Transparent" Grid.Column="3"
+                         WidthRequest="40" HeightRequest="40"/>
+            <ImageButton Source="green.png" Clicked="OnColorSelected" BackgroundColor="Transparent" Grid.Column="4"
+                         WidthRequest="40" HeightRequest="40"/>
+            <ImageButton Source="blue.png" Clicked="OnColorSelected" BackgroundColor="Transparent" Grid.Column="5"
+                         WidthRequest="40" HeightRequest="40"/>
+            <ImageButton Source="eraser.png" Clicked="OnEraserClicked" BackgroundColor="Transparent" Grid.Column="6"
+                         WidthRequest="40" HeightRequest="40"/>
+            <ImageButton Source="clean.png" Clicked="OnClearClicked" BackgroundColor="Transparent" Grid.Column="7"
+                         WidthRequest="40" HeightRequest="40"/>
+        </Grid>
+
+        <!-- Área de Desenho -->
+        <GraphicsView x:Name="DrawingCanvas"
+                      Drawable="{Binding Drawable}"
+                      StartInteraction="OnStartInteraction"
+                      DragInteraction="OnDragInteraction"
+                      EndInteraction="OnEndInteraction"
+                      Grid.Row="1"
+                      BackgroundColor="White" />
+
+        <!-- Menu de Pausa -->
+        <Frame x:Name="PauseMenu"
+               Grid.RowSpan="2"
+               CornerRadius="20"
+               Padding="20"
+               BackgroundColor="#1D3557"
+               IsVisible="False"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               HasShadow="True"
+               ZIndex="20">
+
+            <StackLayout Spacing="20" HorizontalOptions="Center">
+                <Label Text="Em pausa"
+                       FontSize="30"
+                       TextColor="White"
+                       HorizontalOptions="Center"/>
+                <Button Text="Retomar"
+                        Clicked="OnResumeClicked"
+                        BackgroundColor="#457B9D"
+                        TextColor="White"
+                        CornerRadius="20"/>
+                <Button Text="Sair"
+                        Clicked="OnExitClicked"
+                        BackgroundColor="#E63946"
+                        TextColor="White"
+                        CornerRadius="20"/>
+            </StackLayout>
+        </Frame>
+    </Grid>
+</ContentPage>

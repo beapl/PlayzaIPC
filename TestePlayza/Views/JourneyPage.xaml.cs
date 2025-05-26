@@ -2,6 +2,7 @@ namespace Playza.Views;
 
 public partial class JourneyPage : ContentPage
 {
+    private DateTime levelStartTime;
     public JourneyPage()
     {
         InitializeComponent();
@@ -9,7 +10,13 @@ public partial class JourneyPage : ContentPage
 
     private async void OnMiniGame1Clicked(object sender, EventArgs e)
     {
-        await Shell.Current.GoToAsync("MiniJogo1");
+        levelStartTime = DateTime.Now;
+
+        // Navega para a página do jogo, passando o tempo de início
+        await Navigation.PushAsync(new MiniJogo1(DateTime.Now, "JourneyPage"));
+
+
+        //await Navigation.PushAsync(new MiniJogo1("JourneyPage"));
     }
 
     private async void OnMiniGame2Clicked(object sender, EventArgs e)

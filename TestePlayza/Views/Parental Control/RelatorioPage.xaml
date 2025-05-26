@@ -1,0 +1,27 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Playza.Views.RelatorioPage"
+             BackgroundImageSource="fundoparental.jpg"
+             Title="Relatório">
+    <ScrollView>
+        <VerticalStackLayout Padding="20">
+            <Label Text=" Relatório de Atividade" FontSize="40" FontFamily="Delfino"/>
+
+            <Label Text="{Binding TotalTimeDisplay}" FontSize="21" FontFamily="Delfino" TextColor="#4245aa" Margin="0,10" />
+
+            <CollectionView ItemsSource="{Binding MiniGameReports}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Padding="10" Margin="5" BackgroundColor="#f2f2f2">
+                            <StackLayout>
+                                <Label Text="{Binding GameName}" FontFamily="Delfino" FontSize="21" FontAttributes="Bold" />
+                                <Label Text="{Binding TimeTakenDisplay}" FontFamily="Delfino" FontSize="19" />
+                                <Label Text="{Binding StartEndDisplay}" FontFamily="Delfino" FontSize="17" TextColor="Gray"/>
+                            </StackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -15,6 +15,7 @@ namespace Playza
             Routing.RegisterRoute("Register2Page", typeof(Register2Page));
             Routing.RegisterRoute("ParentalControlPage", typeof(ParentalControlPage));
             Routing.RegisterRoute("ParentalSettingsPage", typeof(ParentalSettingsPage));
+            Routing.RegisterRoute("RelatorioPage", typeof(Playza.Views.RelatorioPage));
             Routing.RegisterRoute("SettingsPage", typeof(SettingsPage));
             Routing.RegisterRoute("MiniGamesPage", typeof(Playza.Views.MiniGamesPage));
             Routing.RegisterRoute("MiniJogo1", typeof(Playza.Views.MiniJogo1));
@@ -22,6 +23,7 @@ namespace Playza
             Routing.RegisterRoute("MiniJogo3", typeof(Playza.Views.MiniJogo3));
             Routing.RegisterRoute("MiniJogo4", typeof(Playza.Views.MiniJogo4));
             Routing.RegisterRoute("JourneyPage", typeof(Playza.Views.JourneyPage));
+            Routing.RegisterRoute("CanvasPage", typeof(Playza.Views.CanvasPage));
 
 
         }
