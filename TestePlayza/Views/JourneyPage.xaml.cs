@@ -9,7 +9,7 @@ public partial class JourneyPage : ContentPage
 
     private async void OnMiniGame1Clicked(object sender, EventArgs e)
     {
-        await Shell.Current.GoToAsync("MiniJogo1");
+        await Navigation.PushAsync(new MiniJogo1("JourneyPage"));
     }
 
     private async void OnMiniGame2Clicked(object sender, EventArgs e)

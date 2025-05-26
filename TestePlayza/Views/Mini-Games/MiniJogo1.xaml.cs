@@ -14,15 +14,22 @@ namespace Playza.Views
         private int correctAnswer;
         private bool isPaused = false;
         private readonly Random random = new();
+        private string OriginPage;
 
         private readonly List<string> imageOptions = new()
         {
             "apple.png", "banana.png", "balloons.png"
         };
 
-        public MiniJogo1()
+        public MiniJogo1() : this("MiniGamesPage")
+        {
+        }
+
+
+        public MiniJogo1(string origin)
         {
             InitializeComponent();
+            OriginPage = origin;
             GenerateQuestion();
         }
 
@@ -39,7 +46,6 @@ namespace Playza.Views
             currentQuestion++;
             FeedbackLabel.Text = "";
             ImagePanel.Children.Clear();
-            SetBackgroundGradient("#1D3557", "#1D3557");
 
             string image = imageOptions[random.Next(imageOptions.Count)];
             int a = random.Next(1, 6);
@@ -53,33 +59,36 @@ namespace Playza.Views
             {
                 "+" => a + b,
                 "-" => a - b,
-                // "*" => a * b,
                 _ => 0
             };
 
-            string opDisplay = op == "*" ? "x" : op;
+            string opDisplay = op == "*" ? "×" : op == "/" ? "÷" : op;
+
             QuestionLabel.Text = $"{a} {opDisplay} {b} = ?";
 
+            // Adiciona imagens do primeiro número
             for (int i = 0; i < a; i++)
                 ImagePanel.Children.Add(CreateImage(image));
 
+            // Adiciona o sinal da operação em PRETO
             ImagePanel.Children.Add(new Label
             {
                 Text = opDisplay,
                 FontSize = 40,
                 FontFamily = "Fredoka",
-                TextColor = Colors.White,
+                TextColor = Colors.Black, // COR PRETA AQUI
                 VerticalOptions = LayoutOptions.Center,
                 Padding = 10
             });
 
+            // Adiciona imagens do segundo número
             for (int i = 0; i < b; i++)
                 ImagePanel.Children.Add(CreateImage(image));
 
             var options = new List<int> { correctAnswer };
-            while (options.Count < 3)
+            while (options.Count < 5)
             {
-                int wrong = random.Next(0, 21);
+                int wrong = random.Next(0, 16);
                 if (!options.Contains(wrong))
                     options.Add(wrong);
             }
@@ -88,8 +97,12 @@ namespace Playza.Views
             OptionButton1.Text = shuffled[0].ToString();
             OptionButton2.Text = shuffled[1].ToString();
             OptionButton3.Text = shuffled[2].ToString();
+            OptionButton4.Text = shuffled[3].ToString();
+            OptionButton5.Text = shuffled[4].ToString();
 
             EnableButtons();
+            ScoreLabel.Text = $"Pontuação: {score}";
+
         }
 
         private Image CreateImage(string filename)
@@ -111,20 +124,36 @@ namespace Playza.Views
                 if (answer == correctAnswer)
                 {
                     FeedbackLabel.Text = "Correto!";
+                    FeedbackLabel.TextColor = Colors.Green;
                     score++;
-                    SetBackgroundGradient("#11998e", "#38ef7d");
+                    ScoreLabel.Text = $"Pontuação: {score}";
                 }
                 else
                 {
                     FeedbackLabel.Text = $"Errado! Era {correctAnswer}";
-                    SetBackgroundGradient("#cb2d3e", "#ef473a");
+                    FeedbackLabel.TextColor = Colors.Red;
                 }
 
                 DisableButtons();
 
                 Device.StartTimer(TimeSpan.FromSeconds(1.5), () =>
                 {
-                    GenerateQuestion();
+                    if (!isPaused)
+                    {
+                        GenerateQuestion();
+                    }
+                    else
+                    {
+                        Device.StartTimer(TimeSpan.FromSeconds(1.5), () =>
+                        {
+                            if (!isPaused)
+                            {
+                                GenerateQuestion();
+                                return false;
+                            }
+                            return true;
+                        });
+                    }
                     return false;
                 });
             }
@@ -135,6 +164,8 @@ namespace Playza.Views
             OptionButton1.IsEnabled = true;
             OptionButton2.IsEnabled = true;
             OptionButton3.IsEnabled = true;
+            OptionButton4.IsEnabled = true;
+            OptionButton5.IsEnabled = true;
         }
 
         private void DisableButtons()
@@ -142,20 +173,8 @@ namespace Playza.Views
             OptionButton1.IsEnabled = false;
             OptionButton2.IsEnabled = false;
             OptionButton3.IsEnabled = false;
-        }
-
-        private void SetBackgroundGradient(string color1, string color2)
-        {
-            MainGrid.Background = new LinearGradientBrush
-            {
-                StartPoint = new Point(0, 0),
-                EndPoint = new Point(1, 1),
-                GradientStops = new GradientStopCollection
-                {
-                    new GradientStop(Color.FromArgb(color1), 0f),
-                    new GradientStop(Color.FromArgb(color2), 1f)
-                }
-            };
+            OptionButton4.IsEnabled = false;
+            OptionButton5.IsEnabled = false;
         }
 
         private void ShowScorePanel()
@@ -164,22 +183,83 @@ namespace Playza.Views
             ScorePanel.IsVisible = true;
             FinalScoreLabel.Text = $"Pontuação final: {score}/10";
 
-            var highscores = Preferences.Get("HighScores", "");
-            var scores = string.IsNullOrEmpty(highscores)
-                ? new List<int>()
-                : highscores.Split(',').Select(int.Parse).ToList();
+            // Remove qualquer botão entre o título e o botão "Sair"
+            for (int i = ScorePanelStack.Children.Count - 1; i >= 0; i--)
+            {
+                var child = ScorePanelStack.Children[i];
+                if (child is Button btn &&
+                    btn != RestartButton &&
+                    btn != ClearHighScoresButton &&
+                    btn != ExitButton)
+                {
+                    ScorePanelStack.Children.RemoveAt(i);
+                }
+            }
 
-            scores.Add(score);
-            scores = scores.OrderByDescending(s => s).Take(5).ToList();
-            Preferences.Set("HighScores", string.Join(",", scores));
 
-            HighScoresLabel.Text = " Melhores Pontuações:\n" + string.Join("\n", scores);
+            if (OriginPage == "JourneyPage")
+            {
+                if (score >= 5)
+                {
+                    FinalScoreLabel.Text += "\nParabéns! Conseguiste!";
+                }
+                else
+                {
+                    FinalScoreLabel.Text += "\nFoi quase.😔";
+                }
+                HighScoresLabel.IsVisible = false; // Oculta high scores
+
+                // Oculta os botões fixos
+                RestartButton.IsVisible = false;
+                ClearHighScoresButton.IsVisible = false;
+                ExitButton.IsVisible = true;  // Sair
+
+                // Mostra botão "Avançar" ou "Repetir"
+                var nextButton = new Button
+                {
+                    Text = score >= 5 ? "Próximo Jogo" : "Tentar Novamente",
+                    BackgroundColor = score >= 5 ? Colors.Green : Colors.Red,
+                    TextColor = Colors.White,
+                    FontFamily = "Delfino",
+                    CornerRadius = 20
+                };
+                nextButton.Clicked += score >= 5 ? OnNextGameClicked : OnRestartClicked;
+
+                int exitIndex = ScorePanelStack.Children.IndexOf(ExitButton);
+
+                if (exitIndex > 0)
+                {
+                    ScorePanelStack.Children.Insert(exitIndex, nextButton);
+                }
+                else
+                {
+                    // Caso não encontre o ExitButton, adiciona antes do último item
+                    ScorePanelStack.Children.Insert(ScorePanelStack.Children.Count - 1, nextButton);
+                } //botão de sair sempre em ultimo
+
+
+
+            }
+            else
+            {
+                var highscores = Preferences.Get("HighScores", "");
+                var scores = string.IsNullOrEmpty(highscores)
+                    ? new List<int>()
+                    : highscores.Split(',').Select(int.Parse).ToList();
+
+                scores.Add(score);
+                scores = scores.OrderByDescending(s => s).Take(5).ToList();
+                Preferences.Set("HighScores", string.Join(",", scores));
+
+                HighScoresLabel.Text = " Melhores Pontuações:\n" + string.Join("\n", scores);
+            }
         }
 
         private void OnRestartClicked(object sender, EventArgs e)
         {
             currentQuestion = 0;
             score = 0;
+            ScoreLabel.Text = "Pontuação: 0";
             isPaused = false;
             ScorePanel.IsVisible = false;
             GenerateQuestion();
@@ -193,11 +273,36 @@ namespace Playza.Views
 
         private void OnPauseClicked(object sender, EventArgs e)
         {
-            isPaused = !isPaused;
-            PauseButton.Text = isPaused ? "▶️" : "⏸";
-
-            if (!isPaused)
-                GenerateQuestion();
+            isPaused = true;
+            PauseMenu.IsVisible = true;
         }
+
+        private void OnResumeClicked(object sender, EventArgs e)
+        {
+            isPaused = false;
+            PauseMenu.IsVisible = false;
+        }
+
+        private async void OnExitClicked(object sender, EventArgs e)
+        {
+            if (OriginPage == "JourneyPage")
+            {
+                // Voltar para a JourneyPage, fechando a pilha até ela
+                await Shell.Current.GoToAsync("JourneyPage");
+            }
+            else
+            {
+                // Volta para a página anterior normal (ex: no modo livre)
+                await Navigation.PopAsync();
+            }
+        }
+
+        private async void OnNextGameClicked(object sender, EventArgs e)
+        {
+            // Exemplo: navega para "MiniJogo2"
+            await Navigation.PushAsync(new MiniJogo2("JourneyPage"));
+        }
+
+
     }
 }

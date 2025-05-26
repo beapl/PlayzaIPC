@@ -3,39 +3,156 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Playza.Views.MiniJogo2"
              BackgroundImageSource="background.jpg"
-             Title="Jogo Da Diferença">
+             Title="Jogo Da Diferença"
+             NavigationPage.HasNavigationBar="False">
 
-    <Grid ColumnDefinitions="*, Auto, *" Padding="20">
+    <Grid Padding="20">
 
-        <VerticalStackLayout x:Name="LeftStack" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center" />
+        <!-- Grid principal com 3 colunas -->
+        <Grid ColumnDefinitions="*, Auto, *" RowDefinitions="*" >
 
-        <VerticalStackLayout Grid.Column="1" Spacing="20" VerticalOptions="Center">
-            <Label Text="vs" FontSize="32" HorizontalOptions="Center" FontFamily="Delfino" />
+            <!-- Maçãs à esquerda -->
+            <VerticalStackLayout x:Name="LeftStack"
+                                 Grid.Column="0"
+                                 VerticalOptions="Center"
+                                 HorizontalOptions="Center" />
 
-            <Label Text="Escolhe o símbolo correto! " FontSize="30" HorizontalOptions="Center" FontFamily="Delfino"/>
+            <!-- Centro com texto e botões -->
+            <VerticalStackLayout Grid.Column="1" Spacing="30" VerticalOptions="Center" HorizontalOptions="Center">
+                <Label Text="vs" FontSize="32" HorizontalOptions="Center" FontFamily="Delfino" />
+                <Label Text="Escolhe o símbolo correto!" FontSize="30" HorizontalOptions="Center" FontFamily="Delfino"/>
+                <HorizontalStackLayout HorizontalOptions="Center" Spacing="20">
+                    <Button x:Name="GreaterButton" Text=">" Clicked="OnGreaterClicked" FontFamily="Delfino" FontSize="40"/>
+                    <Button x:Name="EqualButton" Text="=" Clicked="OnEqualClicked" FontFamily="Delfino" FontSize="40"/>
+                    <Button x:Name="LessButton" Text="&lt;" Clicked="OnLessClicked" FontFamily="Delfino" FontSize="40"/>
+                </HorizontalStackLayout>
+                <Label x:Name="ScoreLabel"
+                       Text="Pontuação: 0"
+                       FontSize="35"
+                       HorizontalOptions="Center"
+                       TextColor="Black"
+                       FontFamily="Delfino"/>
+                <Label x:Name="ResultLabel"
+                       FontSize="45"
+                       HorizontalOptions="Center"
+                       TextColor="Black"
+                       FontFamily="Delfino"/>
+            </VerticalStackLayout>
 
-            <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
-                <Button x:Name="GreaterButton" Text=">" Clicked="OnGreaterClicked" FontFamily="Delfino" FontSize="40"/>
-                <Button x:Name="EqualButton" Text="=" Clicked="OnEqualClicked" FontFamily="Delfino" FontSize="40"/>
-                <Button x:Name="LessButton" Text="&lt;" Clicked="OnLessClicked" FontFamily="Delfino" FontSize="40"/>
-            </HorizontalStackLayout>
+            <!-- Maçãs à direita -->
+            <VerticalStackLayout x:Name="RightStack"
+                                 Grid.Column="2"
+                                 VerticalOptions="Center"
+                                 HorizontalOptions="Center" />
+        </Grid>
 
-            <Label x:Name="ScoreLabel"
-                   Text="Pontuação: 0"
-                   FontSize="35"
-                   HorizontalOptions="Center"
-                   TextColor="Black"
-                   FontFamily="Delfino"/>
+        <!-- Botão de pausa no canto superior esquerdo -->
+        <Grid HorizontalOptions="Start" VerticalOptions="Start" Margin="10">
+            <ImageButton x:Name="PauseButton"
+                         Source="Resources/Images/pausa.png"
+                         BackgroundColor="Transparent"
+                         WidthRequest="50"
+                         HeightRequest="50"
+                         HorizontalOptions="Start"
+                         VerticalOptions="Start"
+                         Clicked="OnPauseClicked"/>
+        </Grid>
 
+        <!-- Overlay de pausa -->
+        <Frame x:Name="PauseMenu"
+               CornerRadius="20"
+               Padding="20"
+               BackgroundColor="#1D3557"
+               IsVisible="False"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               HasShadow="True"
+               ZIndex="20">
 
-            <Label x:Name="ResultLabel"
-                   FontSize="45"
-                   HorizontalOptions="Center"
-                   TextColor="Black"
+            <StackLayout Spacing="20" HorizontalOptions="Center">
+                <Label Text="Em pausa"
+                       FontSize="36"
+                       FontFamily="Delfino"
+                       TextColor="White"
+                       HorizontalOptions="Center"/>
+                <Button Text="Retomar"
+                        Clicked="OnResumeClicked"
+                        BackgroundColor="#457B9D"
+                        TextColor="White"
+                        FontFamily="Delfino"
+                        CornerRadius="20"
+                        WidthRequest="200"/>
+                <Button Text="Sair"
+                        Clicked="OnExitClicked"
+                        BackgroundColor="#E63946"
+                        TextColor="White"
+                        FontFamily="Delfino"
+                        CornerRadius="20"
+                        WidthRequest="200"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Overlay do painel final -->
+        <Frame x:Name="FinalOverlay"
+       CornerRadius="20"
+       Padding="20"
+       BackgroundColor="#F1FAEE"
+       IsVisible="False"
+       VerticalOptions="Center"
+       HorizontalOptions="Center"
+       WidthRequest="320"
+       HeightRequest="350"
+       HasShadow="True"
+       ZIndex="30">
+
+            <!-- ScrollView envolve tudo dentro do Frame -->
+            <ScrollView>
+                <StackLayout Spacing="10">
+                    <Label Text="🏆 Fim do Jogo!"
+                   FontSize="30"
                    FontFamily="Delfino"
-                   />
-        </VerticalStackLayout>
+                   TextColor="#1D3557"
+                   HorizontalOptions="Center"/>
+                    <Label x:Name="FinalScoreLabel"
+                   FontSize="24"
+                   FontFamily="Delfino"
+                   TextColor="#1D3557"
+                   HorizontalOptions="Center"/>
 
-        <VerticalStackLayout x:Name="RightStack" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="Center" />
+                    <Label x:Name="HighScoresLabel"
+                   FontSize="20"
+                   FontFamily="Delfino"
+                   TextColor="#1D3557"
+                   Margin="0,10"/>
+
+                    <Button x:Name="RestartButton"
+                    Text="Jogar Novamente"
+                    Clicked="OnRestartClicked"
+                    BackgroundColor="#457B9D"
+                    TextColor="White"
+                    FontFamily="Delfino"
+                    CornerRadius="20"/>
+
+                    <Button x:Name="ClearButton"
+                    Text="Limpar Highscores"
+                    Clicked="OnClearHighScoresClicked"
+                    BackgroundColor="#E63946"
+                    TextColor="White"
+                    FontFamily="Delfino"
+                    CornerRadius="20"/>
+
+                    <Button x:Name="ExitButton"
+                    Text="Sair"
+                    Clicked="OnExitClicked"
+                    BackgroundColor="#457B9D"
+                    TextColor="White"
+                    FontFamily="Delfino"
+                    CornerRadius="20"/>
+                </StackLayout>
+            </ScrollView>
+
+        </Frame>
+
+
     </Grid>
 </ContentPage>

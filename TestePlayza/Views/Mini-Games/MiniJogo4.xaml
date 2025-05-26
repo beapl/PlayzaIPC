@@ -3,64 +3,119 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Playza.Views.MiniJogo4"
              BackgroundImageSource="background.jpg"
-             Title="Jogo da Reciclagem">
+             Title="Jogo da Reciclagem"
+             NavigationPage.HasNavigationBar="False">
 
-    <VerticalStackLayout Padding="20" Spacing="30">
+    <Grid Padding="20">
 
-        <Label Text="Coloca no contentor correto cada pedaço de lixo"
-               FontSize="40"
+        <!-- Botão de pausa -->
+        <Grid HorizontalOptions="Start" VerticalOptions="Start" Margin="10">
+            <ImageButton x:Name="PauseButton"
+                         Source="Resources/Images/pausa.png"
+                         BackgroundColor="Transparent"
+                         WidthRequest="50"
+                         HeightRequest="50"
+                         HorizontalOptions="Start"
+                         VerticalOptions="Start"
+                         Clicked="OnPauseClicked"/>
+        </Grid>
+
+        <!-- Conteúdo principal -->
+        <VerticalStackLayout Padding="20" Spacing="30" Margin="0,35,0,0">
+
+            <Label Text="Clica no lixo e depois clica no contentor onde tens de o meter!"
+                   FontSize="40"
+                   HorizontalOptions="Center"
+                   TextColor="Black"
+                   FontFamily="Delfino"/>
+
+            <!-- Lixos -->
+            <HorizontalStackLayout Spacing="20" HorizontalOptions="Center">
+                <Image x:Name="GlassBottle" Source="glassbottle.jpg" WidthRequest="80" AutomationId="Verde" ClassId="Garrafa de vidro">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnTrashTapped"/>
+                    </Image.GestureRecognizers>
+                </Image>
+
+                <Image x:Name="PlasticBottle" Source="garrafaplastico.png" WidthRequest="80" AutomationId="Amarelo" ClassId="Garrafa de plástico">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnTrashTapped"/>
+                    </Image.GestureRecognizers>
+                </Image>
+
+                <Image x:Name="Paper" Source="papel.png" WidthRequest="80" AutomationId="Azul" ClassId="Papel">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnTrashTapped"/>
+                    </Image.GestureRecognizers>
+                </Image>
+
+                <Image x:Name="TinCan" Source="tincan.jpg" WidthRequest="80" AutomationId="Amarelo" ClassId="Lata">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnTrashTapped"/>
+                    </Image.GestureRecognizers>
+                </Image>
+            </HorizontalStackLayout>
+
+            <!-- Contentores -->
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="40" Margin="0,100,0,0">
+                <Image Source="amarelo.png" WidthRequest="200" HeightRequest="200" AutomationId="Amarelo">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnContainerTapped"/>
+                    </Image.GestureRecognizers>
+                </Image>
+                <Image Source="verde.png" WidthRequest="200" HeightRequest="200" AutomationId="Verde">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnContainerTapped"/>
+                    </Image.GestureRecognizers>
+                </Image>
+                <Image Source="azul.png" WidthRequest="200" HeightRequest="200" AutomationId="Azul">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnContainerTapped"/>
+                    </Image.GestureRecognizers>
+                </Image>
+            </HorizontalStackLayout>
+
+            <!-- Feedback -->
+            <Label x:Name="FeedbackLabel" FontSize="40" TextColor="Black" HorizontalOptions="Center" Margin="0,-10,0,0" FontFamily="Delfino"/>
+        </VerticalStackLayout>
+
+        <!-- Menu de pausa -->
+        <Frame x:Name="PauseMenu"
+               CornerRadius="20"
+               Padding="20"
+               BackgroundColor="#1D3557"
+               IsVisible="False"
+               VerticalOptions="Center"
                HorizontalOptions="Center"
-               TextColor="Black" 
-               FontFamily="Delfino"/>
+               HasShadow="True"
+               ZIndex="20">
+            <StackLayout Spacing="20" HorizontalOptions="Center">
+                <Label Text="Em Pausa" FontSize="36" FontFamily="Delfino" TextColor="White" HorizontalOptions="Center"/>
+                <Button Text="Retomar" Clicked="OnResumeClicked" BackgroundColor="#457B9D" TextColor="White" FontFamily="Delfino" CornerRadius="20" WidthRequest="200"/>
+                <Button Text="Sair" Clicked="OnExitClicked" BackgroundColor="#E63946" TextColor="White" FontFamily="Delfino" CornerRadius="20" WidthRequest="200"/>
+            </StackLayout>
+        </Frame>
 
-        <!-- Lixos -->
-        <HorizontalStackLayout Spacing="20" HorizontalOptions="Center">
-            <Image x:Name="GlassBottle" Source="glassbottle.jpg" WidthRequest="80" AutomationId="Verde" ClassId="Garrafa de vidro">
-                <Image.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="OnTrashTapped"/>
-                </Image.GestureRecognizers>
-            </Image>
+        <!-- Painel final -->
+        <Frame x:Name="FinalOverlay"
+               CornerRadius="20"
+               Padding="20"
+               BackgroundColor="#F1FAEE"
+               IsVisible="False"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               WidthRequest="320"
+               HeightRequest="320"
+               HasShadow="True"
+               ZIndex="30">
+            <StackLayout Spacing="20" HorizontalOptions="Center">
+                <Label  x:Name="FinalTitleLabel" Text="🎉 Fim do Jogo!" FontSize="30" FontFamily="Delfino" TextColor="#1D3557" HorizontalOptions="Center"/>
+                <Label  x:Name="FinalMessageLabel" Text="Parabéns! Reciclaste tudo corretamente!" FontSize="24" FontFamily="Delfino" TextColor="#1D3557" HorizontalOptions="Center"/>
+                <Button x:Name="DrawScreenButton" Text="Desenhar!" BackgroundColor="Green" TextColor="White" FontFamily="Delfino" CornerRadius="20" IsVisible="False" Clicked="OnCanvasClicked"/>
+                <Button x:Name="RestartButton" Text="Jogar Novamente" Clicked="OnRestartClicked" BackgroundColor="#457B9D" TextColor="White" FontFamily="Delfino" CornerRadius="20"/>
+                <Button Text="Sair" Clicked="OnExitClicked" BackgroundColor="#457B9D" TextColor="White" FontFamily="Delfino" CornerRadius="20"/>
+            </StackLayout>
+        </Frame>
 
-            <Image x:Name="PlasticBottle" Source="garrafaplastico.png" WidthRequest="80" AutomationId="Amarelo" ClassId="Garrafa de plástico">
-                <Image.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="OnTrashTapped"/>
-                </Image.GestureRecognizers>
-            </Image>
-
-            <Image x:Name="Paper" Source="papel.png" WidthRequest="80" AutomationId="Azul" ClassId="Papel">
-                <Image.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="OnTrashTapped"/>
-                </Image.GestureRecognizers>
-            </Image>
-
-            <Image x:Name="TinCan" Source="tincan.jpg" WidthRequest="80" AutomationId="Amarelo" ClassId="Lata">
-                <Image.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="OnTrashTapped"/>
-                </Image.GestureRecognizers>
-            </Image>
-        </HorizontalStackLayout>
-
-        <!-- Contentores por baixo -->
-        <HorizontalStackLayout HorizontalOptions="Center" Spacing="40" Margin="0,100,0,0">
-            <Image Source="amarelo.png" WidthRequest="200" HeightRequest="200" AutomationId="Amarelo">
-                <Image.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="OnContainerTapped"/>
-                </Image.GestureRecognizers>
-            </Image>
-            <Image Source="verde.png" WidthRequest="200" HeightRequest="200" AutomationId="Verde">
-                <Image.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="OnContainerTapped"/>
-                </Image.GestureRecognizers>
-            </Image>
-            <Image Source="azul.png" WidthRequest="200" HeightRequest="200" AutomationId="Azul">
-                <Image.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="OnContainerTapped"/>
-                </Image.GestureRecognizers>
-            </Image>
-        </HorizontalStackLayout>
-
-
-        <!-- Feedback -->
-        <Label x:Name="FeedbackLabel" FontSize="40" TextColor="Black" HorizontalOptions="Center" Margin="0,20,0,0" FontFamily="Delfino" />
-    </VerticalStackLayout>
+    </Grid>
 </ContentPage>
