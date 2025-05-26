@@ -37,34 +37,34 @@
                Grid.Row="1"
                HorizontalOptions="Start">
 
-        <StackLayout Spacing="25">
+        <StackLayout Spacing="20">
 
-            <Label Text="Digite a tua alcunha:"
-                       FontSize="25"
+            <Label Text="Digita a tua alcunha:"
+                       FontSize="28"
                        FontFamily="Delfino"
                        TextColor="#4043a5" />
             <Entry x:Name="UsernameEntry"  
                        Placeholder="Alcunha"
-                       FontSize="20"
+                       FontSize="25"
                        FontFamily="Delfino"
                        BackgroundColor="White"
                        TextColor="Black" />
 
-            <Label Text="Digite a sua palavra-passe:"
-                       FontSize="25"
+            <Label Text="Digita a tua palavra-passe:"
+                       FontSize="28"
                        TextColor="#4043a5"
                        FontFamily="Delfino"
                     />
                 <Entry x:Name="PasswordEntry"
                 Placeholder="Palavra-passe"
-                       FontSize="20"
+                       FontSize="25"
                        FontFamily="Delfino"
                        IsPassword="True"
                        BackgroundColor="White"
                        TextColor="Black" />
             
                 <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="Start">
-                    <CheckBox x:Name="Manter"  />
+                    <CheckBox x:Name="Manter" Scale="2.1" />
                     <Label Text="Manter sessão iniciada"
                         VerticalOptions="Center"
                         FontSize="20"
