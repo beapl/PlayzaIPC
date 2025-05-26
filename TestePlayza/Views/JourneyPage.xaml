@@ -16,8 +16,8 @@
                Grid.Row="0" Grid.ColumnSpan="3"
                HorizontalOptions="Start"
                VerticalOptions="Start"
-               HeightRequest="150"
-               Margin="0" />
+               HeightRequest="180"
+               Margin="-50,-50,0,4" />
 
         <!-- Frame que engloba os ImageButtons principais -->
         <Frame Grid.Row="2" Grid.ColumnSpan="3"
