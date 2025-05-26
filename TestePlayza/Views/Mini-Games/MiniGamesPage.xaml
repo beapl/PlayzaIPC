@@ -6,11 +6,107 @@
     BackgroundImageSource="wallpaper.jpg"
     Title="Mini-jogos">
 
-    <StackLayout Padding="20" Spacing="10" VerticalOptions="Center">
-        <Button Text="Minijogo 1" Clicked="OnMiniGame1Clicked" BackgroundColor="#4245aa" TextColor="White"/>
-        <Button Text="Minijogo 2" Clicked="OnMiniGame2Clicked" BackgroundColor="#4245aa" TextColor="White"/>
-        <Button Text="Minijogo 3" Clicked="OnMiniGame3Clicked" BackgroundColor="#4245aa" TextColor="White"/>
-        <Button Text="Minijogo 4" Clicked="OnMiniGame4Clicked" BackgroundColor="#4245aa" TextColor="White"/>
-    </StackLayout>
+    <Grid RowDefinitions="Auto,*,Auto,*,Auto"
+          ColumnDefinitions="*,*,*"
+          Padding="50"
+          RowSpacing="20">
 
+        <!-- Imagem do título -->
+        <Image Source="minijogos.png"
+               Grid.Row="0" Grid.ColumnSpan="3"
+               HorizontalOptions="Start"
+               VerticalOptions="Start"
+               HeightRequest="150"
+               Margin="0" />
+
+        <!-- Frame que engloba os ImageButtons principais -->
+        <Frame Grid.Row="2" Grid.ColumnSpan="3"
+       BackgroundColor="#B3FFFFFF"
+       CornerRadius="20"
+       Padding="10"
+       Margin="0"
+       WidthRequest="800"
+       HeightRequest="430"
+       HorizontalOptions="Center"
+       VerticalOptions="Center">
+
+            <Grid RowDefinitions="*,*"
+          ColumnDefinitions="*,*"
+          RowSpacing="20"
+          ColumnSpacing="20"
+          HorizontalOptions="FillAndExpand"
+          VerticalOptions="FillAndExpand">
+
+                <!-- Canto superior esquerdo (meio afastado) -->
+                <Button Grid.Row="0" Grid.Column="0"
+                Text="Mini-jogo 1"
+                Clicked="OnMiniGame1Clicked"
+                BackgroundColor="#4245aa"
+                TextColor="White"
+                FontSize="24"
+                WidthRequest="300"
+                HeightRequest="100"
+                FontFamily="Delfino"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Margin="40,20,10,10"/>
+
+                <!-- Canto superior direito (meio afastado) -->
+                <Button Grid.Row="0" Grid.Column="1"
+                Text="Mini-jogo 2"
+                Clicked="OnMiniGame2Clicked"
+                BackgroundColor="#4245aa"
+                TextColor="White"
+                FontSize="24"
+                WidthRequest="300"
+                HeightRequest="100"
+                FontFamily="Delfino"       
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Margin="10,20,40,10"/>
+
+                <!-- Canto inferior esquerdo (meio afastado) -->
+                <Button Grid.Row="1" Grid.Column="0"
+                Text="Mini-jogo 3"
+                Clicked="OnMiniGame3Clicked"
+                BackgroundColor="#4245aa"
+                TextColor="White"
+                FontSize="24"
+                WidthRequest="300"
+                HeightRequest="100"
+                FontFamily="Delfino"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Margin="40,10,10,20"/>
+
+                <!-- Canto inferior direito (meio afastado) -->
+                <Button Grid.Row="1" Grid.Column="1"
+                Text="Mini-jogo 4"
+                Clicked="OnMiniGame4Clicked"
+                BackgroundColor="#4245aa"
+                TextColor="White"
+                FontSize="24"
+                WidthRequest="300"
+                HeightRequest="100"
+                FontFamily="Delfino"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Margin="10,10,40,20"/>
+            </Grid>
+        </Frame>
+
+
+
+
+        <!-- Botão Sair no canto inferior esquerdo -->
+        <Button Text="Sair" 
+                Grid.Row="4" Grid.Column="0"
+                HorizontalOptions="Start"
+                FontFamily="Delfino"
+                Clicked="OnRegisterClicked"
+                BackgroundColor="#4245aa" 
+                TextColor="White"
+                FontSize="30"
+                WidthRequest="120"/>
+    </Grid>
 </ContentPage>

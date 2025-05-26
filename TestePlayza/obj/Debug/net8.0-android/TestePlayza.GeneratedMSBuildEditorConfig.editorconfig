@@ -114,6 +114,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = TestePlayza.Views.Parental
 build_metadata.AdditionalFiles.TargetPath = Views\Parental Control\ParentalSettingsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Parental Control\ParentalSettingsPage.xaml
 
+[C:/Users/Beatriz/Desktop/IPC/TestePlayza/TestePlayza/Views/Parental Control/RelatorioPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestePlayza.Views.Parental_Control.RelatorioPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Parental Control\RelatorioPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Parental Control\RelatorioPage.xaml
+
 [C:/Users/Beatriz/Desktop/IPC/TestePlayza/TestePlayza/Views/Register/Register1Page.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TestePlayza.Views.Register.Register1Page.xaml

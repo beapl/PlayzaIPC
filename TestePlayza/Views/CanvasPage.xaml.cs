@@ -2,6 +2,8 @@ using Microsoft.Maui.Controls;
 using Microsoft.Maui.Graphics;
 using System.Collections.Generic;
 using System;
+using Playza.Models;
+using Playza.Services;
 
 namespace Playza.Views;
 
@@ -12,14 +14,40 @@ public partial class CanvasPage : ContentPage
     private bool _isErasing = false;
     private bool _isPaused = false;
     private PointF? _lastPoint = null;
+    private readonly DateTime _startTime;
+    private readonly string _gameName;
 
     public IDrawable Drawable { get; private set; }
 
-    public CanvasPage()
+    public CanvasPage() : this("MiniJogo4", DateTime.Now) // <- Construtor padrão
+    {
+    }
+    public CanvasPage(string gameName, DateTime startTime)
     {
         InitializeComponent();
+        _startTime = startTime;
+        _gameName = gameName;
         Drawable = new DrawingSurface(_points);
         BindingContext = this;
+    }
+
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+        OnGameFinished(); // Chama o método aqui
+    }
+    private async void OnGameFinished()
+    {
+        var endTime = DateTime.Now;
+        var duration = endTime - _startTime;
+
+        GameSessionManager.Instance.AddMiniGameReport(new MiniGameReport
+        {
+            GameName = _gameName,
+            StartTime = _startTime,
+            EndTime = endTime,
+            TimeTaken = duration
+        });
     }
 
     private void OnStartInteraction(object sender, TouchEventArgs e)

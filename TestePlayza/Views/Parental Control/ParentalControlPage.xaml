@@ -53,6 +53,7 @@
                         Text="Relatório de atividade" 
                         FontFamily="Delfino"
                         FontSize="18"
+                        Clicked="OnRelClicked" 
                         WidthRequest="220"
                         BackgroundColor="#4245aa"
                         TextColor="White"/>

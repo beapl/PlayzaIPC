@@ -29,5 +29,6 @@
     <ShellContent Title="MiniJogo4" ContentTemplate="{DataTemplate views:MiniJogo4}" Route="MiniJogo4" />
     <ShellContent Title="JourneyPage" ContentTemplate="{DataTemplate views:JourneyPage}" Route="JourneyPage" />
     <ShellContent Title="CanvasPage" ContentTemplate="{DataTemplate views:CanvasPage}" Route="CanvasPage" />
+    <ShellContent Title="RelatorioPage" ContentTemplate="{DataTemplate views:RelatorioPage}" Route="RelatorioPage" />
 </Shell>
 

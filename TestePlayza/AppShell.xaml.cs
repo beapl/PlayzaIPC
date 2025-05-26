@@ -15,6 +15,7 @@ namespace Playza
             Routing.RegisterRoute("Register2Page", typeof(Register2Page));
             Routing.RegisterRoute("ParentalControlPage", typeof(ParentalControlPage));
             Routing.RegisterRoute("ParentalSettingsPage", typeof(ParentalSettingsPage));
+            Routing.RegisterRoute("RelatorioPage", typeof(Playza.Views.RelatorioPage));
             Routing.RegisterRoute("SettingsPage", typeof(SettingsPage));
             Routing.RegisterRoute("MiniGamesPage", typeof(Playza.Views.MiniGamesPage));
             Routing.RegisterRoute("MiniJogo1", typeof(Playza.Views.MiniJogo1));

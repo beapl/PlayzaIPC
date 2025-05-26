@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.Maui.Controls;
+using Microsoft.Maui.Graphics;
 using Microsoft.Maui.Storage;
+using Playza.Models;
+using Playza.Services;
 
 namespace Playza.Views;
 
 public partial class MiniJogo2 : ContentPage
 {
-
     int leftCount;
     int rightCount;
     int score = 0;
@@ -16,15 +18,23 @@ public partial class MiniJogo2 : ContentPage
     bool isPaused = false;
     Random rand = new Random();
     private string OriginPage;
-    public MiniJogo2() : this("MiniGamesPage")
+    private readonly DateTime startTime;
+
+    // Construtores
+    public MiniJogo2() : this(DateTime.Now, "MiniGamesPage")
     {
     }
-    public MiniJogo2(string origin)
+
+    public MiniJogo2(string origin) : this(DateTime.Now, origin)
+    {
+    }
+
+    public MiniJogo2(DateTime startTime, string origin)
     {
         InitializeComponent();
+        this.startTime = startTime;
         OriginPage = origin;
         GenerateQuestion();
-
     }
 
     private void GenerateQuestion()
@@ -114,6 +124,18 @@ public partial class MiniJogo2 : ContentPage
 
     private void ShowScorePanel()
     {
+        DateTime endTime = DateTime.Now;
+        TimeSpan duration = endTime - startTime;
+
+        // Guardar relatório no GameSessionManager
+        GameSessionManager.Instance.AddMiniGameReport(new MiniGameReport
+        {
+            GameName = "MiniJogo2",
+            StartTime = startTime,
+            EndTime = endTime,
+            TimeTaken = duration
+        });
+
         FinalScoreLabel.Text = $"Pontuação final: {score}/100";
         FinalOverlay.IsVisible = true;
         isPaused = true;
@@ -124,10 +146,8 @@ public partial class MiniJogo2 : ContentPage
             RestartButton.IsVisible = false;
             ClearButton.IsVisible = false;
 
-            // Remove botões antigos se já existirem
             var layout = (StackLayout)((ScrollView)FinalOverlay.Content).Content;
 
-            // Remove botões extras (como Next ou Tentar Novamente) se já adicionados
             var existingExtraButtons = layout.Children
                 .OfType<Button>()
                 .Where(b => b.Text == "Próximo Jogo" || b.Text == "Tentar Novamente")
@@ -148,7 +168,7 @@ public partial class MiniJogo2 : ContentPage
                     CornerRadius = 20
                 };
                 nextButton.Clicked += OnNextGameClicked;
-                layout.Children.Insert(layout.Children.Count - 1, nextButton); // antes do botão Sair
+                layout.Children.Insert(layout.Children.Count - 1, nextButton);
             }
             else
             {
@@ -162,7 +182,7 @@ public partial class MiniJogo2 : ContentPage
                     CornerRadius = 20
                 };
                 tryAgainButton.Clicked += OnRestartClicked;
-                layout.Children.Insert(layout.Children.Count - 1, tryAgainButton); // antes do botão Sair
+                layout.Children.Insert(layout.Children.Count - 1, tryAgainButton);
             }
         }
         else
@@ -183,7 +203,6 @@ public partial class MiniJogo2 : ContentPage
             HighScoresLabel.Text = " Melhores Pontuações:\n" + string.Join("\n", scores);
         }
     }
-
 
     private void OnRestartClicked(object sender, EventArgs e)
     {
@@ -206,16 +225,15 @@ public partial class MiniJogo2 : ContentPage
     {
         isPaused = true;
         PauseMenu.IsVisible = true;
-        SetButtonsEnabled(false);  // Desabilita os botões ao pausar
+        SetButtonsEnabled(false);
     }
 
     private void OnResumeClicked(object sender, EventArgs e)
     {
         isPaused = false;
         PauseMenu.IsVisible = false;
-        SetButtonsEnabled(true);   // Reabilita os botões ao retomar
+        SetButtonsEnabled(true);
     }
-
 
     private async void OnExitClicked(object sender, EventArgs e)
     {
@@ -231,7 +249,6 @@ public partial class MiniJogo2 : ContentPage
 
     private async void OnNextGameClicked(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new MiniJogo3("JourneyPage")); // passa a origem
+        await Navigation.PushAsync(new MiniJogo3(DateTime.Now, "JourneyPage"));
     }
-
 }

@@ -1,4 +1,13 @@
-﻿namespace Playza.Views
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using Microsoft.Maui.Controls;
+using Microsoft.Maui.Graphics;
+using Microsoft.Maui.Storage;
+using Playza.Models;
+using Playza.Services;
+
+namespace Playza.Views
 {
     public partial class MiniJogo3 : ContentPage
     {
@@ -7,20 +16,22 @@
         int score = 0;
         bool isPaused = false;
         private string OriginPage;
-        public MiniJogo3() : this("MiniGamesPage")
-        {
-        }
+        private readonly DateTime startTime;
 
-        public MiniJogo3(string origin)
+        // Construtores
+        public MiniJogo3() : this(DateTime.Now, "MiniGamesPage") { }
+
+        public MiniJogo3(string origin) : this(DateTime.Now, origin) { }
+
+        public MiniJogo3(DateTime startTime, string origin)
         {
             InitializeComponent();
+            this.startTime = startTime;
+            OriginPage = origin;
             ShuffleAnimals();
             Dispatcher.Dispatch(() => LoadNewAnimal());
-            OriginPage = origin;
-
         }
 
-        // Baralhar os animais com as respetivas iniciais
         private void ShuffleAnimals()
         {
             var original = new List<(string, string)>
@@ -54,7 +65,6 @@
             LettersLayout.IsVisible = true;
         }
 
-
         private void OnLetterClicked(object sender, EventArgs e)
         {
             if (isPaused) return;
@@ -76,17 +86,14 @@
                     FeedbackLabel.TextColor = Colors.Red;
                 }
 
-                // Atualiza o score e feedback imediatamente
                 ScoreLabel.Text = $"Pontuação: {score}";
-                LettersLayout.IsEnabled = false; // Evita múltiplos cliques
+                LettersLayout.IsEnabled = false;
 
-                // Mostra imagem atual ANTES de avançar
                 var (animal, _) = animalList[currentAnimalIndex];
                 AnimalImage.Source = $"{animal.ToLower()}.jpg";
 
                 currentAnimalIndex++;
 
-                // Espera e carrega próximo animal
                 Dispatcher.StartTimer(TimeSpan.FromSeconds(1.5), () =>
                 {
                     LettersLayout.IsEnabled = true;
@@ -95,8 +102,6 @@
                 });
             }
         }
-
-
 
         private void OnPauseClicked(object sender, EventArgs e)
         {
@@ -114,6 +119,18 @@
 
         private void ShowScorePanel()
         {
+            DateTime endTime = DateTime.Now;
+            TimeSpan duration = endTime - startTime;
+
+            // Regista a sessão no GameSessionManager
+            GameSessionManager.Instance.AddMiniGameReport(new MiniGameReport
+            {
+                GameName = "MiniJogo3",
+                StartTime = startTime,
+                EndTime = endTime,
+                TimeTaken = duration
+            });
+
             FinalScoreLabel.Text = $"Pontuação final: {score}";
             FinalOverlay.IsVisible = true;
             isPaused = true;
@@ -126,7 +143,6 @@
                 RestartButton.IsVisible = false;
                 ClearHighScoresButton.IsVisible = false;
 
-                // Remove quaisquer botões extras que possam existir, removendo antes os eventos
                 var existingExtraButtons = layout.Children
                     .OfType<Button>()
                     .Where(b => b.Text == "Próximo Jogo" || b.Text == "Tentar Novamente")
@@ -193,10 +209,6 @@
             }
         }
 
-
-
-
-
         private void OnRestartClicked(object sender, EventArgs e)
         {
             score = 0;
@@ -230,8 +242,7 @@
 
         private async void OnNextGameClicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new MiniJogo4("JourneyPage")); // passa a origem
+            await Navigation.PushAsync(new MiniJogo4(DateTime.Now, "JourneyPage"));
         }
-
     }
 }

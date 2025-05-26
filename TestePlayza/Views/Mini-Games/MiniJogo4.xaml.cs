@@ -1,5 +1,8 @@
 ﻿using Microsoft.Maui.Controls;
 using Microsoft.Maui.Graphics;
+using System;
+using Playza.Models;
+using Playza.Services;
 
 namespace Playza.Views;
 
@@ -7,12 +10,17 @@ public partial class MiniJogo4 : ContentPage
 {
     private Image _selectedTrash = null;
     private string OriginPage;
-    public MiniJogo4() : this("MiniGamesPage")
-    {
-    }
-    public MiniJogo4(string origin)
+    private readonly DateTime startTime;
+
+    // Construtores
+    public MiniJogo4() : this(DateTime.Now, "MiniGamesPage") { }
+
+    public MiniJogo4(string origin) : this(DateTime.Now, origin) { }
+
+    public MiniJogo4(DateTime startTime, string origin)
     {
         InitializeComponent();
+        this.startTime = startTime;
         OriginPage = origin;
     }
 
@@ -51,6 +59,7 @@ public partial class MiniJogo4 : ContentPage
 
             _selectedTrash = null;
 
+            // Verifica se todos os itens foram recolhidos
             if (!GlassBottle.IsVisible &&
                 !PlasticBottle.IsVisible &&
                 !Paper.IsVisible &&
@@ -85,13 +94,23 @@ public partial class MiniJogo4 : ContentPage
 
     private void ShowFinalPanel()
     {
+        DateTime endTime = DateTime.Now;
+        TimeSpan duration = endTime - startTime;
+
+        // Regista a sessão no GameSessionManager
+        GameSessionManager.Instance.AddMiniGameReport(new MiniGameReport
+        {
+            GameName = "MiniJogo4",
+            StartTime = startTime,
+            EndTime = endTime,
+            TimeTaken = duration
+        });
+
         if (OriginPage == "JourneyPage")
         {
-            // Alterar textos
             FinalTitleLabel.Text = "Acabaste o nível!";
             FinalMessageLabel.Text = "Parabéns! Reciclaste tudo corretamente!\nAgora podes descansar";
 
-            // Esconder botão de reiniciar, mostrar botão para tela de desenho
             RestartButton.IsVisible = false;
             DrawScreenButton.IsVisible = true;
         }
@@ -111,7 +130,6 @@ public partial class MiniJogo4 : ContentPage
         FinalOverlay.IsVisible = false;
         FeedbackLabel.Text = "";
 
-        // Reexibir todos os lixos
         GlassBottle.IsVisible = true;
         PlasticBottle.IsVisible = true;
         Paper.IsVisible = true;

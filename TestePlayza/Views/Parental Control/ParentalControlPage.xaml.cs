@@ -24,9 +24,9 @@ public partial class ParentalControlPage : ContentPage
         await Shell.Current.GoToAsync("ParentalSettingsPage");
     }
 
-    private async void OnRelatorioClicked(object sender, EventArgs e)
+    private async void OnRelClicked(object sender, EventArgs e)
     {
-        await Shell.Current.GoToAsync("ParentalControlPage");
+        await Shell.Current.GoToAsync("RelatorioPage");
     }
     private async void OnAjudaClicked(object sender, EventArgs e)
     {

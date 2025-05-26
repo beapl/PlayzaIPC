@@ -97,6 +97,9 @@
 	  <MauiXaml Update="Views\Parental Control\ParentalSettingsPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\Parental Control\RelatorioPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\Register\Register1Page.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

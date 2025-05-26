@@ -4,6 +4,8 @@ using System.Linq;
 using Microsoft.Maui.Controls;
 using Microsoft.Maui.Graphics;
 using Microsoft.Maui.Storage;
+using Playza.Services;
+using Playza.Models;
 
 namespace Playza.Views
 {
@@ -21,14 +23,21 @@ namespace Playza.Views
             "apple.png", "banana.png", "balloons.png"
         };
 
-        public MiniJogo1() : this("MiniGamesPage")
+        private readonly DateTime startTime;
+
+        // Construtores
+        public MiniJogo1() : this(DateTime.Now)
         {
         }
 
+        public MiniJogo1(DateTime startTime) : this(startTime, "MiniGamesPage")
+        {
+        }
 
-        public MiniJogo1(string origin)
+        public MiniJogo1(DateTime startTime, string origin)
         {
             InitializeComponent();
+            this.startTime = startTime;
             OriginPage = origin;
             GenerateQuestion();
         }
@@ -76,7 +85,7 @@ namespace Playza.Views
                 Text = opDisplay,
                 FontSize = 40,
                 FontFamily = "Fredoka",
-                TextColor = Colors.Black, // COR PRETA AQUI
+                TextColor = Colors.Black,
                 VerticalOptions = LayoutOptions.Center,
                 Padding = 10
             });
@@ -102,7 +111,6 @@ namespace Playza.Views
 
             EnableButtons();
             ScoreLabel.Text = $"Pontuação: {score}";
-
         }
 
         private Image CreateImage(string filename)
@@ -179,11 +187,23 @@ namespace Playza.Views
 
         private void ShowScorePanel()
         {
+            DateTime endTime = DateTime.Now;
+            TimeSpan duration = endTime - startTime;
+
+            // Guardar relatório no GameSessionManager
+            GameSessionManager.Instance.AddMiniGameReport(new MiniGameReport
+            {
+                GameName = "MiniJogo1",
+                StartTime = startTime,
+                EndTime = endTime,
+                TimeTaken = duration
+            });
+
             QuestionLabel.Text = "Fim do jogo!";
             ScorePanel.IsVisible = true;
             FinalScoreLabel.Text = $"Pontuação final: {score}/10";
 
-            // Remove qualquer botão entre o título e o botão "Sair"
+            // Remove quaisquer botões exceto os principais
             for (int i = ScorePanelStack.Children.Count - 1; i >= 0; i--)
             {
                 var child = ScorePanelStack.Children[i];
@@ -196,7 +216,6 @@ namespace Playza.Views
                 }
             }
 
-
             if (OriginPage == "JourneyPage")
             {
                 if (score >= 5)
@@ -207,14 +226,12 @@ namespace Playza.Views
                 {
                     FinalScoreLabel.Text += "\nFoi quase.😔";
                 }
-                HighScoresLabel.IsVisible = false; // Oculta high scores
+                HighScoresLabel.IsVisible = false;
 
-                // Oculta os botões fixos
                 RestartButton.IsVisible = false;
                 ClearHighScoresButton.IsVisible = false;
-                ExitButton.IsVisible = true;  // Sair
+                ExitButton.IsVisible = true;
 
-                // Mostra botão "Avançar" ou "Repetir"
                 var nextButton = new Button
                 {
                     Text = score >= 5 ? "Próximo Jogo" : "Tentar Novamente",
@@ -233,12 +250,8 @@ namespace Playza.Views
                 }
                 else
                 {
-                    // Caso não encontre o ExitButton, adiciona antes do último item
                     ScorePanelStack.Children.Insert(ScorePanelStack.Children.Count - 1, nextButton);
-                } //botão de sair sempre em ultimo
-
-
-
+                }
             }
             else
             {
@@ -287,22 +300,18 @@ namespace Playza.Views
         {
             if (OriginPage == "JourneyPage")
             {
-                // Voltar para a JourneyPage, fechando a pilha até ela
                 await Shell.Current.GoToAsync("JourneyPage");
             }
             else
             {
-                // Volta para a página anterior normal (ex: no modo livre)
                 await Navigation.PopAsync();
             }
         }
 
         private async void OnNextGameClicked(object sender, EventArgs e)
         {
-            // Exemplo: navega para "MiniJogo2"
-            await Navigation.PushAsync(new MiniJogo2("JourneyPage"));
+            await Navigation.PushAsync(new MiniJogo2(DateTime.Now, "JourneyPage"));
+
         }
-
-
     }
 }

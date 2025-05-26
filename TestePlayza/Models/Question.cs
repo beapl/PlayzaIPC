@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestePlayza.Models // Atenção: muda para o nome do teu projeto!
+namespace TestePlayza.Models 
 {
     public class Question
     {
