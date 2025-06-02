@@ -14,8 +14,9 @@ namespace Playza.Views
     public Register1Page(string name, string username, string password)
         {
             InitializeComponent();
+            BackgroundImage.Source = Preferences.Get("SelectedBackground", "wallpaper.jpg");
 
-            _name = name;
+        _name = name;
             _username = username;
             _password = password;
 

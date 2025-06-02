@@ -10,7 +10,7 @@ namespace Playza.Views
             InitializeComponent();
         }
 
-        private void OnThemeSelected(object sender, EventArgs e)
+        /* private void OnThemeSelected(object sender, EventArgs e)
         {
 
             var button = sender as ImageButton;
@@ -35,6 +35,20 @@ namespace Playza.Views
                         break;
                 }
             }
+        } */
+
+        private void OnThemeSelected(object sender, EventArgs e)
+        {
+            var button = sender as ImageButton;
+
+            if (button?.Source is FileImageSource fileImageSource)
+            {
+                var selectedImage = fileImageSource.File;
+                BackgroundImage.Source = selectedImage;
+
+                // Guardar a escolha do utilizador
+                Preferences.Set("SelectedBackground", selectedImage);
+            }
         }
 
         private void OnIconSelected(object sender, EventArgs e)
@@ -44,7 +58,7 @@ namespace Playza.Views
             // aplicar o ícone escolhido aqui
         }
 
-        private void OnFontSizeSliderChanged(object sender, ValueChangedEventArgs e)
+        /* private void OnFontSizeSliderChanged(object sender, ValueChangedEventArgs e)
         {
             // Arredonda para o valor mais próximo: 0 (esquerda), 1 (meio), 2 (direita)
             int snappedValue = (int)Math.Round(e.NewValue);
@@ -63,7 +77,7 @@ namespace Playza.Views
                     FontSizeLabel.Text = "Grande";
                     break;
             }
-        }
+        } */
 
         private void OnMusicSwitchToggled(object sender, ToggledEventArgs e)
         {
@@ -86,6 +100,10 @@ namespace Playza.Views
         protected override void OnAppearing()
         {
             base.OnAppearing();
+
+            // Aplica a imagem de fundo guardada
+            var savedImage = Preferences.Get("SelectedBackground", "wallpaper.jpg");
+            BackgroundImage.Source = savedImage;
 
             if (App.BackgroundPlayer != null)
             {

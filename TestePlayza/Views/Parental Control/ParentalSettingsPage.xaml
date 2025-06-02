@@ -26,15 +26,16 @@
            VerticalOptions="Center"/>
 
                        
-                        <Label x:Name="UserNameLabel"
-           Text="Nome do Utilizador"
-           Grid.Column="1"
-           FontSize="50"
-           FontFamily="Delfino"
-           TextColor="#9462fc"
-           VerticalOptions="Center"
-           Margin="20,0,0,0"/>
-                    </Grid>
+                    <Label x:Name="UserNameLabel"
+           
+                    Grid.Column="1"
+                    FontSize="50"
+                    FontFamily="Delfino"
+                    TextColor="#9462fc"
+                    VerticalOptions="Center"
+                    Margin="20,0,0,0"/>
+                    <!--Text="Nome do Utilizador" --> 
+                </Grid>
               
                     <Label Text="Informações da conta:"
                            FontSize="50"

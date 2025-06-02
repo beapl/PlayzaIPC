@@ -6,6 +6,7 @@ public partial class JourneyPage : ContentPage
     public JourneyPage()
     {
         InitializeComponent();
+        BackgroundImage.Source = Preferences.Get("SelectedBackground", "wallpaper.jpg");
     }
 
     private async void OnMiniGame1Clicked(object sender, EventArgs e)

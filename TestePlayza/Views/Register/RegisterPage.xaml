@@ -2,11 +2,12 @@
 <ContentPage 
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="Playza.Views.RegisterPage"
-    BackgroundImageSource="wallpaper.jpg"
-    Title="Olá!">
+    x:Class="Playza.Views.RegisterPage">
 
-    <Grid RowDefinitions="Auto,*,Auto"
+    <Grid>
+        <Image x:Name="BackgroundImage" Aspect="AspectFill" Opacity="1" />
+
+        <Grid RowDefinitions="Auto,*,Auto"
           ColumnDefinitions="*,*"
           Padding="30"
           RowSpacing="20">
@@ -92,5 +93,6 @@
                     WidthRequest="160"
                 TextColor="White"
                 />
+    </Grid>
     </Grid>
 </ContentPage>

@@ -9,7 +9,8 @@ public partial class LoginPage : ContentPage
     public LoginPage()
     {
         InitializeComponent();
-        string dbPath = Path.Combine(FileSystem.AppDataDirectory, "users.db3");
+        BackgroundImage.Source = Preferences.Get("SelectedBackground", "wallpaper.jpg");
+    string dbPath = Path.Combine(FileSystem.AppDataDirectory, "users.db3");
         _userDatabase = new UserDatabase(dbPath);
     }
 

@@ -32,6 +32,7 @@ namespace Playza.Views
 
         private void PopulateFields()
         {
+            UserNameLabel.Text = _currentUser.Name;
             NameEntry.Text = _currentUser.Name;
             NicknameEntry.Text = _currentUser.Username;
             PasswordEntry.Text = _currentUser.Password;

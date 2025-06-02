@@ -8,7 +8,9 @@ namespace Playza.Views
         public RegisterPage()
         {
             InitializeComponent();
+            BackgroundImage.Source = Preferences.Get("SelectedBackground", "wallpaper.jpg");
         }
+
         private async void OnLogoutClicked(object sender, EventArgs e)
         {
             await Shell.Current.GoToAsync("//MainPage");
