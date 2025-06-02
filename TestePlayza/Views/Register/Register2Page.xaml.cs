@@ -5,6 +5,7 @@ namespace Playza.Views
         public Register2Page()
         {
             InitializeComponent();
+            BackgroundImage.Source = Preferences.Get("SelectedBackground", "wallpaper.jpg");
         }
         private async void OnRegisterClicked(object sender, EventArgs e)
         {

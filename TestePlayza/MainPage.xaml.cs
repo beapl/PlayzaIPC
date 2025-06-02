@@ -7,6 +7,7 @@ namespace Playza.Views
         public MainPage()
         {
             InitializeComponent();
+            BackgroundImage.Source = Preferences.Get("SelectedBackground", "wallpaper.jpg");
         }
 
         private async void OnLoginClicked(object sender, EventArgs e)

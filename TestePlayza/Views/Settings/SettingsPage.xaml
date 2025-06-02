@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Playza.Views.SettingsPage"
-             BackgroundImageSource="wallpaper.jpg"
+             x:Class="Playza.Views.SettingsPage" 
              Title="Definições">
+             <!--BackgroundImageSource="wallpaper.jpg" -->
+            
 
-    <Grid Padding="10" RowDefinitions="Auto,*,*" ColumnDefinitions="*,*,*" RowSpacing="10">
+    <Grid>
+        <Image x:Name="BackgroundImage"
+               Aspect="AspectFill"
+               Source="wallpaper.jpg"
+               Opacity="1"
+               IsVisible="True"
+               ZIndex="-1" />
+
+        <Grid Padding="10" RowDefinitions="Auto,*,*" ColumnDefinitions="*,*,*" RowSpacing="10">
 
        <!-- <Label Text="Definições" FontFamily="Delfino" FontSize="50" Padding="10" HorizontalOptions="Center" TextColor="#9462fc" Grid.Row="0" Grid.ColumnSpan="3" /> -->
 
@@ -44,16 +53,16 @@
                     
                     <ScrollView Orientation="Horizontal">
                         <StackLayout Orientation="Horizontal" Padding="0">
-                            <ImageButton Source="icon1.png" WidthRequest="100" HeightRequest="100" Margin="10"/>
-                            <ImageButton Source="icon2.png" WidthRequest="100" HeightRequest="100" Margin="10"/>
-                            <ImageButton Source="icon3.png" WidthRequest="100" HeightRequest="100" Margin="10"/>
-                            <ImageButton Source="icon4.png" WidthRequest="100" HeightRequest="100" Margin="10"/>
-                            <ImageButton Source="icon5.png" WidthRequest="100" HeightRequest="100" Margin="10"/>
-                            <ImageButton Source="icon6.png" WidthRequest="100" HeightRequest="100" Margin="10"/>
+                                <ImageButton x:Name="Icon1Button" Source="icon1.png" WidthRequest="100" HeightRequest="100" Margin="10" Clicked="OnIconSelected"/>
+                                <ImageButton x:Name="Icon2Button" Source="icon2.png" WidthRequest="100" HeightRequest="100" Margin="10" Clicked="OnIconSelected"/>
+                                <ImageButton x:Name="Icon3Button" Source="icon3.png" WidthRequest="100" HeightRequest="100" Margin="10" Clicked="OnIconSelected"/>
+                                <ImageButton x:Name="Icon4Button" Source="icon4.png" WidthRequest="100" HeightRequest="100" Margin="10" Clicked="OnIconSelected"/>
+                                <ImageButton x:Name="Icon5Button" Source="icon5.png" WidthRequest="100" HeightRequest="100" Margin="10" Clicked="OnIconSelected"/>
+                                <ImageButton x:Name="Icon6Button" Source="icon6.png" WidthRequest="100" HeightRequest="100" Margin="10" Clicked="OnIconSelected"/>
                         </StackLayout>
                     </ScrollView>
 
-                    <Label Text="Ajuste o tamanho da letra:"
+                    <!-- <Label Text="Ajuste o tamanho da letra:"
                            FontSize="30" 
                            HorizontalOptions="Start" 
                            FontFamily="Delfino" 
@@ -83,7 +92,7 @@
                     <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
                         <Switch x:Name="SoundEffectsSwitch" />
                         <Label Text="Ativar" FontFamily="Delfino" VerticalOptions="Center" FontSize="20"/>
-                    </StackLayout>
+                    </StackLayout> -->
 
                     <Label Text="Música:"
                            FontSize="30" 
@@ -109,6 +118,7 @@
                 FontFamily="Delfino" 
                 WidthRequest="120" 
                 Clicked="OnMenuClicked" />
+    </Grid>
     </Grid>
 </ContentPage>
 

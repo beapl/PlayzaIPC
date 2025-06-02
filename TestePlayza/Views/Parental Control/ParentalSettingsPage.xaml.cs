@@ -32,10 +32,14 @@ namespace Playza.Views
 
         private void PopulateFields()
         {
+            UserNameLabel.Text = _currentUser.Name;
             NameEntry.Text = _currentUser.Name;
             NicknameEntry.Text = _currentUser.Username;
             PasswordEntry.Text = _currentUser.Password;
             ConfirmPasswordEntry.Text = _currentUser.Password;
+
+            if (!string.IsNullOrEmpty(_currentUser.IconPath))
+                ((Image)FindByName("UserIcon")).Source = _currentUser.IconPath;
         }
 
         private async void OnSaveChangesClicked(object sender, EventArgs e)

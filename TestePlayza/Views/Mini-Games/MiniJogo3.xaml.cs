@@ -190,6 +190,10 @@ namespace Playza.Views
             }
             else
             {
+                if (score >= 50)
+                {
+                    Preferences.Set("Icon4Unlocked", true);
+                }
                 HighScoresLabel.IsVisible = true;
                 RestartButton.IsVisible = true;
                 ClearHighScoresButton.IsVisible = true;

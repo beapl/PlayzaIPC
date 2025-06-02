@@ -67,14 +67,80 @@
     <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pinguim.scale-100.jpg">
-      <PackagePath>pinguim.scale-100.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\papel.scale-100.png">
+      <PackagePath>papel.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\foca.scale-100.jpg">
       <PackagePath>foca.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\background.scale-100.jpg">
+      <PackagePath>background.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tema0.scale-100.jpg">
+      <PackagePath>tema0.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\selecaoniveis.scale-100.png">
+      <PackagePath>selecaoniveis.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconminijogo.scale-100.png">
+      <PackagePath>iconminijogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fundodesenho.scale-100.jpg">
+      <PackagePath>fundodesenho.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\controloparental.scale-100.png">
       <PackagePath>controloparental.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\verde.scale-100.png">
+      <PackagePath>verde.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tincan.scale-100.jpg">
+      <PackagePath>tincan.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu.scale-100.png">
+      <PackagePath>menu.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fundoparental.scale-100.jpg">
+      <PackagePath>fundoparental.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\disciplina.scale-100.png">
+      <PackagePath>disciplina.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\panda.scale-100.JPG">
+      <PackagePath>panda.scale-100.JPG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\garrafaplastico.scale-100.png">
+      <PackagePath>garrafaplastico.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\definicoes.scale-100.png">
+      <PackagePath>definicoes.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pinguim.scale-100.jpg">
+      <PackagePath>pinguim.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gato.scale-100.jpg">
+      <PackagePath>gato.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bemvindo.scale-100.png">
+      <PackagePath>bemvindo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tema3.scale-100.jpg">
+      <PackagePath>tema3.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\glassbottle.scale-100.jpg">
+      <PackagePath>glassbottle.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\balloons.scale-100.png">
+      <PackagePath>balloons.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\wallpaper.scale-100.jpg">
+      <PackagePath>wallpaper.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\green.scale-100.png">
+      <PackagePath>green.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\clean.scale-100.png">
+      <PackagePath>clean.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tema2.scale-100.jpg">
       <PackagePath>tema2.scale-100.jpg</PackagePath>
@@ -85,86 +151,20 @@
     <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconparental.scale-100.png">
       <PackagePath>iconparental.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fundodesenho.scale-100.jpg">
-      <PackagePath>fundodesenho.scale-100.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\definicoes.scale-100.png">
-      <PackagePath>definicoes.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pausa.scale-100.png">
-      <PackagePath>pausa.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fundoparental.scale-100.jpg">
-      <PackagePath>fundoparental.scale-100.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bemvindo.scale-100.png">
-      <PackagePath>bemvindo.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\oladenovo.scale-100.png">
-      <PackagePath>oladenovo.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\garrafaplastico.scale-100.png">
-      <PackagePath>garrafaplastico.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\disciplina.scale-100.png">
-      <PackagePath>disciplina.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\papel.scale-100.png">
-      <PackagePath>papel.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gato.scale-100.jpg">
-      <PackagePath>gato.scale-100.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\background.scale-100.jpg">
-      <PackagePath>background.scale-100.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\selecaoniveis.scale-100.png">
-      <PackagePath>selecaoniveis.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\glassbottle.scale-100.jpg">
-      <PackagePath>glassbottle.scale-100.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\amarelo.scale-100.png">
-      <PackagePath>amarelo.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tema0.scale-100.jpg">
-      <PackagePath>tema0.scale-100.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\green.scale-100.png">
-      <PackagePath>green.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\azul.scale-100.png">
-      <PackagePath>azul.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tincan.scale-100.jpg">
-      <PackagePath>tincan.scale-100.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tema3.scale-100.jpg">
-      <PackagePath>tema3.scale-100.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconminijogo.scale-100.png">
-      <PackagePath>iconminijogo.scale-100.png</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon1.scale-100.png">
       <PackagePath>icon1.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\clean.scale-100.png">
-      <PackagePath>clean.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\banana.scale-100.png">
+      <PackagePath>banana.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\wallpaper.scale-100.jpg">
-      <PackagePath>wallpaper.scale-100.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\verde.scale-100.png">
-      <PackagePath>verde.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu.scale-100.png">
-      <PackagePath>menu.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\minijogos.scale-100.png">
+      <PackagePath>minijogos.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon2.scale-100.png">
       <PackagePath>icon2.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\black.scale-100.png">
-      <PackagePath>black.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\azul.scale-100.png">
+      <PackagePath>azul.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
@@ -307,32 +307,32 @@
     <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\yellow.scale-100.png">
       <PackagePath>yellow.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ola.scale-100.png">
-      <PackagePath>ola.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\oladenovo.scale-100.png">
+      <PackagePath>oladenovo.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon3.scale-100.png">
       <PackagePath>icon3.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\balloons.scale-100.png">
-      <PackagePath>balloons.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eraser.scale-100.png">
+      <PackagePath>eraser.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\minijogos.scale-100.png">
-      <PackagePath>minijogos.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ola.scale-100.png">
+      <PackagePath>ola.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon4.scale-100.png">
       <PackagePath>icon4.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eraser.scale-100.png">
-      <PackagePath>eraser.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\amarelo.scale-100.png">
+      <PackagePath>amarelo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\panda.scale-100.JPG">
-      <PackagePath>panda.scale-100.JPG</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pausa.scale-100.png">
+      <PackagePath>pausa.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon5.scale-100.png">
       <PackagePath>icon5.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\blue.scale-100.png">
-      <PackagePath>blue.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\burro.scale-100.jpg">
+      <PackagePath>burro.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\perfeito.scale-100.png">
       <PackagePath>perfeito.scale-100.png</PackagePath>
@@ -340,8 +340,8 @@
     <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon6.scale-100.png">
       <PackagePath>icon6.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\burro.scale-100.jpg">
-      <PackagePath>burro.scale-100.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\blue.scale-100.png">
+      <PackagePath>blue.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\red.scale-100.png">
       <PackagePath>red.scale-100.png</PackagePath>
@@ -349,8 +349,8 @@
     <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icondefinicoes.scale-100.png">
       <PackagePath>icondefinicoes.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\banana.scale-100.png">
-      <PackagePath>banana.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\apple.scale-100.png">
+      <PackagePath>apple.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\retomar.scale-100.png">
       <PackagePath>retomar.scale-100.png</PackagePath>
@@ -358,8 +358,8 @@
     <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconjornada.scale-100.png">
       <PackagePath>iconjornada.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\apple.scale-100.png">
-      <PackagePath>apple.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\black.scale-100.png">
+      <PackagePath>black.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Beatriz\Desktop\IPC\TestePlayza\TestePlayza\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>

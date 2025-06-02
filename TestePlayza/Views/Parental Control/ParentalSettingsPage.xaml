@@ -19,22 +19,23 @@
 
                     <Grid ColumnDefinitions="Auto, *" VerticalOptions="Center">
                         
-                        <Image Source="icon1.png"
+                        <Image x:Name="UserIcon" Source="icon1.png"
            Grid.Column="0"
            WidthRequest="150"
            HeightRequest="150"
            VerticalOptions="Center"/>
 
                        
-                        <Label x:Name="UserNameLabel"
-           Text="Nome do Utilizador"
-           Grid.Column="1"
-           FontSize="50"
-           FontFamily="Delfino"
-           TextColor="#9462fc"
-           VerticalOptions="Center"
-           Margin="20,0,0,0"/>
-                    </Grid>
+                    <Label x:Name="UserNameLabel"
+           
+                    Grid.Column="1"
+                    FontSize="50"
+                    FontFamily="Delfino"
+                    TextColor="#9462fc"
+                    VerticalOptions="Center"
+                    Margin="20,0,0,0"/>
+                    <!--Text="Nome do Utilizador" --> 
+                </Grid>
               
                     <Label Text="Informações da conta:"
                            FontSize="50"

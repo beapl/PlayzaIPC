@@ -5,6 +5,7 @@ public partial class MiniGamesPage : ContentPage
     public MiniGamesPage()
     {
         InitializeComponent();
+        BackgroundImage.Source = Preferences.Get("SelectedBackground", "wallpaper.jpg");
     }
 
     private async void OnMiniGame1Clicked(object sender, EventArgs e)

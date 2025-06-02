@@ -2,10 +2,13 @@
     x:Class="Playza.Views.MainPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    BackgroundImageSource="wallpaper.jpg"
-    Title="Bem-vindo!">
+    >
+    <!--BackgroundImageSource="wallpaper.jpg" -->
 
-    <Grid Padding="10" RowSpacing="0" RowDefinitions="Auto,Auto,Auto,Auto,Auto" ColumnDefinitions="*,*,*">
+    <Grid>
+        <Image x:Name="BackgroundImage" Aspect="AspectFill" Opacity="1" />
+
+        <Grid Padding="10" RowSpacing="0" RowDefinitions="Auto,Auto,Auto,Auto,Auto" ColumnDefinitions="*,*,*">
         
         <!--
         <Label Text="Bem-vindo ao Playza!!!"
@@ -69,6 +72,7 @@
                 Grid.Row="3"
                 Grid.ColumnSpan="1"
                 HorizontalOptions="Start" />
+    </Grid>
     </Grid>
 </ContentPage>
     

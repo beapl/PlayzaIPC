@@ -2,20 +2,22 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="Playza.Views.MenuPage"
-    BackgroundImageSource="wallpaper.jpg"
     Title="MENU">
 
     <Grid>
-        <!-- Imagem GRANDE no topo, por cima de tudo -->
+        <Image x:Name="BackgroundImage" Aspect="AspectFill" Opacity="1" />
+
+        <Grid>
+      
         <Image Source="menu.png"
                HorizontalOptions="Start"
                VerticalOptions="Start"
-               Margin="0,0,0,0"
+               Margin="0,-30,0,0"
                HeightRequest="200"
                WidthRequest="280"
                ZIndex="100"/>
 
-        <!-- Layout principal -->
+       
         <Grid RowDefinitions="*,*,*,*,Auto"
               ColumnDefinitions="*,*,*"
               Padding="50"
@@ -77,6 +79,7 @@
                     FontSize="30"
                     WidthRequest="120"/>
         </Grid>
+    </Grid>
     </Grid>
 </ContentPage>
 
