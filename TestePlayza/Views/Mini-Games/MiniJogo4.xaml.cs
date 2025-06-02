@@ -116,7 +116,7 @@ public partial class MiniJogo4 : ContentPage
         }
         else
         {
-            FinalTitleLabel.Text = "🎉 Fim do Jogo!";
+                FinalTitleLabel.Text = "🎉 Fim do Jogo!";
             FinalMessageLabel.Text = "Parabéns! Reciclaste tudo corretamente!";
             RestartButton.IsVisible = true;
             DrawScreenButton.IsVisible = false;
@@ -127,6 +127,7 @@ public partial class MiniJogo4 : ContentPage
 
     private void OnRestartClicked(object sender, EventArgs e)
     {
+        Preferences.Set("Icon5Unlocked", true);
         FinalOverlay.IsVisible = false;
         FeedbackLabel.Text = "";
 

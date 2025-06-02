@@ -19,7 +19,7 @@
 
                     <Grid ColumnDefinitions="Auto, *" VerticalOptions="Center">
                         
-                        <Image Source="icon1.png"
+                        <Image x:Name="UserIcon" Source="icon1.png"
            Grid.Column="0"
            WidthRequest="150"
            HeightRequest="150"

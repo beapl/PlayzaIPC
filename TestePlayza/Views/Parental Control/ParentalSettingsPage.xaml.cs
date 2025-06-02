@@ -37,6 +37,9 @@ namespace Playza.Views
             NicknameEntry.Text = _currentUser.Username;
             PasswordEntry.Text = _currentUser.Password;
             ConfirmPasswordEntry.Text = _currentUser.Password;
+
+            if (!string.IsNullOrEmpty(_currentUser.IconPath))
+                ((Image)FindByName("UserIcon")).Source = _currentUser.IconPath;
         }
 
         private async void OnSaveChangesClicked(object sender, EventArgs e)

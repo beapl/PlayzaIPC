@@ -29,6 +29,10 @@ public partial class CanvasPage : ContentPage
         _gameName = gameName;
         Drawable = new DrawingSurface(_points);
         BindingContext = this;
+        if(!Preferences.Get("Icon6Unlocked",false))
+        {
+            Preferences.Set("Icon6Unlocked", true);
+        }
     }
 
     protected override void OnAppearing()

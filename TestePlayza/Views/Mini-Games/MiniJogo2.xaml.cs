@@ -187,6 +187,11 @@ public partial class MiniJogo2 : ContentPage
         }
         else
         {
+            if (score >= 50)
+            {
+                Preferences.Set("Icon3Unlocked", true);
+            }
+
             HighScoresLabel.IsVisible = true;
             RestartButton.IsVisible = true;
             ClearButton.IsVisible = true;

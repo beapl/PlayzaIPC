@@ -53,12 +53,12 @@
                     
                     <ScrollView Orientation="Horizontal">
                         <StackLayout Orientation="Horizontal" Padding="0">
-                            <ImageButton Source="icon1.png" WidthRequest="100" HeightRequest="100" Margin="10"/>
-                            <ImageButton Source="icon2.png" WidthRequest="100" HeightRequest="100" Margin="10"/>
-                            <ImageButton Source="icon3.png" WidthRequest="100" HeightRequest="100" Margin="10"/>
-                            <ImageButton Source="icon4.png" WidthRequest="100" HeightRequest="100" Margin="10"/>
-                            <ImageButton Source="icon5.png" WidthRequest="100" HeightRequest="100" Margin="10"/>
-                            <ImageButton Source="icon6.png" WidthRequest="100" HeightRequest="100" Margin="10"/>
+                                <ImageButton x:Name="Icon1Button" Source="icon1.png" WidthRequest="100" HeightRequest="100" Margin="10" Clicked="OnIconSelected"/>
+                                <ImageButton x:Name="Icon2Button" Source="icon2.png" WidthRequest="100" HeightRequest="100" Margin="10" Clicked="OnIconSelected"/>
+                                <ImageButton x:Name="Icon3Button" Source="icon3.png" WidthRequest="100" HeightRequest="100" Margin="10" Clicked="OnIconSelected"/>
+                                <ImageButton x:Name="Icon4Button" Source="icon4.png" WidthRequest="100" HeightRequest="100" Margin="10" Clicked="OnIconSelected"/>
+                                <ImageButton x:Name="Icon5Button" Source="icon5.png" WidthRequest="100" HeightRequest="100" Margin="10" Clicked="OnIconSelected"/>
+                                <ImageButton x:Name="Icon6Button" Source="icon6.png" WidthRequest="100" HeightRequest="100" Margin="10" Clicked="OnIconSelected"/>
                         </StackLayout>
                     </ScrollView>
 

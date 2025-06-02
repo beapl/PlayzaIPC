@@ -12,5 +12,7 @@ namespace Playza.Models
         public string Password { get; set; }
 
         public string SelectedOptionsJson { get; set; } // checkboxes
+
+        public string IconPath { get; set; } = "icon1.png";
     }
 }

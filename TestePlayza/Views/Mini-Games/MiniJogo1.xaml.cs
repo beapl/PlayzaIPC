@@ -226,6 +226,7 @@ namespace Playza.Views
                 {
                     FinalScoreLabel.Text += "\nFoi quase.😔";
                 }
+
                 HighScoresLabel.IsVisible = false;
 
                 RestartButton.IsVisible = false;
@@ -255,6 +256,11 @@ namespace Playza.Views
             }
             else
             {
+                if (score >= 5)
+                {
+                    Preferences.Set("Icon2Unlocked", true); // <<< adiciona aqui para fora da JourneyPage também
+                }
+
                 var highscores = Preferences.Get("HighScores", "");
                 var scores = string.IsNullOrEmpty(highscores)
                     ? new List<int>()
