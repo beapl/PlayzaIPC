@@ -36,13 +36,15 @@
 
                     <ImageButton Source="iconjornada.jpg"
                                  Grid.Row="0" Grid.Column="1"
+                                 SemanticProperties.Description="Niveís"
                                  HeightRequest="300"
                                  WidthRequest="300"
                                  HorizontalOptions="Center"
                                  VerticalOptions="Center"
                                  Clicked="OnPlayClicked"/>
 
-                    <ImageButton Source="iconminijogo.jpg" 
+                    <ImageButton Source="iconminijogo.jpg"
+                                 SemanticProperties.Description="Mini-jogos"
                                  Grid.Row="0" Grid.Column="3"
                                  HeightRequest="300"
                                  WidthRequest="300"
@@ -51,6 +53,7 @@
                                  Clicked="OnMiniClicked"/>
 
                     <ImageButton Source="iconparental.jpg"
+                                 SemanticProperties.Description="Controlo Parental"
                                  Grid.Row="1" Grid.Column="1"
                                  HeightRequest="300"
                                  WidthRequest="300"
@@ -59,6 +62,7 @@
                                  Clicked="OnParentalClicked"/>
 
                     <ImageButton Source="icondefinicoes.jpg"
+                                 SemanticProperties.Description="Definições"
                                  Grid.Row="1" Grid.Column="3"
                                  HeightRequest="300"
                                  WidthRequest="300"
